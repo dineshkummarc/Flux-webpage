@@ -7,18 +7,12 @@
 var FLApp;
 var FLTxt;
 
-function addEventHandler(obj, eventName, handler) {
-    if (document.addEventListener) {
-        obj.addEventListener(eventName, handler, false);
-    } else if (document.attachEvent) {
-        obj.attachEvent("on"+eventName, handler);
-    }
-}
-
 FLTxt = {
-	labelManifest  : ["manifest", "manifiesto", "manifest"],
-	labelProjectes : ["projectes", "proyectos", "projects"],
-	labelBitacora  : ["bitàcora", "bitácora", "blog"],
+	labelManifest   : ["manifest", "manifiesto", "manifest"],
+	labelProjectes  : ["projectes", "proyectos", "projects"],
+	labelBitacora   : ["bitàcora", "bitácora", "blog"],
+    labelAvisLegal  : ["avís legal", "aviso legal", "legal notice"],
+    labelPrivacitat : ["privacitat", "privacidad", "privacy policy"],
 	manifest : [
 	  "<h1>Manifest</h1><p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) neix de l'esforç i la il·lusió d'aconseguir els objectius següents:"
 	        + "<ul><li>produïr i comercialitzar programari com a servei (<a href='http://en.wikipedia.org/wiki/Software_as_a_service'>SAAS</a>)</li>"
@@ -32,18 +26,11 @@ FLTxt = {
 	        + "<li>mejorar la experiencia de usuario (<a href='http://en.wikipedia.org/wiki/User_experience'>UX</a>)</li></ul></p>",
 	  "<h1>Manifest</h1>"],
 	projectes : ["<h1>Projectes</h1>", "<h1>Proyectos</h1>", "<h1>Projects</h1>"],
-	bitacora : ["<h1>Bitàcora</h1>", "<h1>Bitácora</h1>", "<h1>Log</h1>"],
+	bitacora : ["<h1>Bitàcora</h1>", "<h1>Bitácora</h1>", "<h1>Blog</h1>"],
 	privacitat : [
-	  "<div id='warning'><p>Privacitat</p>"
-	        + "<p style='text-align:right'>Segons la Llei orgánica 15/99...<button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
-	  "<div id='warning'><p>Privacidad</p>"
-            + "<p>Según la Ley orgánica 15/99, de 13 de diciembre, de protección de datos de carácter personal, le hacemos saber que los datos " 
-            + "que nos pueda facilitar mediante este sitio web pasarán a formar parte de un fichero propiedad de Flux S.L., con la única finalidad "
-            + "de poderle ofrecer nuestros servicios. Para ejercer su derecho de acceso, rectificación, cancelación y oposición póngase en contacto "
-            + "con nosotros en info@flux.cat.</p>"
-            + "<p>En Flux no nos gusta el spam y contribuimos a erradicarlo.</p>"
-            + "<p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>", 
-	  ""],
+	  "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacitat</strong></p><p>Segons la Llei orgánica 15/99, del 13 de desembre, sobre la protecció de dades ab caràcter personal, informem les dades que ens pugui cedir mitjançant aquesta pàgina web passaran a formar part d'un fitxer propietat de Flexible User Experience SL, amb la finalitat d'oferir-li els nostres serveis. Per a excercir el seu dret d'accès, rectificació, cancel·lació i/o oposició posis amb contacte amb nosaltres a <a href='mailto:info@flux.cat'>info@flux.cat</a>.</p><p>A Flux no ens agrada el spam i contribuïm a eliminar-lo.</p><p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
+	  "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacidad</strong></p><p>Según la Ley orgánica 15/99, del 13 de diciembre, de protección de datos de carácter personal, le hacemos saber que los datos que nos pueda facilitar mediante este sitio web pasarán a formar parte de un fichero propiedad de Flexible User Experience SL, con la finalidad de poderle ofrecer nuestros servicios. Para ejercer su derecho de acceso, rectificación, cancelación y/o oposición póngase en contacto con nosotros en <a href='info@flux.cat'>info@flux.cat</a>.</p><p>En Flux no nos gusta el spam y contribuimos a erradicarlo.</p><p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
+	  "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacy</strong></p><p>...</p><p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>"],
 	avisLegal : []
 };
 
@@ -61,6 +48,13 @@ FLApp = {
 	nodeBitacora      : {},
 	nodePrivacitat    : {},
 	nodeAvisLegal     : {},
+    addEventHandler : function (obj, eventName, handler) {
+        if (document.addEventListener) {
+            obj.addEventListener(eventName, handler, false);
+        } else if (document.attachEvent) {
+            obj.attachEvent("on"+eventName, handler);
+        }
+    },
     changeLangSelectorStatus : function (evt) {
         evt = evt || window.event;
         var target = (typeof evt.target !== 'undefined') ? evt.target : evt.srcElement;
@@ -84,6 +78,7 @@ FLApp = {
             FLApp.updateDetailPanel();
         }
         FLApp.updateTabSelector();
+        FLApp.updateFooterText();
     },
 	showManifestPanel : function () {
 		document.getElementById("manifest").className  = "selected";
@@ -121,13 +116,14 @@ FLApp = {
         FLApp.nodeBitacora.innerHTML  = FLTxt.labelBitacora[FLApp.idiomaSeleccionat];
     },
     updateFooterText : function () {
-
+        FLApp.nodePrivacitat.innerHTML = FLTxt.labelPrivacitat[FLApp.idiomaSeleccionat];
+        FLApp.nodeAvisLegal.innerHTML  = FLTxt.labelAvisLegal[FLApp.idiomaSeleccionat];
     },
 	showPrivacitatDialog : function () {
 		console.log("[showPrivacitatDialog]");
 		document.getElementById("overlay-modal-dialog").innerHTML = FLTxt.privacitat[FLApp.idiomaSeleccionat];
-		document.getElementById("warning").style.top  = ((window.innerHeight/2)-60) + 'px';
-		document.getElementById("warning").style.left = ((window.innerWidth/2)-120) + 'px';
+		document.getElementById("warning").style.top  = ((window.innerHeight/2)-110) + 'px';
+		document.getElementById("warning").style.left = ((window.innerWidth/2)-200) + 'px';
 		document.getElementById("overlay-modal-dialog").style.visibility = 'visible';
 	},
 	showAvisLegalDialog : function () {
@@ -146,14 +142,14 @@ FLApp = {
 		this.nodeBitacora   = document.getElementById("bitacora");
 		this.nodePrivacitat = document.getElementById("privacitat");
 		this.nodeAvisLegal  = document.getElementById("avis-legal");
-        addEventHandler(this.langEng,        "click", FLApp.changeLangSelectorStatus);
-        addEventHandler(this.langEsp,        "click", FLApp.changeLangSelectorStatus);
-        addEventHandler(this.langCat,        "click", FLApp.changeLangSelectorStatus);
-		addEventHandler(this.nodeManifest,   "click", FLApp.showManifestPanel);
-		addEventHandler(this.nodeProjectes,  "click", FLApp.showProjectesPanel);
-		addEventHandler(this.nodeBitacora,   "click", FLApp.showBitacoraPanel);
-		addEventHandler(this.nodePrivacitat, "click", FLApp.showPrivacitatDialog);
-		addEventHandler(this.nodeAvisLegal,  "click", FLApp.showAvisLegalDialog);
+        this.addEventHandler(this.langEng,        "click", FLApp.changeLangSelectorStatus);
+        this.addEventHandler(this.langEsp,        "click", FLApp.changeLangSelectorStatus);
+        this.addEventHandler(this.langCat,        "click", FLApp.changeLangSelectorStatus);
+		this.addEventHandler(this.nodeManifest,   "click", FLApp.showManifestPanel);
+		this.addEventHandler(this.nodeProjectes,  "click", FLApp.showProjectesPanel);
+		this.addEventHandler(this.nodeBitacora,   "click", FLApp.showBitacoraPanel);
+		this.addEventHandler(this.nodePrivacitat, "click", FLApp.showPrivacitatDialog);
+		this.addEventHandler(this.nodeAvisLegal,  "click", FLApp.showAvisLegalDialog);
 	}
 };
 
@@ -162,8 +158,8 @@ function initPage() {
 }
 
 function closePage() {
-	delete FLTxt;
-    delete FLApp;
+	FLTxt = null;
+    FLApp = null;
 }
 
 window.onload   = initPage;
