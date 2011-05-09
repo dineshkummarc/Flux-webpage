@@ -1,6 +1,7 @@
 /**
  * @author Flux
- * developed with WebStorm
+ * @copyright 2011
+ * coded with WebStorm
  */
 
 var FLApp;
@@ -47,6 +48,7 @@ FLApp = {
 	IDIOMA_ESPANYOL   : 1,
 	IDIOMA_INGLES     : 2,
 	idiomaSeleccionat : {},
+    nodeSeleccionat   : 'manifest',
     langEng           : {},
     langEsp           : {},
     langCat           : {},
@@ -62,34 +64,55 @@ FLApp = {
             document.getElementById("leng").className = "lang-selected";
 		    document.getElementById("lesp").className = "";
 		    document.getElementById("lcat").className = "";
+            FLApp.idiomaSeleccionat = FLApp.IDIOMA_INGLES;
+            FLApp.updateDetailPanel();
         } else if (target.id == 'lesp') {
             document.getElementById("leng").className = "";
 		    document.getElementById("lesp").className = "lang-selected";
 		    document.getElementById("lcat").className = "";
+            FLApp.idiomaSeleccionat = FLApp.IDIOMA_ESPANYOL;
+            FLApp.updateDetailPanel();
         } else {
             document.getElementById("leng").className = "";
 		    document.getElementById("lesp").className = "";
 		    document.getElementById("lcat").className = "lang-selected";
+            FLApp.idiomaSeleccionat = FLApp.IDIOMA_CATALA;
+            FLApp.updateDetailPanel();
         }
     },
 	showManifestPanel : function () {
 		document.getElementById("manifest").className  = "selected";
 		document.getElementById("projectes").className = "";
 		document.getElementById("bitacora").className  = "";
-		document.getElementById("main-right").innerHTML = FLTxt.manifest[FLApp.idiomaSeleccionat];
+        FLApp.nodeSeleccionat = 'manifest';
+		FLApp.updateDetailPanel();
+		//document.getElementById("main-right").innerHTML = FLTxt.manifest[FLApp.idiomaSeleccionat];
 	},
 	showProjectesPanel : function () {
 		document.getElementById("manifest").className  = "";
 		document.getElementById("projectes").className = "selected";
 		document.getElementById("bitacora").className  = "";
-		document.getElementById("main-right").innerHTML = FLTxt.projectes[FLApp.idiomaSeleccionat];
+		FLApp.nodeSeleccionat = 'projectes';
+        FLApp.updateDetailPanel();
+        //document.getElementById("main-right").innerHTML = FLTxt.projectes[FLApp.idiomaSeleccionat];
 	},
 	showBitacoraPanel : function () {
 		document.getElementById("manifest").className  = "";
 		document.getElementById("projectes").className = "";
 		document.getElementById("bitacora").className  = "selected";
-		document.getElementById("main-right").innerHTML = FLTxt.bitacora[FLApp.idiomaSeleccionat];
+        FLApp.nodeSeleccionat = 'bitacora';
+        FLApp.updateDetailPanel();
+		//document.getElementById("main-right").innerHTML = FLTxt.bitacora[FLApp.idiomaSeleccionat];
 	},
+    updateDetailPanel : function () {
+        if (FLApp.nodeSeleccionat == 'manifest') {
+            document.getElementById("main-right").innerHTML = FLTxt.manifest[FLApp.idiomaSeleccionat];
+        } else if (FLApp.nodeSeleccionat == 'projectes') {
+            document.getElementById("main-right").innerHTML = FLTxt.projectes[FLApp.idiomaSeleccionat];
+        } else {
+            document.getElementById("main-right").innerHTML = FLTxt.bitacora[FLApp.idiomaSeleccionat];
+        }
+    },
 	showPrivacitatDialog : function () {
 		console.log("[showPrivacitatDialog]");
 		document.getElementById("overlay-modal-dialog").innerHTML = FLTxt.privacitat[FLApp.idiomaSeleccionat];
