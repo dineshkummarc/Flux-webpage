@@ -83,6 +83,7 @@ FLApp = {
             FLApp.idiomaSeleccionat = FLApp.IDIOMA_CATALA;
             FLApp.updateDetailPanel();
         }
+        FLApp.updateTabSelector();
     },
 	showManifestPanel : function () {
 		document.getElementById("manifest").className  = "selected";
@@ -90,7 +91,6 @@ FLApp = {
 		document.getElementById("bitacora").className  = "";
         FLApp.nodeSeleccionat = 'manifest';
 		FLApp.updateDetailPanel();
-		//document.getElementById("main-right").innerHTML = FLTxt.manifest[FLApp.idiomaSeleccionat];
 	},
 	showProjectesPanel : function () {
 		document.getElementById("manifest").className  = "";
@@ -98,7 +98,6 @@ FLApp = {
 		document.getElementById("bitacora").className  = "";
 		FLApp.nodeSeleccionat = 'projectes';
         FLApp.updateDetailPanel();
-        //document.getElementById("main-right").innerHTML = FLTxt.projectes[FLApp.idiomaSeleccionat];
 	},
 	showBitacoraPanel : function () {
 		document.getElementById("manifest").className  = "";
@@ -106,7 +105,6 @@ FLApp = {
 		document.getElementById("bitacora").className  = "selected";
         FLApp.nodeSeleccionat = 'bitacora';
         FLApp.updateDetailPanel();
-		//document.getElementById("main-right").innerHTML = FLTxt.bitacora[FLApp.idiomaSeleccionat];
 	},
     updateDetailPanel : function () {
         if (FLApp.nodeSeleccionat == 'manifest') {
@@ -116,6 +114,14 @@ FLApp = {
         } else {
             document.getElementById("main-right").innerHTML = FLTxt.bitacora[FLApp.idiomaSeleccionat];
         }
+    },
+    updateTabSelector : function () {
+        FLApp.nodeManifest.innerHTML  = FLTxt.labelManifest[FLApp.idiomaSeleccionat];
+        FLApp.nodeProjectes.innerHTML = FLTxt.labelProjectes[FLApp.idiomaSeleccionat];
+        FLApp.nodeBitacora.innerHTML  = FLTxt.labelBitacora[FLApp.idiomaSeleccionat];
+    },
+    updateFooterText : function () {
+
     },
 	showPrivacitatDialog : function () {
 		console.log("[showPrivacitatDialog]");
