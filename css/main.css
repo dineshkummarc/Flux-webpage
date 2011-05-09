@@ -26,6 +26,7 @@ a:link, a:visited {
 }
 
 a:active, a:hover {
+    cursor: pointer;
 	color: #DD0099;
 	font-weight: normal; 
 	text-decoration: underline;
