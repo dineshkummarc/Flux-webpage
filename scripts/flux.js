@@ -20,13 +20,17 @@ FLTxt = {
 	labelProjectes : ["projectes", "proyectos", "projects"],
 	labelBitacora  : ["bitàcora", "bitácora", "blog"],
 	manifest : [
-	  "<h1>Manifest</h1><p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) neix amb l'objectiu de:"
-	        + "<ul><li>desenvolupar aplicacions web funcionals i senzilles</li>"
-	        + "<li>crear interficies d'usuari innovadores, flexibles i útils</li>"
-	        + "<li>millorar l'experiencia d'usuari</li></ul></p>",
-	  "<h1>Manifiesto</h1><p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) nace con el objetivo de:"
-	        + "<ul><li>desarrollar interficies de usuario</li><li>mejorar la experiencia del usuario</li></ul></p>",
-	  ""],
+	  "<h1>Manifest</h1><p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) neix de l'esforç i la il·lusió d'aconseguir els objectius següents:"
+	        + "<ul><li>produïr i comercialitzar programari com a servei (<a href='http://en.wikipedia.org/wiki/Software_as_a_service'>SAAS</a>)</li>"
+            + "<li>desenvolupar aplicacions web funcionals i senzilles</li>"
+	        + "<li>crear interfícies d'usuari innovadores, flexibles i útils</li>"
+	        + "<li>millorar l'experiència d'usuari (<a href='http://en.wikipedia.org/wiki/User_experience'>UX</a>)</li></ul></p>",
+	  "<h1>Manifiesto</h1><p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) nace del esfuerzo y la ilusión de conseguir los siguientes objectivos:"
+	        + "<ul><li>producir y comercializar software como servicio (<a href='http://en.wikipedia.org/wiki/Software_as_a_service'>SAAS</a>)</li>"
+            + "<li>desarollar aplicaciones web funcionales y sencillas</li>"
+	        + "<li>crear interfaces de usuario innovadoras, flexibles i útiles</li>"
+	        + "<li>mejorar la experiencia de usuario (<a href='http://en.wikipedia.org/wiki/User_experience'>UX</a>)</li></ul></p>",
+	  "<h1>Manifest</h1>"],
 	projectes : ["<h1>Projectes</h1>", "<h1>Proyectos</h1>", "<h1>Projects</h1>"],
 	bitacora : ["<h1>Bitàcora</h1>", "<h1>Bitácora</h1>", "<h1>Log</h1>"],
 	privacitat : [
