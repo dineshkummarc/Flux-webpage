@@ -47,11 +47,31 @@ FLApp = {
 	IDIOMA_ESPANYOL   : 1,
 	IDIOMA_INGLES     : 2,
 	idiomaSeleccionat : {},
+    langEng           : {},
+    langEsp           : {},
+    langCat           : {},
 	nodeManifest      : {},
 	nodeProjectes     : {},
 	nodeBitacora      : {},
 	nodePrivacitat    : {},
 	nodeAvisLegal     : {},
+    changeLangSelectorStatus : function (evt) {
+        evt = evt || window.event;
+        var target = (typeof evt.target !== 'undefined') ? evt.target : evt.srcElement;
+        if (target.id == 'leng') {
+            document.getElementById("leng").className = "lang-selected";
+		    document.getElementById("lesp").className = "";
+		    document.getElementById("lcat").className = "";
+        } else if (target.id == 'lesp') {
+            document.getElementById("leng").className = "";
+		    document.getElementById("lesp").className = "lang-selected";
+		    document.getElementById("lcat").className = "";
+        } else {
+            document.getElementById("leng").className = "";
+		    document.getElementById("lesp").className = "";
+		    document.getElementById("lcat").className = "lang-selected";
+        }
+    },
 	showManifestPanel : function () {
 		document.getElementById("manifest").className  = "selected";
 		document.getElementById("projectes").className = "";
@@ -85,11 +105,17 @@ FLApp = {
 	},
 	initViewController : function () {
 		this.idiomaSeleccionat = this.IDIOMA_CATALA;
+        this.langEng        = document.getElementById("leng");
+        this.langEsp        = document.getElementById("lesp");
+        this.langCat        = document.getElementById("lcat");
 		this.nodeManifest   = document.getElementById("manifest");
 		this.nodeProjectes  = document.getElementById("projectes");
 		this.nodeBitacora   = document.getElementById("bitacora");
 		this.nodePrivacitat = document.getElementById("privacitat");
 		this.nodeAvisLegal  = document.getElementById("avis-legal");
+        addEventHandler(this.langEng,        "click", FLApp.changeLangSelectorStatus);
+        addEventHandler(this.langEsp,        "click", FLApp.changeLangSelectorStatus);
+        addEventHandler(this.langCat,        "click", FLApp.changeLangSelectorStatus);
 		addEventHandler(this.nodeManifest,   "click", FLApp.showManifestPanel);
 		addEventHandler(this.nodeProjectes,  "click", FLApp.showProjectesPanel);
 		addEventHandler(this.nodeBitacora,   "click", FLApp.showBitacoraPanel);
@@ -99,12 +125,12 @@ FLApp = {
 };
 
 function initPage() {
-	console.log("hello");
 	FLApp.initViewController();
 }
 
 function closePage() {
-	console.log("bye");
+	delete FLTxt;
+    delete FLApp;
 }
 
 window.onload   = initPage;
