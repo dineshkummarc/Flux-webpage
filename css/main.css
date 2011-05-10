@@ -255,6 +255,7 @@ div {
 
 #footer-left li {
 	display:inline;
+    float:left;
 }
 
 #footer-left li a {
@@ -262,7 +263,6 @@ div {
 	padding: 0px;
 	color:#DD0099;
 	text-decoration:none;
-	float:left;
 }
 
 #footer-center p {

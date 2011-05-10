@@ -10,7 +10,8 @@
 		<link href="images/favicon.png" rel="icon"       type="image/png"/>
 		<link href="css/main.css"       rel="stylesheet" type="text/css"/>
 		<title>Flux</title>
-        <script type="text/javascript" src="http://static.ak.fbcdn.net/connect.php/js/FB.Share"></script>
+        <!--<script type="text/javascript" src="http://static.ak.fbcdn.net/connect.php/js/FB.Share"></script>-->
+        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
         <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -70,12 +71,13 @@
 							<img src="images/linkedin-logo30px.png" alt="logo LinkedIn"/>
 						</a>
 					</li>-->
-					<li>
-						<a name="fb_share"></a>
-					</li>
-					<li>
+                    <li>
 						<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.flux.cat" data-count="horizontal">Tweet</a>
 					</li>
+					<li>
+						<div id="fb-root" style="padding:0px; margin:0px auto"></div><fb:like href="http://www.flux.cat" send="false" layout="button_count" width="110" show_faces="false" font=""></fb:like>
+					</li>
+
 				</ul>
 			</div>
 			<div id="footer-center">
