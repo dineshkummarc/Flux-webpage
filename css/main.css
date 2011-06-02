@@ -200,7 +200,7 @@ div {
 #footer-left {
 	background-color: transparent; 
 	height: 20px;
-	width: 236px;
+	width: 305px;
 	padding: 10px 10px 10px 20px;
 	margin: 1px 0px 0px 0px;
 	float: left;
@@ -211,7 +211,7 @@ div {
 	height: 20px;
 	width: 246px;
 	padding: 10px;
-	margin: 1px 0px 0px 0px;
+	margin: 1px 0px 0px -69px;
 	float: left;
 }
 
@@ -307,4 +307,9 @@ div {
     -ms-border-radius:     6px 6px 6px 6px;
     -webkit-border-radius: 6px 6px 6px 6px;
     -khtml-border-radius:  6px 6px 6px 6px;
+}
+
+#___plusone_0 {
+	padding: 0px;
+	margin: 0px auto;
 }
