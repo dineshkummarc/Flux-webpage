@@ -200,7 +200,7 @@ div {
 #footer-left {
 	background-color: transparent; 
 	height: 20px;
-	width: 305px;
+	width: 320px;
 	padding: 10px 10px 10px 20px;
 	margin: 1px 0px 0px 0px;
 	float: left;
@@ -209,16 +209,16 @@ div {
 #footer-center {
 	background-color: transparent;
 	height: 20px;
-	width: 246px;
+	width: 170px;
 	padding: 10px;
-	margin: 1px 0px 0px -69px;
+	margin: 1px 0px 0px 0px;
 	float: left;
 }
 
 #footer-right {
 	background-color: transparent;
 	height: 20px;
-	width: 238px;
+	width: 230px;
 	padding: 10px 20px 10px 10px;
 	margin: 1px 0px 0px 0px;
 	float: left;
@@ -307,6 +307,9 @@ div {
     -ms-border-radius:     6px 6px 6px 6px;
     -webkit-border-radius: 6px 6px 6px 6px;
     -khtml-border-radius:  6px 6px 6px 6px;
+    -moz-box-shadow:       8px 8px 15px #555;
+    -webkit-box-shadow:    8px 8px 15px #555;
+    box-shadow:            8px 8px 15px #555;
 }
 
 #___plusone_0 {
