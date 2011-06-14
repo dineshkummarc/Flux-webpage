@@ -76,8 +76,30 @@ var FLApp = {
 	},
     updateDetailPanel : function () {
         switch (FLApp.nodeSeleccionat) {
-            case 'manifest':document.getElementById("main-right").innerHTML  = i18n.manifest;  break;
-            case 'projectes':document.getElementById("main-right").innerHTML = i18n.projectes; break;
+            case 'manifest':
+                document.getElementById("main-right").innerHTML = "<h1>" + i18n.Manifest
+                        + "</h1><p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) "
+                        + i18n.neix_de + ":</p><ul><li>"
+                        + i18n.produir_i_comercialitzar_programari_com_a_servei + " (<a href='http://en.wikipedia.org/wiki/Software_as_a_service'>SAAS</a>)</li><li>"
+                        + i18n.desenvolupar_aplicacions_web_funcionals_i_senzilles + "</li><li>"
+                        + i18n.crear_interficies_d_usuari_innovadores + "</li><li>"
+                        + i18n.millorar_l_experiencia_d_usuari + " (<a href='http://en.wikipedia.org/wiki/User_experience'>UX</a>)</li></ul>";
+                break;
+            case 'projectes':
+                document.getElementById("main-right").innerHTML = "<h1>" + i18n.Projectes
+                        + "</h1><p><strong><a href='http://www.skaeda.com'><img src='../images/skaeda-icon-53.png' alt='Skaeda logo' style='vertical-align:middle;'/><u>Sk&aelig;da</u></a></strong></p><p>"
+                        + i18n.Es_un_gestor_personal_d_enllaços_a_pagines_web_favorites + " (<em>bookmarks</em>) "
+                        + i18n.amb_les_caracteristiques_seguents + ":</p><ul><li>"
+                        + i18n.organitzacio_per_carpetes_intel_ligents + "</li><li>"
+                        + i18n.previsualitzacio_d_enllasos_amb_miniatura + "</li><li>"
+                        + i18n.etiquetatge_social_independent_de_l_idioma + "</li><li>"
+                        + i18n.aplicacio_web_en_temps_real_verdadera + "</li></ul>"
+                        + "</h1><p><a>Focus-<em>n</em></a></p><p>"
+                        + i18n.Focus_n_descripcio_breu + "</p><ul><li>"
+                        + i18n.Focus_feature_1 + "</li><li>"
+                        + i18n.Focus_feature_2 + "</li><li>"
+                        + i18n.Focus_feature_3 + "</li></ul>"
+                break;
             case 'bitacora':document.getElementById("main-right").innerHTML  = i18n.bitacora;  break;
         }
         FLApp.updateTabSelector();
