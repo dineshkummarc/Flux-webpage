@@ -5,6 +5,9 @@
  */
 
 var FLApp = {
+    timestamp         : 0,
+    downtimer         : 0,
+    opacityValue      : 1,
     langCookie        : null,
     nodeSeleccionat   : 'manifest',
     langEng           : {},
@@ -15,6 +18,26 @@ var FLApp = {
 	nodeBitacora      : {},
 	nodePrivacitat    : {},
 	nodeAvisLegal     : {},
+    startFadeOut : function () {
+        FLApp.timestamp = new Date();
+        FLApp.downtimer = window.setInterval(FLApp.moveDown, 50);
+    },
+    moveDown : function () {
+        if (FLApp.opacityValue <= 0.05) {
+            FLApp.cancelDownTimer();
+        } else {
+            var now = new Date();
+            FLApp.opacityValue = 1 - Math.pow(((now.getTime()-FLApp.timestamp.getTime())/1000), 9);
+            document.getElementById('loading-panel').style.opacity = "" + FLApp.opacityValue;
+        }
+    },
+    cancelDownTimer : function () {
+        if (FLApp.downtimer) {
+            window.clearInterval(FLApp.downtimer);
+            FLApp.downtimer = null;
+        }
+        document.getElementById('loading-panel').style.visibility = 'hidden';
+    },
     changeLangSelectorStatus : function (evt) {
         evt = evt || window.event;
         var target = (typeof evt.target !== 'undefined') ? evt.target : evt.srcElement;
@@ -144,6 +167,9 @@ var FLApp = {
 		UT.addEventHandler(FLApp.nodePrivacitat, "click", FLApp.showPrivacitatDialog);
 		UT.addEventHandler(FLApp.nodeAvisLegal,  "click", FLApp.showAvisLegalDialog);
         FLApp.updateDetailPanel();
+        document.getElementById("main").style.visibility = 'visible';
+        document.getElementById("footer").style.visibility = 'visible';
+        FLApp.startFadeOut();
 	}
 };
 
@@ -159,14 +185,17 @@ function initPage() {
         case 'english':
             script.src  = 'i18n/english.js';
             document.getElementById("leng").className = "lang-selected";
+            document.getElementById("loading-msg").innerHTML = "Wait a moment please";
             break;
         case 'espanol':
             script.src  = 'i18n/espanol.js';
             document.getElementById("lesp").className = "lang-selected";
+            document.getElementById("loading-msg").innerHTML = "Espera un momento por favor";
             break;
         case 'catala' :
             script.src  = 'i18n/catala.js';
             document.getElementById("lcat").className = "lang-selected";
+            document.getElementById("loading-msg").innerHTML = "Espera un moment si us plau";
             break;
     }
     head.appendChild(script);

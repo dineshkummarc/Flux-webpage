@@ -178,6 +178,7 @@ div {
 }
 
 #main {
+    visibility: hidden;
 	background-color: #FFFFFF;
 	color: #FFFFFF;
 	height: 440px;
@@ -225,6 +226,7 @@ div {
 }
 
 #footer {
+    visibility: hidden;
 	width: 800px;
 	height: 40px;
 	padding: 0px;
@@ -310,6 +312,36 @@ div {
     -moz-box-shadow:       8px 8px 15px #555;
     -webkit-box-shadow:    8px 8px 15px #555;
     box-shadow:            8px 8px 15px #555;
+}
+
+div#loading-panel {
+    background:      #FFFFAA;
+    position:        absolute;
+    top:             160px;
+    height:          140px;
+    width:           100%;
+    filter:          alpha(opacity=100);
+    opacity:         1;
+    z-index:         2000;
+    padding: 50px 0px 0px 0px;
+    margin: 0px;
+    border:          solid 1px #444444;
+    background-color:#DFDFDF;
+    background:      -webkit-gradient(linear, 0 15%, 0 58%, from(#F7F7F7),  to(#DFDFDF));
+    background:      -moz-linear-gradient(center top, #F7F7F7 15%, #DFDFDF 58%);
+    -moz-box-shadow:       0px 8px 15px #555;
+    -webkit-box-shadow:    0px 8px 15px #555;
+    box-shadow:            0px 8px 15px #555;
+}
+
+div#loading-panel p {
+    text-align: center;
+    padding:         30px;
+}
+
+div#loading-panel span {
+    font-weight:     bold;
+    font-size:       20px;
 }
 
 #___plusone_0 {
