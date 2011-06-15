@@ -21,7 +21,7 @@ var i18n = {
     neix_de : "nace del esfuerzo y la ilusión de conseguir los siguientes objectivos",
     produir_i_comercialitzar_programari_com_a_servei : "producir y comercializar software como servicio",
     desenvolupar_aplicacions_web_funcionals_i_senzilles : "desarollar aplicaciones web funcionales y sencillas",
-    crear_interficies_d_usuari_innovadores : "crear interfícies d'usuari innovadores, flexibles i útils",
+    crear_interficies_d_usuari_innovadores : "crear interfícies de usuario innovadoras, flexibles y útiles",
     millorar_l_experiencia_d_usuari : "mejorar la experiencia de usuario",
     Projectes : "Proyectos",
     Es_un_gestor_personal_d_enllaços_a_pagines_web_favorites : "Es un gestor personal de enlaces a páginas web favoritas",
