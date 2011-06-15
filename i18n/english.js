@@ -3,7 +3,7 @@
  */
 
 /**
- * Traducido por: David Romaní Also
+ * Traducido por: Santiago Romaní Also
  * Corregido por:
  */
 

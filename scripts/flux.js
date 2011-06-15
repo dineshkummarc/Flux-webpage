@@ -116,12 +116,12 @@ var FLApp = {
                         + i18n.organitzacio_per_carpetes_intel_ligents + "</li><li>"
                         + i18n.previsualitzacio_d_enllasos_amb_miniatura + "</li><li>"
                         + i18n.etiquetatge_social_independent_de_l_idioma + "</li><li>"
-                        + i18n.aplicacio_web_en_temps_real_verdadera + "</li></ul>"
-                        + "</h1><p><a>Focus-<em>n</em></a></p><p>"
+                        + i18n.aplicacio_web_en_temps_real_verdadera + "</li></ul>";
+                        /*+ "</h1><p><a>Focus-<em>n</em></a></p><p>"
                         + i18n.Focus_n_descripcio_breu + "</p><ul><li>"
                         + i18n.Focus_feature_1 + "</li><li>"
                         + i18n.Focus_feature_2 + "</li><li>"
-                        + i18n.Focus_feature_3 + "</li></ul>"
+                        + i18n.Focus_feature_3 + "</li></ul>"*/
                 break;
             case 'bitacora':document.getElementById("main-right").innerHTML  = i18n.bitacora;  break;
         }
