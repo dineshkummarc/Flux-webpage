@@ -31,7 +31,7 @@ var i18n = {
     etiquetatge_social_independent_de_l_idioma : "<span class='blacktext'>permite compartir fácilmente en redes sociales</span>",
     aplicacio_web_en_temps_real_verdadera : "<span class='blacktext'>aplicación web en tiempo real verdadera basada en la tecnologia HTML5 WebSocket</span>",
     drag_drop : "<span class='blacktext'>Arrastra y suelta per asignar bookmarks a etiquetas</span>",
-    import_export : "<span class='blacktext'>Importa i exporta tus bookmarks</span>",
+    import_export : "<span class='blacktext'>Importa y exporta tus bookmarks</span>",
     Focus_n_descripcio_breu : "",
     Focus_feature_1 : "",
     Focus_feature_2 : "",
