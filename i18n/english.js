@@ -38,8 +38,8 @@ var i18n = {
     Focus_feature_3 : "",
     bitacora : "<h1>Contact</h1>"
 		+ "<p>Our technical team is:</p><ul>"
-		+ "<li><span class='blacktext'>Santiago Romaní i Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>]</span></li>"
-		+ "<li><span class='blacktext'>David Romaní i Also [<a href='http://www.linkedin.com/in/dromani'>+</a>]</span></li></ul>",
+		+ "<li><span class='blacktext'>Santiago Romaní Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>]</span></li>"
+		+ "<li><span class='blacktext'>David Romaní Also [<a href='http://www.linkedin.com/in/dromani'>+</a>]</span></li></ul>",
 	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacy</strong></p><p>...</p><p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
 	avisLegal : ""
 }

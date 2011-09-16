@@ -18,6 +18,8 @@ var FLApp = {
 	nodeBitacora      : {},
 	nodePrivacitat    : {},
 	nodeAvisLegal     : {},
+	
+	/*
     startFadeOut : function () {
         FLApp.timestamp = new Date();
         FLApp.downtimer = window.setInterval(FLApp.moveDown, 50);
@@ -38,6 +40,8 @@ var FLApp = {
         }
         document.getElementById('loading-panel').style.visibility = 'hidden';
     },
+    */
+	
     changeLangSelectorStatus : function (evt) {
         evt = evt || window.event;
         var target = (typeof evt.target !== 'undefined') ? evt.target : evt.srcElement;
@@ -62,6 +66,7 @@ var FLApp = {
         }
         FLApp.changeLanguage();
     },
+    
     changeLanguage : function() {
         var head    = document.documentElement.childNodes[0];
         var script  = document.createElement('script');
@@ -76,6 +81,7 @@ var FLApp = {
         head.removeChild(document.getElementById('i18nS'));
         head.appendChild(script);
     },
+    
 	showManifestPanel : function () {
 		document.getElementById("manifest").className  = "selected";
 		document.getElementById("projectes").className = "";
@@ -83,6 +89,7 @@ var FLApp = {
         FLApp.nodeSeleccionat = 'manifest';
 		FLApp.updateDetailPanel();
 	},
+	
 	showProjectesPanel : function () {
 		document.getElementById("manifest").className  = "";
 		document.getElementById("projectes").className = "selected";
@@ -97,6 +104,7 @@ var FLApp = {
         FLApp.nodeSeleccionat = 'bitacora';
         FLApp.updateDetailPanel();
 	},
+	
     updateDetailPanel : function () {
         switch (FLApp.nodeSeleccionat) {
             case 'manifest':
@@ -129,28 +137,34 @@ var FLApp = {
         }
         FLApp.updateTabSelector();
     },
+    
     updateTabSelector : function () {
         FLApp.nodeManifest.innerHTML  = i18n.labelManifest;
         FLApp.nodeProjectes.innerHTML = i18n.labelProjectes;
         FLApp.nodeBitacora.innerHTML  = i18n.labelBitacora;
         FLApp.updateFooterText();
     },
+    
     updateFooterText : function () {
         FLApp.nodePrivacitat.innerHTML = i18n.labelPrivacitat;
         FLApp.nodeAvisLegal.innerHTML  = i18n.labelAvisLegal;
     },
+    
 	showPrivacitatDialog : function () {
 		document.getElementById("overlay-modal-dialog").innerHTML = i18n.privacitat;
 		document.getElementById("warning").style.top  = ((window.innerHeight/2)-110) + 'px';
 		document.getElementById("warning").style.left = ((window.innerWidth/2)-200) + 'px';
 		document.getElementById("overlay-modal-dialog").style.visibility = 'visible';
 	},
+	
 	showAvisLegalDialog : function () {
 		console.log("[showAvisLegalDialog]");
 	},
+	
 	cancelModalDialog : function () {
 		document.getElementById("overlay-modal-dialog").style.visibility = 'hidden';
 	},
+	
 	initViewController : function () {
         FLApp.langEng        = document.getElementById("leng");
         FLApp.langEsp        = document.getElementById("lesp");
@@ -171,7 +185,7 @@ var FLApp = {
         FLApp.updateDetailPanel();
         document.getElementById("main").style.visibility = 'visible';
         document.getElementById("footer").style.visibility = 'visible';
-        FLApp.startFadeOut();
+        //FLApp.startFadeOut();
 	}
 };
 
@@ -187,17 +201,17 @@ function initPage() {
         case 'english':
             script.src  = 'i18n/english.js';
             document.getElementById("leng").className = "lang-selected";
-            document.getElementById("loading-msg").innerHTML = "Wait a moment please";
+            //document.getElementById("loading-msg").innerHTML = "Wait a moment please";
             break;
         case 'espanol':
             script.src  = 'i18n/espanol.js';
             document.getElementById("lesp").className = "lang-selected";
-            document.getElementById("loading-msg").innerHTML = "Espera un momento por favor";
+            //document.getElementById("loading-msg").innerHTML = "Espera un momento por favor";
             break;
         case 'catala' :
             script.src  = 'i18n/catala.js';
             document.getElementById("lcat").className = "lang-selected";
-            document.getElementById("loading-msg").innerHTML = "Espera un moment si us plau";
+            //document.getElementById("loading-msg").innerHTML = "Espera un moment si us plau";
             break;
     }
     head.appendChild(script);

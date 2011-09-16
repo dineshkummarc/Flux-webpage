@@ -38,8 +38,8 @@ var i18n = {
     Focus_feature_3 : "",
     bitacora : "<h1>Contacto</h1>"
 		+ "<p>Nuestro equip técnico está formado por:</p><ul>"
-		+ "<li><span class='blacktext'>Santiago Romaní i Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>]</span></li>"
-		+ "<li><span class='blacktext'>David Romaní i Also [<a href='http://www.linkedin.com/in/dromani'>+</a>]</span></li></ul>",
+		+ "<li><span class='blacktext'>Santiago Romaní Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>]</span></li>"
+		+ "<li><span class='blacktext'>David Romaní Also [<a href='http://www.linkedin.com/in/dromani'>+</a>]</span></li></ul>",
 	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacidad</strong></p><p>Según la Ley orgánica 15/99, del 13 de diciembre, de protección de datos de carácter personal, le hacemos saber que los datos que nos pueda facilitar mediante este sitio web pasarán a formar parte de un fichero propiedad de Flexible User Experience SL, con la finalidad de poderle ofrecer nuestros servicios. Para ejercer su derecho de acceso, rectificación, cancelación y/o oposición póngase en contacto con nosotros en <a href='mailto:info@flux.cat'>info@flux.cat</a></p><p>En Flux no nos gusta el spam y contribuimos a erradicarlo.</p><p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
 	avisLegal : ""
 }
