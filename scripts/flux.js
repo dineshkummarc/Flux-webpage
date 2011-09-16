@@ -111,7 +111,6 @@ var FLApp = {
             case 'projectes':
                 document.getElementById("main-right").innerHTML = "<h1>" + i18n.Projectes
                         + "</h1><p><img href='http://www.skaeda.com' src='images/skaeda-logo.png' alt='Logo Skaeda' style='vertical-align:middle;'/>&nbsp;&nbsp;<span class='blacktext'>[</span><a href='http://www.skaeda.com'>+</a><span class='blacktext'>]</span></p><p>"
-                        //+ "</h1><p><strong><a href='http://www.skaeda.com'><img src='images/logo.png' alt='Logo Skaeda' style='vertical-align:middle;'/>&nbsp;&nbsp;<span class='blacktext'>[</span>+<span class='blacktext'>]</span></a></strong></p><p>"
                         + i18n.Es_un_gestor_personal_d_enllaços_a_pagines_web_favorites + " (<em>bookmarks</em>) "
                         + i18n.amb_les_caracteristiques_seguents + ":</p><ul><li>"
                         + i18n.organitzacio_per_carpetes_intel_ligents + "</li><li>"
