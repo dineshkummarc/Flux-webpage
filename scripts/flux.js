@@ -194,7 +194,7 @@ var FLApp = {
 		FLApp.nodeTeam       = document.getElementById("team");
 		FLApp.nodeContact    = document.getElementById("contact");
 		FLApp.nodePrivacitat = document.getElementById("privacitat");
-		FLApp.nodeAvisLegal  = document.getElementById("avis-legal");
+		//FLApp.nodeAvisLegal  = document.getElementById("avis-legal");
         UT.addEventHandler(FLApp.langEng,        "click", FLApp.changeLangSelectorStatus);
         UT.addEventHandler(FLApp.langEsp,        "click", FLApp.changeLangSelectorStatus);
         UT.addEventHandler(FLApp.langCat,        "click", FLApp.changeLangSelectorStatus);
