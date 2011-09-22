@@ -5,6 +5,7 @@
  */
 
 var UT = {
+		
     writeCookie:function(name, value, days) {
       // By default, there is no expiration so the cookie is temporary
       var expires = "";
@@ -18,6 +19,7 @@ var UT = {
       //console.log('name=' + name + ' value=' + value + ' expires=' + expires);
       document.cookie = name + "=" + value + expires + "; path=/";
     },
+    
     readCookie:function(name) {
       // Find the specified cookie and return its value
       var searchName = name + "=";
@@ -34,10 +36,12 @@ var UT = {
       //console.log(name + ' cookie NOT found');
       return null;
     },
+    
     eraseCookie:function(name) {
       // Erase the specified cookie
       UT.writeCookie(name, "", -1);
     },
+    
     addEventHandler:function(obj, eventName, handler) {
         if (document.addEventListener) {
             //si el navegador soporta la funcion addEventListener se trata de un navegador con soporte DOM level 2 (Firefox, Safari, Opera...)

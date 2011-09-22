@@ -167,7 +167,7 @@ var FLApp = {
     
     updateFooterText : function () {
         FLApp.nodePrivacitat.innerHTML = i18n.labelPrivacitat;
-        FLApp.nodeAvisLegal.innerHTML  = i18n.labelAvisLegal;
+        //FLApp.nodeAvisLegal.innerHTML  = i18n.labelAvisLegal;
     },
     
 	showPrivacitatDialog : function () {
@@ -203,7 +203,7 @@ var FLApp = {
 		UT.addEventHandler(FLApp.nodeTeam,       "click", FLApp.showTeamPanel);
 		UT.addEventHandler(FLApp.nodeContact,    "click", FLApp.showContactPanel);
 		UT.addEventHandler(FLApp.nodePrivacitat, "click", FLApp.showPrivacitatDialog);
-		UT.addEventHandler(FLApp.nodeAvisLegal,  "click", FLApp.showAvisLegalDialog);
+		//UT.addEventHandler(FLApp.nodeAvisLegal,  "click", FLApp.showAvisLegalDialog);
         FLApp.updateDetailPanel();
         document.getElementById("main").style.visibility   = 'visible';
         document.getElementById("footer").style.visibility = 'visible';
