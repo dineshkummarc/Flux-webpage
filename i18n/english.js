@@ -14,7 +14,8 @@
 var i18n = {
 	labelManifest   : "manifiest",
 	labelProjectes  : "projects",
-	labelBitacora   : "contact",
+	labelTeam       : "team",
+	labelContact    : "contact",
     labelAvisLegal  : "legal notice",
     labelPrivacitat : "privacy",
     Manifest : "Manifiest",
@@ -36,7 +37,7 @@ var i18n = {
     Focus_feature_1 : "",
     Focus_feature_2 : "",
     Focus_feature_3 : "",
-    bitacora : "<h1>Contact</h1>"
+    team : "<h1>Team</h1>"
 		+ "<p>Our technical team is:</p><ul>"
 		+ "<li><span class='blacktext'>Santiago Romaní Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>]</span></li>"
 		+ "<li><span class='blacktext'>David Romaní Also [<a href='http://www.linkedin.com/in/dromani'>+</a>]</span></li></ul>",

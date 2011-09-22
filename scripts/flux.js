@@ -15,7 +15,8 @@ var FLApp = {
     langCat           : {},
 	nodeManifest      : {},
 	nodeProjectes     : {},
-	nodeBitacora      : {},
+	nodeTeam          : {},
+	nodeContact       : {},
 	nodePrivacitat    : {},
 	nodeAvisLegal     : {},
 	
@@ -46,21 +47,21 @@ var FLApp = {
         evt = evt || window.event;
         var target = (typeof evt.target !== 'undefined') ? evt.target : evt.srcElement;
         if (target.id == 'leng') {
-            document.getElementById("leng").className = "lang-selected";
-		    document.getElementById("lesp").className = "";
-		    document.getElementById("lcat").className = "";
+        	FLApp.langEng.className = "lang-selected";
+        	FLApp.langEsp.className = "";
+        	FLApp.langCat.className = "";
             FLApp.langCookie = 'english';
             UT.writeCookie('user-language', 'english', 1000);
         } else if (target.id == 'lesp') {
-            document.getElementById("leng").className = "";
-		    document.getElementById("lesp").className = "lang-selected";
-		    document.getElementById("lcat").className = "";
+        	FLApp.langEng.className = "";
+        	FLApp.langEsp.className = "lang-selected";
+        	FLApp.langCat.className = "";
             FLApp.langCookie = 'espanol';
             UT.writeCookie('user-language', 'espanol', 1000);
         } else {
-            document.getElementById("leng").className = "";
-		    document.getElementById("lesp").className = "";
-		    document.getElementById("lcat").className = "lang-selected";
+        	FLApp.langEng.className = "";
+        	FLApp.langEsp.className = "";
+        	FLApp.langCat.className = "lang-selected";
             FLApp.langCookie = 'catala';
             UT.writeCookie('user-language', 'catala', 1000);
         }
@@ -71,8 +72,8 @@ var FLApp = {
         var head    = document.documentElement.childNodes[0];
         var script  = document.createElement('script');
         script.onload = FLApp.updateDetailPanel;
-        script.id   = 'i18nS'
-        script.type = 'text/javascript';
+        script.id     = 'i18nS'
+        script.type   = 'text/javascript';
         switch (FLApp.langCookie) {
             case 'english': script.src  = 'i18n/english.js'; break;
             case 'espanol': script.src  = 'i18n/espanol.js'; break;
@@ -83,25 +84,38 @@ var FLApp = {
     },
     
 	showManifestPanel : function () {
-		document.getElementById("manifest").className  = "selected";
-		document.getElementById("projectes").className = "";
-		document.getElementById("bitacora").className  = "";
+		FLApp.nodeManifest.className  = "selected";
+		FLApp.nodeProjectes.className = "";
+		FLApp.nodeTeam.className      = "";
+		FLApp.nodeContact.className   = "";
         FLApp.nodeSeleccionat = 'manifest';
 		FLApp.updateDetailPanel();
 	},
 	
 	showProjectesPanel : function () {
-		document.getElementById("manifest").className  = "";
-		document.getElementById("projectes").className = "selected";
-		document.getElementById("bitacora").className  = "";
+		FLApp.nodeManifest.className  = "";
+		FLApp.nodeProjectes.className = "selected";
+		FLApp.nodeTeam.className      = "";
+		FLApp.nodeContact.className   = "";
 		FLApp.nodeSeleccionat = 'projectes';
         FLApp.updateDetailPanel();
 	},
-	showBitacoraPanel : function () {
-		document.getElementById("manifest").className  = "";
-		document.getElementById("projectes").className = "";
-		document.getElementById("bitacora").className  = "selected";
-        FLApp.nodeSeleccionat = 'bitacora';
+	
+	showTeamPanel : function () {
+		FLApp.nodeManifest.className  = "";
+		FLApp.nodeProjectes.className = "";
+		FLApp.nodeTeam.className      = "selected";
+		FLApp.nodeContact.className   = "";
+        FLApp.nodeSeleccionat = 'team';
+        FLApp.updateDetailPanel();
+	},
+	
+	showContactPanel : function () {
+		FLApp.nodeManifest.className  = "";
+		FLApp.nodeProjectes.className = "";
+		FLApp.nodeTeam.className      = "";
+		FLApp.nodeContact.className   = "selected";
+        FLApp.nodeSeleccionat = 'contact';
         FLApp.updateDetailPanel();
 	},
 	
@@ -133,7 +147,12 @@ var FLApp = {
                         + i18n.Focus_feature_2 + "</li><li>"
                         + i18n.Focus_feature_3 + "</li></ul>"*/
                 break;
-            case 'bitacora':document.getElementById("main-right").innerHTML  = i18n.bitacora;  break;
+            case 'team':
+            	document.getElementById("main-right").innerHTML  = i18n.team;  
+            	break;
+            case 'contact':
+            	document.getElementById("main-right").innerHTML  = i18n.contact;  
+            	break;
         }
         FLApp.updateTabSelector();
     },
@@ -141,7 +160,8 @@ var FLApp = {
     updateTabSelector : function () {
         FLApp.nodeManifest.innerHTML  = i18n.labelManifest;
         FLApp.nodeProjectes.innerHTML = i18n.labelProjectes;
-        FLApp.nodeBitacora.innerHTML  = i18n.labelBitacora;
+        FLApp.nodeTeam.innerHTML      = i18n.labelTeam;
+        FLApp.nodeContact.innerHTML   = i18n.labelContact;
         FLApp.updateFooterText();
     },
     
@@ -171,7 +191,8 @@ var FLApp = {
         FLApp.langCat        = document.getElementById("lcat");
 		FLApp.nodeManifest   = document.getElementById("manifest");
 		FLApp.nodeProjectes  = document.getElementById("projectes");
-		FLApp.nodeBitacora   = document.getElementById("bitacora");
+		FLApp.nodeTeam       = document.getElementById("team");
+		FLApp.nodeContact    = document.getElementById("contact");
 		FLApp.nodePrivacitat = document.getElementById("privacitat");
 		FLApp.nodeAvisLegal  = document.getElementById("avis-legal");
         UT.addEventHandler(FLApp.langEng,        "click", FLApp.changeLangSelectorStatus);
@@ -179,11 +200,12 @@ var FLApp = {
         UT.addEventHandler(FLApp.langCat,        "click", FLApp.changeLangSelectorStatus);
 		UT.addEventHandler(FLApp.nodeManifest,   "click", FLApp.showManifestPanel);
 		UT.addEventHandler(FLApp.nodeProjectes,  "click", FLApp.showProjectesPanel);
-		UT.addEventHandler(FLApp.nodeBitacora,   "click", FLApp.showBitacoraPanel);
+		UT.addEventHandler(FLApp.nodeTeam,       "click", FLApp.showTeamPanel);
+		UT.addEventHandler(FLApp.nodeContact,    "click", FLApp.showContactPanel);
 		UT.addEventHandler(FLApp.nodePrivacitat, "click", FLApp.showPrivacitatDialog);
 		UT.addEventHandler(FLApp.nodeAvisLegal,  "click", FLApp.showAvisLegalDialog);
         FLApp.updateDetailPanel();
-        document.getElementById("main").style.visibility = 'visible';
+        document.getElementById("main").style.visibility   = 'visible';
         document.getElementById("footer").style.visibility = 'visible';
         //FLApp.startFadeOut();
 	}
