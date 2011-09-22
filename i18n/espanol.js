@@ -54,6 +54,6 @@ var i18n = {
 		+ "(<a href='http://www.flux.cat'>FLUX</a>), con la única finalidad de poder ofrecerle nuestros servicios.</p>"
 		+ "<p>Para ejercer su derecho de acceso, rectificación, cancelación y oposición póngase en contacto con nosotros a través de correo electrónico en "
 		+ "<a href='mailto:info@flux.cat'>info@flux.cat</a></p><hr/><p>En Flux no nos gusta el spam, contribuimos a erradicarlo.</p>"
-		+ "<p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
+		+ "<p><span class='button' onclick='FLApp.cancelModalDialog();'>Ok</span></p></div>",
 	avisLegal : ""
 }
