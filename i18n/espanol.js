@@ -39,10 +39,11 @@ var i18n = {
     Focus_feature_3 : "",
     team : "<h1>Equipo</h1>"
 		+ "<p>Nuestro equip técnico está formado por:</p><ul>"
-		+ "<li><span class='blacktext'>Santiago Romaní Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>]</span></li>"
-		+ "<li><span class='blacktext'>David Romaní Also [<a href='http://www.linkedin.com/in/dromani'>+</a>]</span></li></ul>",
+		+ "<li><span class='blacktext'>Jordi Romaní i Also · socio fundador</span></li>"
+		+ "<li><span class='blacktext'>Santiago Romaní Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>] · socio fundador, director técnico y programador</span></li>"
+		+ "<li><span class='blacktext'>David Romaní Also [<a href='http://www.linkedin.com/in/dromani'>+</a>] · socio fundador, gerente y programador</span></li></ul>",
 	contact : "<h1>Contacto</h1>"
-		+ "<p>Puede contactar con nosotros por email en:<hr/><a href='mailto:info@flux.cat'>info@flux.cat</a></p><p>También puede contactar por correo postal tradicional en:<hr/>"
+		+ "<p>Puede contactar con nosotros por email en:<br/><a href='mailto:info@flux.cat'>info@flux.cat</a></p><p>También puede contactar por correo postal tradicional en:<br/>"
 		+ "Flexible User Experience, SL<br/>"
 		+ "Avda. Sebastián Juan Arbó, 6<br/>"
 		+ "43870 Amposta (Tarragona)<br/>"
