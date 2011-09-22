@@ -31,8 +31,8 @@ var i18n = {
     previsualitzacio_d_enllasos_amb_miniatura : "<span class='blacktext'>previsualitzación de bookmarks en miniatura</span>",
     etiquetatge_social_independent_de_l_idioma : "<span class='blacktext'>permite compartir fácilmente en redes sociales</span>",
     aplicacio_web_en_temps_real_verdadera : "<span class='blacktext'>aplicación web en tiempo real verdadera basada en la tecnologia HTML5 WebSocket</span>",
-    drag_drop : "<span class='blacktext'>Arrastra y suelta per asignar bookmarks a etiquetas</span>",
-    import_export : "<span class='blacktext'>Importa y exporta tus bookmarks</span>",
+    drag_drop : "<span class='blacktext'>arrastra y suelta per asignar bookmarks a etiquetas</span>",
+    import_export : "<span class='blacktext'>importa y exporta tus bookmarks</span>",
     Focus_n_descripcio_breu : "",
     Focus_feature_1 : "",
     Focus_feature_2 : "",
@@ -42,8 +42,8 @@ var i18n = {
 		+ "<li><span class='blacktext'>Santiago Romaní Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>]</span></li>"
 		+ "<li><span class='blacktext'>David Romaní Also [<a href='http://www.linkedin.com/in/dromani'>+</a>]</span></li></ul>",
 	contact : "<h1>Contacto</h1>"
-		+ "<p>Puede contactar con nosotros por email en:</p><p><a href='mailto:info@flux.cat'>info@flux.cat</a></p><p>También puede contactar por correo postal tradicional en:</p>"
-		+ "<p>Flexible User Experience, SL<br/>"
+		+ "<p>Puede contactar con nosotros por email en:<hr/><a href='mailto:info@flux.cat'>info@flux.cat</a></p><p>También puede contactar por correo postal tradicional en:<hr/>"
+		+ "Flexible User Experience, SL<br/>"
 		+ "Avda. Sebastián Juan Arbó, 6<br/>"
 		+ "43870 Amposta (Tarragona)<br/>"
 		+ "España</p>",
