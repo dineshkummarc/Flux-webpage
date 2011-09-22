@@ -19,7 +19,7 @@ var i18n = {
     labelAvisLegal  : "aviso legal",
     labelPrivacitat : "privacidad",
     Manifest : "Manifiesto",
-    neix_de : "es una empresa joven que se dedica al desarrollo software y aplicaciones. Nace del esfuerzo y la ilusión de conseguir los siguientes objetivos",
+    neix_de : "es una empresa joven dedicada al desarrollo software y aplicaciones. Nace del esfuerzo y la ilusión de conseguir los siguientes objetivos",
     produir_i_comercialitzar_programari_com_a_servei : "<span class='blacktext'>producir y comercializar software como servicio</span>",
     desenvolupar_aplicacions_web_funcionals_i_senzilles : "<span class='blacktext'>desarollar aplicaciones web funcionales y sencillas</span>",
     crear_interficies_d_usuari_innovadores : "<span class='blacktext'>crear interfícies de usuario innovadoras, flexibles y útiles</span>",
@@ -41,6 +41,12 @@ var i18n = {
 		+ "<p>Nuestro equip técnico está formado por:</p><ul>"
 		+ "<li><span class='blacktext'>Santiago Romaní Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>]</span></li>"
 		+ "<li><span class='blacktext'>David Romaní Also [<a href='http://www.linkedin.com/in/dromani'>+</a>]</span></li></ul>",
+	contact : "<h1>Contacto</h1>"
+		+ "<p>Puede contactar con nosotros por email en:</p><p><a href='mailto:info@flux.cat'>info@flux.cat</a></p><p>También puede contactar por correo postal tradicional en:</p>"
+		+ "<p>Flexible User Experience, SL<br/>"
+		+ "Avda. Sebastián Juan Arbó, 6<br/>"
+		+ "43870 Amposta (Tarragona)<br/>"
+		+ "España</p>",
 	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacidad</strong></p><p>Según la Ley orgánica 15/99, del 13 de diciembre, de protección de datos de carácter personal, le hacemos saber que los datos que nos pueda facilitar mediante este sitio web pasarán a formar parte de un fichero propiedad de Flexible User Experience SL, con la finalidad de poderle ofrecer nuestros servicios. Para ejercer su derecho de acceso, rectificación, cancelación y/o oposición póngase en contacto con nosotros en <a href='mailto:info@flux.cat'>info@flux.cat</a></p><p>En Flux no nos gusta el spam y contribuimos a erradicarlo.</p><p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
 	avisLegal : ""
 }

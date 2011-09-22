@@ -1,7 +1,7 @@
 /**
  * @author Flexible User Experience SL
  * @copyright 2011
- * coded with WebStorm
+ * coded with WebStorm and Eclipse Indigo
  */
 
 var FLApp = {

@@ -42,6 +42,12 @@ var i18n = {
 		+ "<li><span class='blacktext'>Jordi Romaní Also · founding partner</span></li>"
 		+ "<li><span class='blacktext'>Santiago Romaní Also [<a href='http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689'>+</a>] · founding partner, CTO and programmer</span></li>"
 		+ "<li><span class='blacktext'>David Romaní Also [<a href='http://www.linkedin.com/in/dromani'>+</a>] · founding partner, CEO and programmer</span></li></ul>",
+	contact : "<h1>Contact</h1>"
+		+ "<p>You can contact us by email at:</p><p><a href='mailto:info@flux.cat'>info@flux.cat</a></p><p>Alternatively, you can contact by traditional postal service at:</p>"
+		+ "<p>Flexible User Experience, SL<br/>"
+		+ "6 Sebastián Juan Arbó Avenue<br/>"
+		+ "43870 Amposta (Tarragona)<br/>"
+		+ "Spain</p>",
 	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacy</strong></p><p>...</p><p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
 	avisLegal : ""
 }
