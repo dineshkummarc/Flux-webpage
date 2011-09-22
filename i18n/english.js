@@ -48,6 +48,12 @@ var i18n = {
 		+ "6 Sebastián Juan Arbó Avenue<br/>"
 		+ "43870 Amposta (Tarragona)<br/>"
 		+ "Spain</p>",
-	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacy</strong></p><p>...</p><p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
+	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacidad</strong></p>"
+		+ "<p>According to Law 15/99 of 13 December (RD 1720/2007) of the Spanish legislation on the protection of personal data, "
+		+ "we inform you that the data can provide us through this website will become part of a file owned by Flexible User Experience SL "
+		+ "(<a href='http://www.flux.cat'>FLUX</a>), with the sole purpose of being able to offer our services.</p>"
+		+ "<p>To exercise your right of access, rectification, cancellation and opposition contact us by e-mail at "
+		+ "<a href='mailto:info@flux.cat'>info@flux.cat</a></p><hr/><p>At Flux we do not like spam and contribute to eradicate.</p>"
+		+ "<p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
 	avisLegal : ""
 }

@@ -48,6 +48,12 @@ var i18n = {
 		+ "Avda. Sebastián Juan Arbó, 6<br/>"
 		+ "43870 Amposta (Tarragona)<br/>"
 		+ "España</p>",
-	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacidad</strong></p><p>Según la Ley orgánica 15/99, del 13 de diciembre, de protección de datos de carácter personal, le hacemos saber que los datos que nos pueda facilitar mediante este sitio web pasarán a formar parte de un fichero propiedad de Flexible User Experience SL, con la finalidad de poderle ofrecer nuestros servicios. Para ejercer su derecho de acceso, rectificación, cancelación y/o oposición póngase en contacto con nosotros en <a href='mailto:info@flux.cat'>info@flux.cat</a></p><p>En Flux no nos gusta el spam y contribuimos a erradicarlo.</p><p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
+	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacidad</strong></p>"
+		+ "<p>Según la Ley orgánica 15/99 del 13 de diciembre (R.D. 1720/2007) de la legislación española sobre la protección de datos de carácter personal, "
+		+ "le comunicamos que los datos que nos puede facilitar mediante este sitio web pasarán a formar parte de un fichero propiedad de Flexible User Experience SL "
+		+ "(<a href='http://www.flux.cat'>FLUX</a>), con la única finalidad de poder ofrecerle nuestros servicios.</p>"
+		+ "<p>Para ejercer su derecho de acceso, rectificación, cancelación y oposición póngase en contacto con nosotros a través de correo electrónico en "
+		+ "<a href='mailto:info@flux.cat'>info@flux.cat</a></p><hr/><p>En Flux no nos gusta el spam, contribuimos a erradicarlo.</p>"
+		+ "<p style='text-align:right'><button onclick='FLApp.cancelModalDialog();'>Ok</button></p></div>",
 	avisLegal : ""
 }
