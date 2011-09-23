@@ -31,7 +31,7 @@ var i18n = {
     previsualitzacio_d_enllasos_amb_miniatura : "<span class='blacktext'>previsualització de bookmarks amb miniatura</span>",
     etiquetatge_social_independent_de_l_idioma : "<span class='blacktext'>permet compartir fàcilment amb xarxes socials</span>",
     aplicacio_web_en_temps_real_verdadera : "<span class='blacktext'>aplicació web en temps real verdadera basada amb la tecnologia HTML5 WebSocket</span>",
-    drag_drop : "<span class='blacktext'>arrastra i solta per assignar bookmarks a etiquetes</span>",
+    drag_drop : "<span class='blacktext'>arrastra i solta per assignar bookmarks a grups o etiquetes</span>",
     import_export : "<span class='blacktext'>importa i exporta els teus bookmarks</span>",
     Focus_n_descripcio_breu : "",
     Focus_feature_1 : "",

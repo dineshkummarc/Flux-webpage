@@ -377,7 +377,7 @@ div#loading-panel span {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    background: #AE5700 no-repeat 0 50%;
+    background: #FFF3FF no-repeat 0 50%;
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFF3FF', endColorstr='#E645B5');
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFF3FF', endColorstr='#E645B5')";
     background: -webkit-gradient(linear, left top, left bottom, from(#FFF3FF), color-stop(1, #E645B5));
