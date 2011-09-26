@@ -172,7 +172,7 @@ var FLApp = {
     
 	showPrivacitatDialog : function () {
 		document.getElementById("overlay-modal-dialog").innerHTML = i18n.privacitat;
-		document.getElementById("warning").style.top  = ((window.innerHeight/2)-110) + 'px';
+		document.getElementById("warning").style.top  = '24px'; //((window.innerHeight/2)-300) + 'px';
 		document.getElementById("warning").style.left = ((window.innerWidth/2)-200) + 'px';
 		document.getElementById("overlay-modal-dialog").style.visibility = 'visible';
 	},
