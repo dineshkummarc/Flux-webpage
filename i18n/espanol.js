@@ -49,11 +49,16 @@ var i18n = {
 		+ "43870 Amposta (Tarragona)<br/>"
 		+ "España</p>",
 	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacidad</strong></p>"
-		+ "<p>Según la Ley orgánica 15/99 del 13 de diciembre (R.D. 1720/2007) de la legislación española sobre la protección de datos de carácter personal, "
-		+ "le comunicamos que los datos que nos puede facilitar mediante este sitio web pasarán a formar parte de un fichero propiedad de Flexible User Experience SL "
-		+ "(<a href='http://www.flux.cat'>FLUX</a>), con la única finalidad de poder ofrecerle nuestros servicios.</p>"
-		+ "<p>Para ejercer su derecho de acceso, rectificación, cancelación y oposición póngase en contacto con nosotros a través de correo electrónico en "
-		+ "<a href='mailto:info@flux.cat'>info@flux.cat</a></p><hr/><p>En Flux no nos gusta el spam, contribuimos a erradicarlo.</p>"
+		+ "<p>En cumplimiento del que establece la Ley Orgánica 15/1999 de la legislación española de 13 de diciembre sobre la Protección de Datos de Carácter Personal (LOPD), "
+		+ "y su correspondiente R.D. 1720/2007, le comunicamos que sus datos personales pasarán a formar parte de un fichero propiedad de Flexible User Experience SL "
+		+ "(<a href='http://www.flux.cat'>FLUX</a>), debidamente registrado a la Agencia Española de Protección de Datos con la única finalidad de poder ofrecerle nuestros servicios.</p>"
+		+ "<p>Para el uso de esta página web es necesario alojar una galleta (<em>cookie</em>) en su navegador de Internet con el único fin de recordar el idioma "
+		+ "que ha elegido para visualizar la página. Si usted lo desea, puede configurar su navegador para bloquear el alojamiento de la galleta en su disco duro.</p>"
+		+ "<p>Para ejercer su derecho de acceso, rectificación, cancelación y oposición póngase en contacto con nosotros a través de la dirección de correo electrónico "
+		+ "<a href='mailto:lopd@flux.cat'>lopd@flux.cat</a></p>"
+		+ "<p>Flux se compromete explícitamente a mantener confidenciales todos los datos recibidos a través de esta página web. Estos datos podrán ser tratados con "
+		+ "fines comerciales pero en ningún caso podrán ser destinados a otros fines ni serán entregados a terceros.</p><hr/>"
+		+ "<p>En Flux no nos gusta el spam, contribuimos a erradicarlo.</p>"
 		+ "<p><span class='button' onclick='FLApp.cancelModalDialog();'>Ok</span></p></div>",
 	avisLegal : ""
 }

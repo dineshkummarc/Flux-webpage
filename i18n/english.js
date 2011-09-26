@@ -49,11 +49,15 @@ var i18n = {
 		+ "43870 Amposta (Tarragona)<br/>"
 		+ "Spain</p>",
 	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacy</strong></p>"
-		+ "<p>According to Law 15/99 of 13 December (RD 1720/2007) of the Spanish legislation on the protection of personal data, "
-		+ "we inform you that the data can provide us through this website will become part of a file owned by Flexible User Experience SL "
-		+ "(<a href='http://www.flux.cat'>FLUX</a>), with the sole purpose of being able to offer our services.</p>"
-		+ "<p>To exercise your right of access, rectification, cancellation and opposition contact us by e-mail at "
-		+ "<a href='mailto:info@flux.cat'>info@flux.cat</a></p><hr/><p>At Flux we do not like spam and contribute to eradicate.</p>"
+		+ "<p>According to Organic Law 15/1999 of the Spanish legislation of 13 December on the Protection of Personal Data (LOPD), "
+		+ "and the corresponding R.D. 1720/2007, we inform you that your personal data will become part of a file owned by Flexible User Experience SL "
+		+ "(<a href='http://www.flux.cat'>FLUX</a>), duly registered at the Spanish Agency for Data Protection with the sole aim to offer you our services.</p>"
+		+ "<p>For use of this website is necessary to save a cookie in your browser for the sole purpose of remembering the language you have chosen to display the page. "
+		+ "If you wish, you can set your browser to block the housing of the cookie on your hard drive.</p>"
+		+ "<p>To exercise your right of access, rectification, cancellation and opposition contact us through email address <a href='mailto:lopd@flux.cat'>lopd@flux.cat</a></p>"
+		+ "<p>Flux explicitly agrees to keep confidential all information received through this website. "
+		+ "This data may be processed for commercial purposes but in no case be used for other purposes and will not be provided to third parties.</p><hr/>"
+		+ "<p>At Flux we do not like spam and contribute to eradicate.</p>"
 		+ "<p><span class='button' onclick='FLApp.cancelModalDialog();'>Ok</span></p></div>",
 	avisLegal : ""
 }
