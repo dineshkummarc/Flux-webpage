@@ -51,13 +51,13 @@ var i18n = {
 	privacitat : "<div id='warning' style='height:auto;'><p style='text-align:center;'><strong>Privacitat</strong></p>" +
 			"<p>En compliment del que estableix la Llei Orgànica 15/1999 de la legislació espanyola de 13 de desembre sobre la Protecció de Dades de Caràcter Personal (LOPD), " +
 			"i el seu corresponent R.D. 1720/2007, li comuniquem que les seves dades personals passaran a formar part d'un fitxer propietat de Flexible User Experience SL " +
-			"(<a href='http://www.flux.cat'>FLUX</a>), degudament registrat a l'Agència Espanyola de Protecció de Dades amb l'única finalitat de poder oferir-li "
+			"(<a href='http://www.flux.cat'>FLUX</a>), degudament registrat a l'Agència Espanyola de Protecció de Dades amb l'única finalitat de poder oferir-li " +
 			"els nostres serveis.</p>" +
 			"<p>Per a l'ús d'aquesta pàgina web és necessari allotjar una galeta (<em>cookie</em>) al seu navegador de Internet amb l'única finalitat de recordar l'idioma " +
 			"que ha escollit per a visualitzar la pàgina. Si vostè ho desitja, pot configurar el seu navegador per a bloquejar l'allotjament de la galeta al seu disc dur.</p>" +
-			"<p>Per exercir el seu dret d'accés, rectificació, cancel·lació i oposició posi's en contacte amb nosaltres a través de l'adreça de correu electrònic "
-			"<a href='mailto:lopd@flux.cat'>lopd@flux.cat</a></p>"
-			"<p>Flux es compromet explícitament a mantenir confidencials totes les dades rebudes a través d'aquesta pàgina web. Aquestes dades podran ser tractades amb "
+			"<p>Per exercir el seu dret d'accés, rectificació, cancel·lació i oposició posi's en contacte amb nosaltres a través de l'adreça de correu electrònic " +
+			"<a href='mailto:lopd@flux.cat'>lopd@flux.cat</a></p>" +
+			"<p>Flux es compromet explícitament a mantenir confidencials totes les dades rebudes a través d'aquesta pàgina web. Aquestes dades podran ser tractades amb " +
 			"finalitats comercials però en cap cas podran ser destinades a altres finalitats ni seran entregades a tercers.</p><hr/>" +
 			"<p>A Flux no ens agrada el spam, contribuïm a eradicar-lo.</p>" +
 			"<p><span class='button' onclick='FLApp.cancelModalDialog();'>Ok</span></p></div>",
