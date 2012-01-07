@@ -1,0 +1,39 @@
+Unit:
+  homepage:
+    name: Homepage
+    url:
+    image:
+    Translation:
+      en:
+        title: Homepage
+        subtitle:
+        summary:
+        description: |
+          <p>Flux is a young company dedicated to software development and applications. 
+          Born of effort and enthusiasm to achieve the following objectives:</p>
+          <ul><li><span class='blacktext'>produce and comercialize software as a service</span></li>
+          <li><span class='blacktext'>develop easy and functional web applications</span></li>
+          <li><span class='blacktext'>create innovative user interfaces</span></li>
+          <li><span class='blacktext'>improve the user experience</span></li></ul>
+      es:
+        title: Homepage
+        subtitle:
+        summary:
+        description: |
+          <p>Flux es una empresa joven dedicada al desarrollo software y aplicaciones. 
+          Nace del esfuerzo y la ilusión de conseguir los siguientes objetivos:</p>
+          <ul><li><span class='blacktext'>producir y comercializar software como servicio</span></li>
+          <li><span class='blacktext'>desarollar aplicaciones web funcionales y sencillas</span></li>
+          <li><span class='blacktext'>crear interfícies de usuario innovadoras, flexibles y útiles</span></li>
+          <li><span class='blacktext'>mejorar la experiencia de usuario</span></li></ul>
+      ca:
+        title: Homepage
+        subtitle:
+        summary:
+        description: |
+          <p>Flux és una empresa jove dedicada al desenvolupament de software i aplicacions. 
+          Neix de l'esforç i la il·lusió d'aconseguir els objectius següents:</p>
+          <ul><li><span class='blacktext'>produir i comercialitzar programari com a servei</span></li>
+          <li><span class='blacktext'>desenvolupar aplicacions web funcionals i senzilles</span></li>
+          <li><span class='blacktext'>crear interfícies d'usuari innovadores, flexibles i útils</span></li>
+          <li><span class='blacktext'>millorar l'experiència d'usuari</span><li></ul>

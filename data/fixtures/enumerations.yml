@@ -1,0 +1,37 @@
+Enumeration:
+  one:
+    position:   1
+    is_active:  true
+  oneOff:
+    position:   1
+    is_active:  false
+  two:
+    position:   2
+    is_active:  true
+  twoOff:
+    position:   2
+    is_active:  false
+  three:
+    position:   3
+    is_active:  true
+  threeOff:
+    position:   3
+    is_active:  false
+  four:
+    position:   4
+    is_active:  true
+  fourOff:
+    position:   4
+    is_active:  false
+  five:
+    position:   5
+    is_active:  true
+  fiveOff:
+    position:   5
+    is_active:  false
+  six:
+    position:   6
+    is_active:  true
+  sixOff:
+    position:   6
+    is_active:  false
