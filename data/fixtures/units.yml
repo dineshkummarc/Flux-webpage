@@ -37,3 +37,45 @@ Unit:
           <li><span class='blacktext'>desenvolupar aplicacions web funcionals i senzilles</span></li>
           <li><span class='blacktext'>crear interfícies d'usuari innovadores, flexibles i útils</span></li>
           <li><span class='blacktext'>millorar l'experiència d'usuari</span><li></ul>
+  skaeda:
+    name: Skaeda
+    url: www.skaeda.com
+    image:
+    Translation:
+      en:
+        title: Skaeda
+        subtitle:
+        summary:
+        description: |
+          <p>Sk&aelig;da is a personal manager of favorit webpage links in the cloud with the following features:</p>
+          <ul><li><span class='blacktext'>can organize your bookmarks through groups, smart groups and tags</span></li>
+          <li><span class='blacktext'>webpage preview with small screenshots</span></li>
+          <li><span class='blacktext'>can share easily on social networks</span></li>
+          <li><span class='blacktext'>true fast-running web application based on HTML5 WebSocket</span></li>
+          <li><span class='blacktext'>assign bookmarks to groups or tags with drag and drop</span></li>
+          <li><span class='blacktext'>import end export your bookmarks</span></li></ul>
+      es:
+        title: Skaeda
+        subtitle:
+        summary:
+        description: |
+          <p>Sk&aelig;da es un gestor personal de enlaces a páginas web favoritas en la nube con las siguientes características:</p>
+          <ul><li><span class='blacktext'>organización de bookmarks por grupos, grupos inteligentes y etiquetas</span></li>
+          <li><span class='blacktext'>previsualitzación de bookmarks en miniatura</span></li>
+          <li><span class='blacktext'>permite compartir fácilmente en redes sociales</span></li>
+          <li><span class='blacktext'>aplicación web en tiempo real verdadera basada en la tecnologia HTML5 WebSocket</span></li>
+          <li><span class='blacktext'>arrastra y suelta per asignar bookmarks a grupos o etiquetas</span></li>
+          <li><span class='blacktext'>importa y exporta tus bookmarks</span></li></ul>
+      ca:
+        title: Skaeda
+        subtitle:
+        summary:
+        description: |
+          <p>Sk&aelig;da és un gestor personal d'enllaços a pàgines web favorites al núvol amb les característiques següents:</p>
+          <ul><li><span class='blacktext'>organització de bookmarks per grups, grups intel·ligents i etiquetes</span></li>
+          <li><span class='blacktext'>previsualització de bookmarks amb miniatura</span></li>
+          <li><span class='blacktext'>permet compartir fàcilment amb xarxes socials</span></li>
+          <li><span class='blacktext'>aplicació web en temps real verdadera basada amb la tecnologia HTML5 WebSocket</span></li>
+          <li><span class='blacktext'>arrastra i solta per assignar bookmarks a grups o etiquetes</span></li>
+          <li><span class='blacktext'>importa i exporta els teus bookmarks</span><li></ul>
+          
