@@ -45,8 +45,8 @@ Member:
     alt_image:      { type: string(255) }
   relations:
     Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
-    
- MemberProject:
+
+MemberProject:
   actAs:  { Timestampable: ~ }
   columns:
     project_id:     { type: integer, notnull: true }
@@ -56,15 +56,15 @@ Member:
     Project:        { onDelete: CASCADE, local: project_id, foreign: id, foreignAlias: Projects }
     Member:         { onDelete: CASCADE, local: member_id, foreign: id, foreignAlias: Members }
     Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
-    
- Contact:
+
+Contact:
   actAs:  { Timestampable: ~ }
   columns:
     member_id:      { type: integer, notnull: true }
     enumeration_id: { type: integer, notnull: true }
     kind:           { type: string(255), notnull: true }
     target:         { type: string(255), notnull: true }
-  relations
+  relations:
     Member:         { onDelete: CASCADE, local: member_id, foreign: id, foreignAlias: Members }
     Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
     
