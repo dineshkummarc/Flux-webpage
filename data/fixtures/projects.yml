@@ -1,6 +1,6 @@
 Project:
   skaeda:
-    unit_id: 2
-    enumeration_id: 1
+    Unit: skaeda
+    Enumeration: one
     logo:
-    alt_image
+    alt_image:
