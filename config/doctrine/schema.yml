@@ -1,0 +1,70 @@
+Unit:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [ title, subtitle, summary, description ]
+  columns:
+    name:           { type: string(255), notnull: true, unique: true }
+    title:          { type: string(255), notnull: true }
+    subtitle:       { type: string(255) }
+    summary:        { type: string(255) }
+    description:    { type: string(2000) }
+    url:            { type: string(255) }
+    image:          { type: string(255) }
+    
+Enumeration:
+  actAs:            { Timestampable: ~ }
+  columns:
+    position:       { type: integer, notnull: true }
+    is_active:      { type: boolean, notnull: true, default: 1 }
+    
+Project:
+  actAs:            { Timestampable: ~ }
+  columns:
+    unit_id:        { type: integer, notnull: true }
+    enumeration_id: { type: integer, notnull: true }
+    logo:           { type: string(255) }
+    alt_image:      { type: string(255) }
+  relations:
+    Unit:           { onDelete: CASCADE, local: unit_id, foreign: id, foreignAlias: Projects }
+    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
+    
+Member:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [ name, surname, address, category, description ]
+  columns:
+    name:           { type: string(255), notnull: true }
+    surname:        { type: string(255), notnull: true }
+    address:        { type: string(255) }
+    category:       { type: string(255), notnull: true }
+    description:    { type: integer, notnull: true }
+    enumeration_id: { type: integer, notnull: true }
+    is_partner:     { type: boolean, notnull: true, default: 0 }
+    alt_image:      { type: string(255) }
+  relations:
+    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
+    
+ MemberProject:
+  actAs:  { Timestampable: ~ }
+  columns:
+    project_id:     { type: integer, notnull: true }
+    member_id:      { type: integer, notnull: true }
+    enumeration_id: { type: integer, notnull: true }
+  relations:
+    Project:        { onDelete: CASCADE, local: project_id, foreign: id, foreignAlias: Projects }
+    Member:         { onDelete: CASCADE, local: member_id, foreign: id, foreignAlias: Members }
+    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
+    
+ Contact:
+  actAs:  { Timestampable: ~ }
+  columns:
+    member_id:      { type: integer, notnull: true }
+    enumeration_id: { type: integer, notnull: true }
+    kind:           { type: string(255), notnull: true }
+    target:         { type: string(255), notnull: true }
+  relations
+    Member:         { onDelete: CASCADE, local: member_id, foreign: id, foreignAlias: Members }
+    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
+    
