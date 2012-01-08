@@ -37,12 +37,12 @@
   	<div id="main">
   		<div id="main-left">
   			<?php include_component('menu', 'showMenu'); ?>
-  			<ul>
+  			<!-- <ul>
   				<li id='manifest' class='selected'></li>
   				<li id='projectes'></li>
   				<li id='team'></li>
   				<li id='contact'></li>
-  			</ul>
+  			</ul> -->
   		</div>
   		<div id="main-right">
   			<?php echo $sf_content ?>

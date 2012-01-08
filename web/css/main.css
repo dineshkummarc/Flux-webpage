@@ -150,7 +150,7 @@ div {
     color: #FFEEFF;
 }
 
-#main-left li.selected {
+#main-left li.current {
   background: #D09;
   color: #FEF;
 }
@@ -187,7 +187,6 @@ div {
 }
 
 #main {
-    visibility: hidden;
   background-color: #FFF;
   color: #FFF;
   height: 440px;
@@ -236,7 +235,6 @@ div {
 }
 
 #footer {
-    visibility: hidden;
   width: 800px;
   height: 40px;
   padding: 0px;
@@ -305,6 +303,7 @@ div {
     z-index: 10;
 }
 
+/*
 #overlay-modal-dialog div {
     font-size: 13px;
     width: 400px;
@@ -355,6 +354,7 @@ div#loading-panel span {
     font-weight: bold;
     font-size: 20px;
 }
+*/
 
 #___plusone_0 {
   padding: 0px;
