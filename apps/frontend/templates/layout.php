@@ -36,6 +36,7 @@
   	</div>
   	<div id="main">
   		<div id="main-left">
+  			<?php include_component('menu', 'showMenu'); ?>
   			<ul>
   				<li id='manifest' class='selected'></li>
   				<li id='projectes'></li>
