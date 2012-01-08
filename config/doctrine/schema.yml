@@ -24,7 +24,11 @@ Project:
     unit_id:        { type: integer, notnull: true }
     enumeration_id: { type: integer, notnull: true }
     logo:           { type: string(255) }
+    logo_bw:        { type: string(255) }
     alt_image:      { type: string(255) }
+    technology:     { type: string(2000) }
+    begin_date:     { type: timestamp }
+    end_date:       { type: timestamp }
   relations:
     Unit:           { onDelete: CASCADE, local: unit_id, foreign: id, foreignAlias: Projects }
     Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }

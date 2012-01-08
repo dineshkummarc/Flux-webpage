@@ -78,4 +78,27 @@ Unit:
           <li><span class='blacktext'>aplicació web en temps real verdadera basada amb la tecnologia HTML5 WebSocket</span></li>
           <li><span class='blacktext'>arrastra i solta per assignar bookmarks a grups o etiquetes</span></li>
           <li><span class='blacktext'>importa i exporta els teus bookmarks</span><li></ul>
+  amep:
+    name: AMEP
+    url: www.automecanicaeduardoporres.com
+    image:
+    Translation:
+      en:
+        title: AMEP
+        subtitle:
+        summary:
+        description: |
+          <p>AMEP description project</p>
+      es:
+        title: AMEP
+        subtitle:
+        summary:
+        description: |
+          <p>Descripción del proyecto AMEP</p>
+      ca:
+        title: AMEP
+        subtitle:
+        summary:
+        description: |
+          <p>Descripció del projecte AMEP</p>
           

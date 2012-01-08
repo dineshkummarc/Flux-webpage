@@ -2,5 +2,18 @@ Project:
   skaeda:
     Unit: skaeda
     Enumeration: one
+    technology:
     logo:
+    logo_bw:
     alt_image:
+    begin_date:
+    end_date:
+  amep:
+    Unit: amep
+    Enumeration: two
+    technology:
+    logo:
+    logo_bw:
+    alt_image:
+    begin_date:
+    end_date:

@@ -8,7 +8,11 @@
  * @property integer $unit_id
  * @property integer $enumeration_id
  * @property string $logo
+ * @property string $logo_bw
  * @property string $alt_image
+ * @property string $technology
+ * @property timestamp $begin_date
+ * @property timestamp $end_date
  * @property Unit $Unit
  * @property Enumeration $Enumeration
  * @property Doctrine_Collection $Projects
@@ -16,14 +20,22 @@
  * @method integer             getUnitId()         Returns the current record's "unit_id" value
  * @method integer             getEnumerationId()  Returns the current record's "enumeration_id" value
  * @method string              getLogo()           Returns the current record's "logo" value
+ * @method string              getLogoBw()         Returns the current record's "logo_bw" value
  * @method string              getAltImage()       Returns the current record's "alt_image" value
+ * @method string              getTechnology()     Returns the current record's "technology" value
+ * @method timestamp           getBeginDate()      Returns the current record's "begin_date" value
+ * @method timestamp           getEndDate()        Returns the current record's "end_date" value
  * @method Unit                getUnit()           Returns the current record's "Unit" value
  * @method Enumeration         getEnumeration()    Returns the current record's "Enumeration" value
  * @method Doctrine_Collection getProjects()       Returns the current record's "Projects" collection
  * @method Project             setUnitId()         Sets the current record's "unit_id" value
  * @method Project             setEnumerationId()  Sets the current record's "enumeration_id" value
  * @method Project             setLogo()           Sets the current record's "logo" value
+ * @method Project             setLogoBw()         Sets the current record's "logo_bw" value
  * @method Project             setAltImage()       Sets the current record's "alt_image" value
+ * @method Project             setTechnology()     Sets the current record's "technology" value
+ * @method Project             setBeginDate()      Sets the current record's "begin_date" value
+ * @method Project             setEndDate()        Sets the current record's "end_date" value
  * @method Project             setUnit()           Sets the current record's "Unit" value
  * @method Project             setEnumeration()    Sets the current record's "Enumeration" value
  * @method Project             setProjects()       Sets the current record's "Projects" collection
@@ -50,9 +62,23 @@ abstract class BaseProject extends sfDoctrineRecord
              'type' => 'string',
              'length' => 255,
              ));
+        $this->hasColumn('logo_bw', 'string', 255, array(
+             'type' => 'string',
+             'length' => 255,
+             ));
         $this->hasColumn('alt_image', 'string', 255, array(
              'type' => 'string',
              'length' => 255,
+             ));
+        $this->hasColumn('technology', 'string', 2000, array(
+             'type' => 'string',
+             'length' => 2000,
+             ));
+        $this->hasColumn('begin_date', 'timestamp', null, array(
+             'type' => 'timestamp',
+             ));
+        $this->hasColumn('end_date', 'timestamp', null, array(
+             'type' => 'timestamp',
              ));
     }
 
