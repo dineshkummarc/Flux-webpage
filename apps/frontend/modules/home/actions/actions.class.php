@@ -12,6 +12,6 @@ class homeActions extends sfActions
 {
   public function executePage(sfWebRequest $request)
   {
-    
+  	$this->unit = Doctrine::getTable('Unit')->getHomepage();
   }
 }

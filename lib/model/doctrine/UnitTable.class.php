@@ -16,4 +16,15 @@ class UnitTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('Unit');
     }
+    
+    /**
+     * Obtiene la instancia Unit de la homepage
+     */
+    public static function getHomepage()
+    {
+    	$results = self::getInstance()->createQuery('q')->where('q.name = ?', 'Homepage')->limit(1)->execute();
+    	if (count($results) == 1) return $results[0];
+    	return null;
+    }
+    
 }
