@@ -26,7 +26,7 @@ a:link, a:visited {
 }
 
 a:active, a:hover {
-    cursor: pointer;
+  cursor: pointer;
   color: #D09;
   font-weight: normal; 
   text-decoration: underline;
@@ -73,13 +73,13 @@ div {
   list-style-type: none;
   border-style: none;
   border-radius: 6px;
-    -ms-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    -moz-box-shadow: 0px 1px 4px #999;
-    -webkit-box-shadow: 0px 1px 4px #999;
-    box-shadow: 0px 1px 4px #999;
+  -ms-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  -moz-box-shadow: 0px 1px 4px #999;
+  -webkit-box-shadow: 0px 1px 4px #999;
+  box-shadow: 0px 1px 4px #999;
 }
 
 #header-right ul {
@@ -88,24 +88,18 @@ div {
   list-style: none;
 }
 
-#header-right li {
-  display:inline;
-}
+#header-right li { display: inline; }
 
 #header-right li a {
   margin: 3px 10px 0px 5px;
-  color:#D09;
-  text-decoration:none;
-  float:left;
+  color: #D09;
+  text-decoration: none;
+  float: left;
 }
 
-#header-right li a:hover {
-  border-bottom:solid 2px;
-}
+#header-right li a:hover { border-bottom: solid 2px; }
 
-#header-right li a.lang-selected {
-  border-bottom:solid 2px;
-}
+#header-right li a.lang-selected { border-bottom:solid 2px; }
 
 #main-left {
   overflow: hidden;
@@ -116,16 +110,16 @@ div {
   margin: 0px 10px 0px 0px;
   float: left;
   border-radius: 6px;
-    -ms-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
 }
 
 #main-left ul {
-    margin: 0px;
+  margin: 0px;
   padding: 0px;
-    list-style: none;
+  list-style: none;
 }
 
 #main-left li {
@@ -134,25 +128,33 @@ div {
   text-align: center;
   font-size: 20px;
   margin: 0px 0px 10px 0px;
-    padding: 10px;
-  background: #FFEEFF;
+  padding: 10px;
+  background: #FEF;
   -ms-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -khtml-border-radius: 6px;
-    -moz-box-shadow: 0px 1px 4px #999;
-    -webkit-box-shadow: 0px 1px 4px #999;
-    box-shadow: 0px 1px 4px #999;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  -moz-box-shadow: 0px 1px 4px #999;
+  -webkit-box-shadow: 0px 1px 4px #999;
+  box-shadow: 0px 1px 4px #999;
 }
 
 #main-left li:hover {
-  background: #DD0099;
-    color: #FFEEFF;
+  background: #D09;
+  color: #FEF;
 }
 
 #main-left li.current {
   background: #D09;
   color: #FEF;
+}
+
+#main-left li:hover a {
+  color: #FFF;
+}
+
+#main-left li.current a {
+  color: #FFF;
 }
 
 #main-right {

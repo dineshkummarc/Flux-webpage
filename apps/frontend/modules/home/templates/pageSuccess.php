@@ -1,3 +1,3 @@
-<h1>Manifest</h1>
+<h1><?php echo __('Home')?></h1>
 
-<?php echo 'Name: '.$unit->getName() ?>
+<p><?php echo $text ?></p>

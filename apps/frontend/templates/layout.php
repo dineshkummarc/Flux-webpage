@@ -51,7 +51,7 @@
     <div id="footer">
 			<div id="footer-left">
 				<ul>
-					<li><!-- <g:plusone size="medium"></g:plusone> -->Google+</li>
+					<li><g:plusone size="medium"></g:plusone></li>
 					<li><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.flux.cat" data-count="horizontal">Tweet</a></li>
 					<li><div id="fb-root" style="padding:0px; margin:0px auto"></div><fb:like href="http://www.flux.cat" send="false" layout="button_count" width="110" show_faces="false" font=""></fb:like></li>
 				</ul>
@@ -60,7 +60,7 @@
 				<p><a href="mailto:info@flux.cat">info@flux.cat</a></p>
 			</div>
 			<div id="footer-right">
-				<p><a id="privacitat"></a> · &copy;<?php echo date('Y')?></p>
+				<p><a id="privacitat">Privacy</a> · &copy;<?php echo date('Y')?></p>
 			</div>		
 		</div> 
   </body>

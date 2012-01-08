@@ -1,4 +1,4 @@
-<h1>Projects List</h1>
+<h1><?php echo __('Projects')?></h1>
 
 <table>
   <thead>

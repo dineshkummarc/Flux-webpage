@@ -7,7 +7,7 @@ all:
       name: Empresa
       children: 
         empresa:
-          label: Homepage
+          label: Home
           route: home/page
         serveis:
           label: Projects
