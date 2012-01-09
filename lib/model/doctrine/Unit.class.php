@@ -12,4 +12,10 @@
  */
 class Unit extends BaseUnit
 {
+	
+	public function __toString()
+	{
+		return $this->getName();
+	}
+	
 }

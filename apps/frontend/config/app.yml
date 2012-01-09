@@ -6,15 +6,15 @@ all:
     frontend_menu:
       name: Empresa
       children: 
-        empresa:
+        home:
           label: Home
           route: static/home
-        serveis:
+        projects:
           label: Projects
           route: project/index
-        promocions:
+        team:
           label: Team
           route: static/team
-        colaboradors:
+        contact:
           label: Contact
           route: static/contact

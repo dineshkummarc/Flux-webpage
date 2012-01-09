@@ -1,5 +1,21 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/11-App
 
-# default values
-#all:
+all:
+  menus:
+    backend_menu:
+      name: Empresa
+      children: 
+        units:
+          label: Units
+          route: 
+        projects:
+          label: Projects
+          route: 
+        members:
+          label: Members
+          route: 
+        teams:
+          label: Teams
+          route:
+        

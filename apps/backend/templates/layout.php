@@ -4,11 +4,37 @@
     <?php include_http_metas() ?>
     <?php include_metas() ?>
     <?php include_title() ?>
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
   </head>
   <body>
-    <?php echo $sf_content ?>
+  	<div id="header">
+  		<div id="header-left">
+  			<img src="/images/logo.png" alt="logotip empresa Flux"/>
+  		</div>
+  		<div id="header-right">
+  			Backend
+  		</div>
+  	</div>
+  	<div id="main">
+  		<div id="main-left">
+  			<?php include_component('menu', 'showMenu'); ?>
+  		</div>
+  		<div id="main-right">
+  			<?php echo $sf_content ?>
+  		</div>
+  	</div>
+    <div id="footer">
+			<div id="footer-left">
+				FL
+			</div>
+			<div id="footer-center">
+				FC
+			</div>
+			<div id="footer-right">
+				FR
+			</div>		
+		</div> 
   </body>
 </html>
