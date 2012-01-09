@@ -6,7 +6,8 @@
 	<?php foreach ($projects as $project): ?>
 		<?php if (strlen($project->getLogo()) > 0) echo "<img src='".$project->getLogo()."' alt='Logo ".$project->getName()."' />"; ?>
 		<p><?php echo $project->getUnit()->getName(); ?></p>
-		<p><?php echo $project->getUnit()->getSummary().link_to(' More', 'project/show?id='.$project->getId()); ?></p>
+		<?php echo $project->getUnit()->getSummary(ESC_RAW) ?>
+		<p><?php echo link_to(' More', 'project/show?id='.$project->getId()); ?></p>
 		<p><?php echo __('Website: ').link_to($project->getUnit()->getUrl(), 'http://'.$project->getUnit()->getUrl()); ?></p>
 		<hr/>
 	<?php endforeach; ?>
