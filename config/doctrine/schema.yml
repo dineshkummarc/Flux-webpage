@@ -4,7 +4,7 @@ Unit:
     I18n:
       fields: [ title, subtitle, summary, description ]
   columns:
-    name:           { type: string(255), primary: true }
+    name:           { type: string(255), notnull: true, unique: true }
     title:          { type: string(255), notnull: true }
     subtitle:       { type: string(255) }
     summary:        { type: string(500) }
@@ -23,7 +23,7 @@ Project:
     I18n:
       fields: [ technology ]  
   columns:
-    name:           { type: string(255), primary: true }
+    name:           { type: string(255), notnull: true, unique: true }
     logo:           { type: string(500) }
     logo_bw:        { type: string(500) }
     alt_image:      { type: string(255) }
@@ -42,7 +42,7 @@ Member:
     I18n:
       fields: [ name, surname, address, category, description ]
   columns:
-    user:           { type: string(255), primary: true }
+    user:           { type: string(255), notnull: true, unique: true }
     name:           { type: string(255), notnull: true }
     surname:        { type: string(255), notnull: true }
     address:        { type: string(500) }

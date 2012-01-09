@@ -12,7 +12,7 @@
  * @property string $description
  * @property string $url
  * @property string $image
- * @property Doctrine_Collection $Projects
+ * @property Doctrine_Collection $Project
  * 
  * @method string              getName()        Returns the current record's "name" value
  * @method string              getTitle()       Returns the current record's "title" value
@@ -21,7 +21,7 @@
  * @method string              getDescription() Returns the current record's "description" value
  * @method string              getUrl()         Returns the current record's "url" value
  * @method string              getImage()       Returns the current record's "image" value
- * @method Doctrine_Collection getProjects()    Returns the current record's "Projects" collection
+ * @method Doctrine_Collection getProject()     Returns the current record's "Project" collection
  * @method Unit                setName()        Sets the current record's "name" value
  * @method Unit                setTitle()       Sets the current record's "title" value
  * @method Unit                setSubtitle()    Sets the current record's "subtitle" value
@@ -29,7 +29,7 @@
  * @method Unit                setDescription() Sets the current record's "description" value
  * @method Unit                setUrl()         Sets the current record's "url" value
  * @method Unit                setImage()       Sets the current record's "image" value
- * @method Unit                setProjects()    Sets the current record's "Projects" collection
+ * @method Unit                setProject()     Sets the current record's "Project" collection
  * 
  * @package    fluxweb
  * @subpackage model
@@ -56,28 +56,28 @@ abstract class BaseUnit extends sfDoctrineRecord
              'type' => 'string',
              'length' => 255,
              ));
-        $this->hasColumn('summary', 'string', 255, array(
+        $this->hasColumn('summary', 'string', 500, array(
              'type' => 'string',
-             'length' => 255,
+             'length' => 500,
              ));
-        $this->hasColumn('description', 'string', 2000, array(
+        $this->hasColumn('description', 'string', 4000, array(
              'type' => 'string',
-             'length' => 2000,
+             'length' => 4000,
              ));
-        $this->hasColumn('url', 'string', 255, array(
+        $this->hasColumn('url', 'string', 500, array(
              'type' => 'string',
-             'length' => 255,
+             'length' => 500,
              ));
-        $this->hasColumn('image', 'string', 255, array(
+        $this->hasColumn('image', 'string', 500, array(
              'type' => 'string',
-             'length' => 255,
+             'length' => 500,
              ));
     }
 
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('Project as Projects', array(
+        $this->hasMany('Project', array(
              'local' => 'id',
              'foreign' => 'unit_id'));
 

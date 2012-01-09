@@ -7,14 +7,23 @@
  * 
  * @property integer $position
  * @property boolean $is_active
- * @property Doctrine_Collection $Enumerations
+ * @property Doctrine_Collection $Project
+ * @property Doctrine_Collection $Member
+ * @property Doctrine_Collection $MemberProject
+ * @property Doctrine_Collection $Contact
  * 
- * @method integer             getPosition()     Returns the current record's "position" value
- * @method boolean             getIsActive()     Returns the current record's "is_active" value
- * @method Doctrine_Collection getEnumerations() Returns the current record's "Enumerations" collection
- * @method Enumeration         setPosition()     Sets the current record's "position" value
- * @method Enumeration         setIsActive()     Sets the current record's "is_active" value
- * @method Enumeration         setEnumerations() Sets the current record's "Enumerations" collection
+ * @method integer             getPosition()      Returns the current record's "position" value
+ * @method boolean             getIsActive()      Returns the current record's "is_active" value
+ * @method Doctrine_Collection getProject()       Returns the current record's "Project" collection
+ * @method Doctrine_Collection getMember()        Returns the current record's "Member" collection
+ * @method Doctrine_Collection getMemberProject() Returns the current record's "MemberProject" collection
+ * @method Doctrine_Collection getContact()       Returns the current record's "Contact" collection
+ * @method Enumeration         setPosition()      Sets the current record's "position" value
+ * @method Enumeration         setIsActive()      Sets the current record's "is_active" value
+ * @method Enumeration         setProject()       Sets the current record's "Project" collection
+ * @method Enumeration         setMember()        Sets the current record's "Member" collection
+ * @method Enumeration         setMemberProject() Sets the current record's "MemberProject" collection
+ * @method Enumeration         setContact()       Sets the current record's "Contact" collection
  * 
  * @package    fluxweb
  * @subpackage model
@@ -40,11 +49,20 @@ abstract class BaseEnumeration extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('Project as Enumerations', array(
+        $this->hasMany('Project', array(
              'local' => 'id',
              'foreign' => 'enumeration_id'));
 
-        $timestampable0 = new Doctrine_Template_Timestampable();
-        $this->actAs($timestampable0);
+        $this->hasMany('Member', array(
+             'local' => 'id',
+             'foreign' => 'enumeration_id'));
+
+        $this->hasMany('MemberProject', array(
+             'local' => 'id',
+             'foreign' => 'enumeration_id'));
+
+        $this->hasMany('Contact', array(
+             'local' => 'id',
+             'foreign' => 'enumeration_id'));
     }
 }
