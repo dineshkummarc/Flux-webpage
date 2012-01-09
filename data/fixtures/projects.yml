@@ -1,7 +1,7 @@
 Project:
   skaeda:
     name: Skaeda
-    logo:
+    logo: /images/skaeda-logo.png
     logo_bw:
     alt_image:
     begin_date: '2011-01-17'

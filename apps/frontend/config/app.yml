@@ -8,11 +8,13 @@ all:
       children: 
         empresa:
           label: Home
-          route: home/page
+          route: static/home
         serveis:
           label: Projects
           route: project/index
         promocions:
           label: Team
+          route: static/team
         colaboradors:
           label: Contact
+          route: static/contact

@@ -45,7 +45,7 @@ Unit:
       en:
         title: Skaeda
         subtitle:
-        summary:
+        summary: <p>Sk&aelig;da is a personal manager of favorit webpage links in the cloud.</p>
         description: |
           <p>Sk&aelig;da is a personal manager of favorit webpage links in the cloud with the following features:</p>
           <ul><li><span class='blacktext'>can organize your bookmarks through groups, smart groups and tags</span></li>
@@ -57,7 +57,7 @@ Unit:
       es:
         title: Skaeda
         subtitle:
-        summary:
+        summary: <p>Sk&aelig;da es un gestor personal de enlaces a páginas web favoritas en la nube.</p>
         description: |
           <p>Sk&aelig;da es un gestor personal de enlaces a páginas web favoritas en la nube con las siguientes características:</p>
           <ul><li><span class='blacktext'>organización de bookmarks por grupos, grupos inteligentes y etiquetas</span></li>
@@ -69,7 +69,7 @@ Unit:
       ca:
         title: Skaeda
         subtitle:
-        summary:
+        summary: <p>Sk&aelig;da és un gestor personal d'enllaços a pàgines web favorites al núvol.</p>
         description: |
           <p>Sk&aelig;da és un gestor personal d'enllaços a pàgines web favorites al núvol amb les característiques següents:</p>
           <ul><li><span class='blacktext'>organització de bookmarks per grups, grups intel·ligents i etiquetes</span></li>

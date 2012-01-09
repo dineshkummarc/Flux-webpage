@@ -37,12 +37,6 @@
   	<div id="main">
   		<div id="main-left">
   			<?php include_component('menu', 'showMenu'); ?>
-  			<!-- <ul>
-  				<li id='manifest' class='selected'></li>
-  				<li id='projectes'></li>
-  				<li id='team'></li>
-  				<li id='contact'></li>
-  			</ul> -->
   		</div>
   		<div id="main-right">
   			<?php echo $sf_content ?>
@@ -60,7 +54,7 @@
 				<p><a href="mailto:info@flux.cat">info@flux.cat</a></p>
 			</div>
 			<div id="footer-right">
-				<p><a id="privacitat">Privacy</a> · &copy;<?php echo date('Y')?></p>
+				<p><a id="privacitat"><?php echo __('privacy')?></a> · &copy;<?php echo date('Y')?></p>
 			</div>		
 		</div> 
   </body>
