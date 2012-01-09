@@ -12,4 +12,10 @@
  */
 class Enumeration extends BaseEnumeration
 {
+	
+	public function __toString()
+	{
+		return $this->getPosition().' - '.$this->getIsActive();
+	}
+	
 }
