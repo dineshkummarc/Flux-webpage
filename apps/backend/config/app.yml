@@ -8,14 +8,14 @@ all:
       children: 
         units:
           label: Units
-          route: 
+          route: unit/index
         projects:
           label: Projects
-          route: 
+          route: project/index
         members:
           label: Members
-          route: 
+          route: member/index
         teams:
           label: Teams
-          route:
+          route: team/index
         

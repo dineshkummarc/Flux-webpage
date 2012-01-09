@@ -15,7 +15,9 @@ class Enumeration extends BaseEnumeration
 	
 	public function __toString()
 	{
-		return $this->getPosition().' - '.$this->getIsActive();
+		$status = 'Off';
+		if ($this->getIsActive()) $status = 'On';
+		return $this->getPosition().' - '.$status;
 	}
 	
 }

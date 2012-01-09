@@ -159,7 +159,7 @@ div {
 
 #main-right {
   background-color: #FEF;
-  color: #FFF;
+  color: #222;
   height: 419px;
   width: 600px;
   padding: 0px 20px 20px 20px;
@@ -190,7 +190,7 @@ div {
 
 #main {
   background-color: #FFF;
-  color: #FFF;
+  color: #222;
   height: 440px;
   width: 800px;
   padding: 0px;
@@ -198,7 +198,7 @@ div {
 }
 
 #main p {
-  color: #000;
+  color: #222;
   text-align: justify;
   line-height: 1.5em;
 }
@@ -280,7 +280,7 @@ div {
 }
 
 #footer-center p {
-  color: #DD0099;
+  color: #D09;
   text-align: center;
   font-size: 14px;
   vertical-align: middle;
@@ -292,71 +292,6 @@ div {
   font-size: 14px;
   vertical-align: middle;
 }
-
-#overlay-modal-dialog {
-    visibility: hidden;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-  height: 97%;
-    width: 97%;
-    background: url(../images/background-transparent.png);
-    text-align: center;
-    z-index: 10;
-}
-
-/*
-#overlay-modal-dialog div {
-    font-size: 13px;
-    width: 400px;
-    height: 220px;
-    color: #000;
-    padding: 20px;
-    position: absolute;
-    border: solid 1px #444;
-    background-color:#DFDFDF;
-    background: -webkit-gradient(linear, 0 15%, 0 58%, from(#F7F7F7),  to(#DFDFDF));
-    background: -moz-linear-gradient(center top, #F7F7F7 15%, #DFDFDF 58%);
-    border-radius:         6px 6px 6px 6px;
-    -moz-border-radius:    6px 6px 6px 6px;
-    -ms-border-radius:     6px 6px 6px 6px;
-    -webkit-border-radius: 6px 6px 6px 6px;
-    -khtml-border-radius:  6px 6px 6px 6px;
-    -moz-box-shadow:       8px 8px 15px #555;
-    -webkit-box-shadow:    8px 8px 15px #555;
-    box-shadow:            8px 8px 15px #555;
-}
-
-div#loading-panel {
-    background: #FFA;
-    position: absolute;
-    top: 160px;
-    height: 140px;
-    width: 100%;
-    filter: alpha(opacity=100);
-    opacity: 1;
-    z-index: 2000;
-    padding: 50px 0px 0px 0px;
-    margin: 0px;
-    border: solid 1px #444;
-    background-color:#DFDFDF;
-    background: -webkit-gradient(linear, 0 15%, 0 58%, from(#F7F7F7),  to(#DFDFDF));
-    background: -moz-linear-gradient(center top, #F7F7F7 15%, #DFDFDF 58%);
-    -moz-box-shadow:       0px 8px 15px #555;
-    -webkit-box-shadow:    0px 8px 15px #555;
-    box-shadow:            0px 8px 15px #555;
-}
-
-div#loading-panel p {
-    text-align: center;
-    padding: 30px;
-}
-
-div#loading-panel span {
-    font-weight: bold;
-    font-size: 20px;
-}
-*/
 
 #___plusone_0 {
   padding: 0px;
