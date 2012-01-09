@@ -25,6 +25,7 @@
   			<?php echo $sf_content ?>
   		</div>
   	</div>
+    <!-- 
     <div id="footer">
 			<div id="footer-left">
 				FL
@@ -35,6 +36,7 @@
 			<div id="footer-right">
 				FR
 			</div>		
-		</div> 
+		</div>
+		--> 
   </body>
 </html>

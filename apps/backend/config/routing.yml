@@ -1,3 +1,30 @@
+member_project:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                MemberProject
+    module:               team
+    prefix_path:          /team
+    column:               id
+    with_wildcard_routes: true
+
+member:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Member
+    module:               member
+    prefix_path:          /member
+    column:               id
+    with_wildcard_routes: true
+
+project:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Project
+    module:               project
+    prefix_path:          /project
+    column:               id
+    with_wildcard_routes: true
+
 unit:
   class: sfDoctrineRouteCollection
   options:
