@@ -1,0 +1,45 @@
+Contact:
+  emailsanti:
+    target: santiago@flux.cat
+    Member: santiago
+    Enumeration: one
+    Translation:
+      en:
+        kind: Email
+      es:
+        kind: Email
+      ca:
+        kind: Email
+  emaildavid:
+    target: david@flux.cat
+    Member: david
+    Enumeration: one
+    Translation:
+      en:
+        kind: Email
+      es:
+        kind: Email
+      ca:
+        kind: Email
+  twitterdavid:
+    target: @davidromani
+    Member: david
+    Enumeration: two
+    Translation:
+      en:
+        kind: Twitter
+      es:
+        kind: Twitter
+      ca:
+        kind: Twitter
+  skypedavid:
+    target: gnomehost
+    Member: david
+    Enumeration: three
+    Translation:
+      en:
+        kind: Skype
+      es:
+        kind: Skype
+      ca:
+        kind: Skype

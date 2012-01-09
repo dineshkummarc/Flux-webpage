@@ -1,0 +1,121 @@
+Member:
+  santiago:
+    user: santiago.romani
+    is_partner: 0
+    alt_image:
+    Enumeration: one
+    Translation:
+      en:
+        name: Santiago
+        surname: Romaní
+        address:
+        category:
+        description:
+      es:
+        name: Santiago
+        surname: Romaní
+        address:
+        category:
+        description:
+      ca:
+        name: Santiago
+        surname: Romaní
+        address:
+        category:
+        description:
+  jordir:
+    user: jordi.romani
+    is_partner: 0
+    alt_image:
+    Enumeration: two
+    Translation:
+      en:
+        name: Jorge
+        surname: Romaní
+        address:
+        category:
+        description:
+      es:
+        name: Jorge
+        surname: Romaní
+        address:
+        category:
+        description:
+      ca:
+        name: Jordi
+        surname: Romaní
+        address:
+        category:
+        description:
+  david:
+    user: david.romani
+    is_partner: 0
+    alt_image:
+    Enumeration: three
+    Translation:
+      en:
+        name: David
+        surname: Romaní
+        address:
+        category:
+        description:
+      es:
+        name: David
+        surname: Romaní
+        address:
+        category:
+        description:
+      ca:
+        name: David
+        surname: Romaní
+        address:
+        category:
+        description:
+  antonio:
+    user: antonio.vicien
+    is_partner: 1
+    alt_image:
+    Enumeration: four
+    Translation:
+      en:
+        name: Antonio
+        surname: Vicién
+        address:
+        category:
+        description:
+      es:
+        name: Antonio
+        surname: Vicién
+        address:
+        category:
+        description:
+      ca:
+        name: Antonio
+        surname: Vicién
+        address:
+        category:
+        description:
+  jordip:
+    user: jordi.puiggene
+    is_partner: 0
+    alt_image:
+    Enumeration: five
+    Translation:
+      en:
+        name: Jordi
+        surname: Puiggené
+        address:
+        category:
+        description:
+      es:
+        name: Jordi
+        surname: Puiggené
+        address:
+        category:
+        description:
+      ca:
+        name: Jordi
+        surname: Puiggené
+        address:
+        category:
+        description:

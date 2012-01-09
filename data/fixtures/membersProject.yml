@@ -1,0 +1,89 @@
+MemberProject:
+  santiagoskaeda:
+    Project: skaeda
+    Member: santiago
+    Enumeration: one
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  davidskaeda:
+    Project: skaeda
+    Member: david
+    Enumeration: two
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  antonioskaeda:
+    Project: skaeda
+    Member: antonio
+    Enumeration: three
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  jordipskaeda:
+    Project: skaeda
+    Member: jordip
+    Enumeration: four
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  davidamep:
+    Project: amep
+    Member: david
+    Enumeration: one
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  antonioamep:
+    Project: amep
+    Member: antonio
+    Enumeration: two
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  davidaepla:
+    Project: aepla
+    Member: david
+    Enumeration: one
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  jordipaepla:
+    Project: aepla
+    Member: jordip
+    Enumeration: two
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:

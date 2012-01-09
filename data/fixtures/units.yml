@@ -101,4 +101,27 @@ Unit:
         summary:
         description: |
           <p>Descripció del projecte AMEP</p>
+  aepla:
+    name: AEPLA
+    url: www.aepla.es
+    image:
+    Translation:
+      en:
+        title: AEPLA
+        subtitle:
+        summary:
+        description: |
+          <p>AEPLA description project</p>
+      es:
+        title: AEPLA
+        subtitle:
+        summary:
+        description: |
+          <p>Descripción del proyecto AEPLA</p>
+      ca:
+        title: AEPLA
+        subtitle:
+        summary:
+        description: |
+          <p>Descripció del projecte AEPLA</p>
           
