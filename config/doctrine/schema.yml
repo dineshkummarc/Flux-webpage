@@ -4,34 +4,37 @@ Unit:
     I18n:
       fields: [ title, subtitle, summary, description ]
   columns:
-    name:           { type: string(255), notnull: true, unique: true }
+    name:           { type: string(255), primary: true }
     title:          { type: string(255), notnull: true }
     subtitle:       { type: string(255) }
-    summary:        { type: string(255) }
-    description:    { type: string(2000) }
-    url:            { type: string(255) }
-    image:          { type: string(255) }
+    summary:        { type: string(500) }
+    description:    { type: string(4000) }
+    url:            { type: string(500) }
+    image:          { type: string(500) }
     
 Enumeration:
-  actAs:            { Timestampable: ~ }
   columns:
     position:       { type: integer, notnull: true }
     is_active:      { type: boolean, notnull: true, default: 1 }
     
 Project:
-  actAs:            { Timestampable: ~ }
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [ technology ]  
   columns:
-    unit_id:        { type: integer, notnull: true }
-    enumeration_id: { type: integer, notnull: true }
-    logo:           { type: string(255) }
-    logo_bw:        { type: string(255) }
+    name:           { type: string(255), primary: true }
+    logo:           { type: string(500) }
+    logo_bw:        { type: string(500) }
     alt_image:      { type: string(255) }
     technology:     { type: string(2000) }
     begin_date:     { type: timestamp }
     end_date:       { type: timestamp }
+    unit_id:        { type: integer, notnull: true }
+    enumeration_id: { type: integer, notnull: true }
   relations:
-    Unit:           { onDelete: CASCADE, local: unit_id, foreign: id, foreignAlias: Projects }
-    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
+    Unit:           { onDelete: CASCADE, local: unit_id, foreign: id }
+    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id }
     
 Member:
   actAs:
@@ -39,36 +42,44 @@ Member:
     I18n:
       fields: [ name, surname, address, category, description ]
   columns:
+    user:           { type: string(255), primary: true }
     name:           { type: string(255), notnull: true }
     surname:        { type: string(255), notnull: true }
-    address:        { type: string(255) }
-    category:       { type: string(255), notnull: true }
-    description:    { type: integer, notnull: true }
-    enumeration_id: { type: integer, notnull: true }
+    address:        { type: string(500) }
+    category:       { type: string(255) }
+    description:    { type: string(4000) }
     is_partner:     { type: boolean, notnull: true, default: 0 }
-    alt_image:      { type: string(255) }
+    alt_image:      { type: string(500) }
+    enumeration_id: { type: integer, notnull: true }
   relations:
-    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
+    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id }
 
 MemberProject:
-  actAs:  { Timestampable: ~ }
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [ task ]
   columns:
+    task:           { type: string(2000) }
     project_id:     { type: integer, notnull: true }
     member_id:      { type: integer, notnull: true }
     enumeration_id: { type: integer, notnull: true }
   relations:
-    Project:        { onDelete: CASCADE, local: project_id, foreign: id, foreignAlias: Projects }
-    Member:         { onDelete: CASCADE, local: member_id, foreign: id, foreignAlias: Members }
-    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
+    Project:        { onDelete: CASCADE, local: project_id, foreign: id }
+    Member:         { onDelete: CASCADE, local: member_id, foreign: id }
+    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id }
 
 Contact:
-  actAs:  { Timestampable: ~ }
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [ kind ]
   columns:
+    kind:           { type: string(255), notnull: true }
+    target:         { type: string(500), notnull: true }
     member_id:      { type: integer, notnull: true }
     enumeration_id: { type: integer, notnull: true }
-    kind:           { type: string(255), notnull: true }
-    target:         { type: string(255), notnull: true }
   relations:
-    Member:         { onDelete: CASCADE, local: member_id, foreign: id, foreignAlias: Members }
-    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id, foreignAlias: Enumerations }
+    Member:         { onDelete: CASCADE, local: member_id, foreign: id }
+    Enumeration:    { onDelete: CASCADE, local: enumeration_id, foreign: id }
     
