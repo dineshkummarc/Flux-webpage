@@ -1,3 +1,5 @@
+<h1><?php echo __('projects')?></h1>
+
 <table>
   <tbody>
     <tr>

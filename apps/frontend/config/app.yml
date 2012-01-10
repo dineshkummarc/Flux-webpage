@@ -7,14 +7,14 @@ all:
       name: Empresa
       children: 
         home:
-          label: Home
+          label: home
           route: static/home
         projects:
-          label: Projects
+          label: projects
           route: project/index
         team:
-          label: Team
+          label: team
           route: static/team
         contact:
-          label: Contact
+          label: contact
           route: static/contact

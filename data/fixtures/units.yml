@@ -9,34 +9,34 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Flux is a young company dedicated to software development and applications. 
+          <p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) is a young company dedicated to software development. 
           Born of effort and enthusiasm to achieve the following objectives:</p>
-          <ul><li><span class='blacktext'>produce and comercialize software as a service</span></li>
-          <li><span class='blacktext'>develop easy and functional web applications</span></li>
-          <li><span class='blacktext'>create innovative user interfaces</span></li>
-          <li><span class='blacktext'>improve the user experience</span></li></ul>
+          <ul><li><span class='blacktext'>Produce and comercialize Software As A Service [<a href="http://en.wikipedia.org/wiki/Software_as_a_service">SAAS</a>]</span></li>
+          <li><span class='blacktext'>Develop easy and functional applications</span></li>
+          <li><span class='blacktext'>Create innovative user interfaces</span></li>
+          <li><span class='blacktext'>Improve the User eXperience [<a href="http://en.wikipedia.org/wiki/User_experience">UX</a>]</span></li></ul>
       es:
         title: Homepage
         subtitle:
         summary:
         description: |
-          <p>Flux es una empresa joven dedicada al desarrollo software y aplicaciones. 
+          <p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) es una empresa joven dedicada al desarrollo de software. 
           Nace del esfuerzo y la ilusión de conseguir los siguientes objetivos:</p>
-          <ul><li><span class='blacktext'>producir y comercializar software como servicio</span></li>
-          <li><span class='blacktext'>desarollar aplicaciones web funcionales y sencillas</span></li>
-          <li><span class='blacktext'>crear interfícies de usuario innovadoras, flexibles y útiles</span></li>
-          <li><span class='blacktext'>mejorar la experiencia de usuario</span></li></ul>
+          <ul><li><span class='blacktext'>Producir y comercializar software como servicio [<a href="http://es.wikipedia.org/wiki/Software_como_servicio">SAAS</a>]</span></li>
+          <li><span class='blacktext'>Desarollar aplicaciones funcionales y sencillas</span></li>
+          <li><span class='blacktext'>Crear interfícies de usuario innovadoras, flexibles y útiles</span></li>
+          <li><span class='blacktext'>Mejorar la experiencia de usuario [<a href="http://es.wikipedia.org/wiki/Experiencia_de_usuario">UX</a>]</span></li></ul>
       ca:
         title: Homepage
         subtitle:
         summary:
         description: |
-          <p>Flux és una empresa jove dedicada al desenvolupament de software i aplicacions. 
+          <p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) és una empresa jove dedicada al desenvolupament de software. 
           Neix de l'esforç i la il·lusió d'aconseguir els objectius següents:</p>
-          <ul><li><span class='blacktext'>produir i comercialitzar programari com a servei</span></li>
-          <li><span class='blacktext'>desenvolupar aplicacions web funcionals i senzilles</span></li>
-          <li><span class='blacktext'>crear interfícies d'usuari innovadores, flexibles i útils</span></li>
-          <li><span class='blacktext'>millorar l'experiència d'usuari</span><li></ul>
+          <ul><li><span class='blacktext'>Produir i comercialitzar programari com a servei [<a href="http://es.wikipedia.org/wiki/Software_como_servicio">SAAS</a>]</span></li>
+          <li><span class='blacktext'>Desenvolupar aplicacions funcionals i senzilles</span></li>
+          <li><span class='blacktext'>Crear interfícies d'usuari innovadores, flexibles i útils</span></li>
+          <li><span class='blacktext'>Millorar l'experiència d'usuari [<a href="http://ca.wikipedia.org/wiki/Experi%C3%A8ncia_d%27usuari">UX</a>]</span></li></ul>
   skaeda:
     name: Skaeda
     url: www.skaeda.com

@@ -1,4 +1,4 @@
-<h1><?php echo __('Projects')?></h1>
+<h1><?php echo __('projects')?></h1>
 
 <?php if (count($projects) == 0): ?>
 	<p><?php echo __('There are no projects') ?></p>
