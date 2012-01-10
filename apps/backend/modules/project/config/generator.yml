@@ -14,8 +14,16 @@ generator:
     config:
       actions: ~
       fields:  ~
-      list:    ~
-      filter:  ~
+      list:
+        title:      List of projects
+        display:    [ name, position, active, logo, begin_date, end_date ]
+        fields:
+          begin_date:     { label: Begin, date_format: dd/MM/y }
+          end_date:       { label: End, date_format: dd/MM/y }
+      filter:
+        display:    [ name, logo, begin_date, end_date ]
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:
+        title:      Edit project '%%name%%'
+      new:
+        title:      New project

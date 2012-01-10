@@ -14,8 +14,13 @@ generator:
     config:
       actions: ~
       fields:  ~
-      list:    ~
-      filter:  ~
+      list:
+        title:      List of units
+        display:    [ name, url, image ]
+      filter:
+        display:    [ name, url, image ]
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:
+        title:      Edit unit '%%name%%'
+      new:
+        title:      New unit

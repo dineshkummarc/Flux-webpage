@@ -12,4 +12,15 @@
  */
 class Project extends BaseProject
 {
+	
+	public function getPosition()
+	{
+		return $this->Enumeration->getPosition();
+	}
+	
+	public function getActive()
+	{
+		if ($this->Enumeration->getIsActive()) return 'Yes'; else return 'No';
+	}
+	
 }
