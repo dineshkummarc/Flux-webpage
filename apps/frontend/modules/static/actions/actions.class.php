@@ -13,6 +13,17 @@ class staticActions extends sfActions
 	
   public function executeHome(sfWebRequest $request)
   {
+  	if (!$request->getParameter('sf_culture')) {
+  		if ($this->getUser()->isFirstRequest()) {
+  			$culture = $request->getPreferredCulture(array('en', 'es', 'ca'));
+  			$this->getUser()->setCulture($culture);
+  			$this->getUser()->isFirstRequest(false);
+  		}	else {
+  			$culture = $this->getUser()->getCulture();
+  		}
+  		$this->redirect('localized_homepage');
+  	}
+  	//print ('Culture: '.$this->getUser()->getCulture());
   	$this->text = Doctrine::getTable('Unit')->getHomepage()->getDescription();
   }
   

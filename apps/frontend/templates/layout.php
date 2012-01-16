@@ -28,9 +28,9 @@
   		</div>
   		<div id="header-right">
   			<ul>
-  				<li><a id="leng">eng</a></li>
-  				<li><a id="lesp">esp</a></li>
-  				<li><a id="lcat">cat</a></li>
+  				<li><a id="leng" <?php if ($sf_user->getCulture() == 'en') echo 'class="lang-selected"'?>>eng</a></li>
+  				<li><a id="lesp" <?php if ($sf_user->getCulture() == 'es') echo 'class="lang-selected"'?>>esp</a></li>
+  				<li><a id="lcat" <?php if ($sf_user->getCulture() == 'ca') echo 'class="lang-selected"'?>>cat</a></li>
   			</ul>
   		</div>
   	</div>

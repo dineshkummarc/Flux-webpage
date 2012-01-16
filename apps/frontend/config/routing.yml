@@ -2,6 +2,12 @@
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
 # default rules
+localized_homepage:
+  url:   /:sf_culture/
+  param: { module: static, action: home }
+  requirements:
+    sf_culture: (?:fr|en)
+    
 homepage:
   url:   /
   param: { module: default, action: index }
