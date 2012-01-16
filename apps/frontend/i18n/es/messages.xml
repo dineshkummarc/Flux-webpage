@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2012-01-16T18:36:07Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>privacy</source>
+        <target>privacidad</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>projects</source>
+        <target>proyectos</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>There are no projects</source>
+        <target>No hay ningún proyecto</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Website: </source>
+        <target>Página web: </target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>home</source>
+        <target>inicio</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>services</source>
+        <target>servicios</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>team</source>
+        <target>equipo</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>contact</source>
+        <target>contacto</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
