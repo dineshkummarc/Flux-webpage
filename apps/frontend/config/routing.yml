@@ -7,7 +7,11 @@ localized_homepage:
   param: { module: static, action: home }
   requirements:
     sf_culture: (?:fr|en)
-    
+
+change_language:
+  url:   /change_language
+  param: { module: language, action: changeLanguage }
+  
 homepage:
   url:   /
   param: { module: default, action: index }
