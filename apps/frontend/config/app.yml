@@ -12,6 +12,9 @@ all:
         projects:
           label: projects
           route: project/index
+        services:
+          label: services
+          route: static/services
         team:
           label: team
           route: static/team

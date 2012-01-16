@@ -24,7 +24,16 @@ class staticActions extends sfActions
   		$this->redirect('localized_homepage');
   	}
   	//print ('Culture: '.$this->getUser()->getCulture());
-  	$this->text = Doctrine::getTable('Unit')->getHomepage()->getDescription();
+  	$unit = Doctrine::getTable('Unit')->getHomepage();
+  	$this->title = $unit->getTitle(); 
+  	$this->text  = $unit->getDescription();
+  }
+  
+  public function executeServices(sfWebRequest $request)
+  {
+  	$unit = Doctrine::getTable('Unit')->getServices();
+  	$this->title = $unit->getTitle();
+  	$this->text  = $unit->getDescription();  	
   }
   
   public function executeTeam(sfWebRequest $request)

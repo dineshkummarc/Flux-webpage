@@ -5,7 +5,7 @@ Unit:
     image:
     Translation:
       en:
-        title: Homepage
+        title: home
         subtitle:
         summary:
         description: |
@@ -16,7 +16,7 @@ Unit:
           <li><span class='blacktext'>Create innovative user interfaces</span></li>
           <li><span class='blacktext'>Improve the User eXperience [<a href="http://en.wikipedia.org/wiki/User_experience">UX</a>]</span></li></ul>
       es:
-        title: Homepage
+        title: inicio
         subtitle:
         summary:
         description: |
@@ -27,7 +27,7 @@ Unit:
           <li><span class='blacktext'>Crear interfícies de usuario innovadoras, flexibles y útiles</span></li>
           <li><span class='blacktext'>Mejorar la experiencia de usuario [<a href="http://es.wikipedia.org/wiki/Experiencia_de_usuario">UX</a>]</span></li></ul>
       ca:
-        title: Homepage
+        title: inici
         subtitle:
         summary:
         description: |
@@ -37,6 +37,29 @@ Unit:
           <li><span class='blacktext'>Desenvolupar aplicacions funcionals i senzilles</span></li>
           <li><span class='blacktext'>Crear interfícies d'usuari innovadores, flexibles i útils</span></li>
           <li><span class='blacktext'>Millorar l'experiència d'usuari [<a href="http://ca.wikipedia.org/wiki/Experi%C3%A8ncia_d%27usuari">UX</a>]</span></li></ul>
+  services:
+    name: Services
+    url: 
+    image:
+    Translation:
+      en:
+        title: services
+        subtitle:
+        summary:
+        description: |
+          <p>Services</p>
+      es:
+        title: servicios
+        subtitle:
+        summary:
+        description: |
+          <p>Servicios</p>
+      ca:
+        title: serveis
+        subtitle:
+        summary:
+        description: |
+          <p>Serveis</p>
   skaeda:
     name: Skaeda
     url: www.skaeda.com
