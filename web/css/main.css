@@ -102,7 +102,6 @@ div {
 #header-right li a.lang-selected { border-bottom:solid 2px; }
 
 #main-left {
-  overflow: hidden;
   background-color: transparent;
   color: #FFF;
   width: 135px;
@@ -160,7 +159,7 @@ div {
 #main-right {
   background-color: #FEF;
   color: #222;
-  height: 419px;
+  height: auto;
   width: 600px;
   padding: 0px 20px 20px 20px;
   margin: 0px;
@@ -191,10 +190,9 @@ div {
 #main {
   background-color: #FFF;
   color: #222;
-  height: 440px;
   width: 800px;
-  padding: 0px;
-  margin: 10px auto 10px auto;
+  padding: 0;
+  margin: 10px auto;
 }
 
 #main p {
@@ -237,6 +235,7 @@ div {
 }
 
 #footer {
+	clear: both;
   width: 800px;
   height: 40px;
   padding: 0px;

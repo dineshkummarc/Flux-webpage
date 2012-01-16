@@ -44,11 +44,13 @@
   	</div>
     <div id="footer">
 			<div id="footer-left">
+				<!-- 
 				<ul>
 					<li><g:plusone size="medium"></g:plusone></li>
 					<li><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.flux.cat" data-count="horizontal">Tweet</a></li>
 					<li><div id="fb-root" style="padding:0px; margin:0px auto"></div><fb:like href="http://www.flux.cat" send="false" layout="button_count" width="110" show_faces="false" font=""></fb:like></li>
 				</ul>
+				-->
 			</div>
 			<div id="footer-center">
 				<p><a href="mailto:info@flux.cat">info@flux.cat</a></p>

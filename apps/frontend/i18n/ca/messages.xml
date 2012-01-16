@@ -36,6 +36,10 @@
         <source>contact</source>
         <target>contacte</target>
       </trans-unit>
+      <trans-unit id="9">
+        <source>Read more</source>
+        <target>Llegir més</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
