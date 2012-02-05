@@ -162,7 +162,7 @@ div {
   height: auto;
   width: 600px;
   padding: 0px 20px 20px 20px;
-  margin: 0px;
+  margin: 0px 0px 20px 0px;
   float: left;
   border-radius: 6px;
     -ms-border-radius: 6px;
