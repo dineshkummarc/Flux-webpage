@@ -6,7 +6,7 @@ all:
     frontend_menu:
       name: Empresa
       children: 
-        home:
+        casa:
           label: home
           route: static/home
         projects:

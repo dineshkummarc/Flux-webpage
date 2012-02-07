@@ -29,7 +29,7 @@ a:active, a:hover {
   cursor: pointer;
   color: #D09;
   font-weight: normal; 
-  text-decoration: underline;
+  text-decoration: none;
 }
   
 div {
@@ -127,7 +127,6 @@ div {
   text-align: center;
   font-size: 20px;
   margin: 0px 0px 10px 0px;
-  padding: 10px;
   background: #FEF;
   -ms-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -136,6 +135,11 @@ div {
   -moz-box-shadow: 0px 1px 4px #999;
   -webkit-box-shadow: 0px 1px 4px #999;
   box-shadow: 0px 1px 4px #999;
+}
+
+#main-left li a {
+	display: block;
+	padding: 10px;
 }
 
 #main-left li:hover {
