@@ -1,26 +1,107 @@
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
-# default rules
-localized_homepage:
-  url:   /:sf_culture/
-  param: { module: static, action: home }
-  requirements:
-    sf_culture: (?:ca|es|en)
-
 change_language:
   url:   /change_language
   param: { module: language, action: changeLanguage }
-  
-#homepage:
-#  url:   /
-#  param: { module: default, action: index }
 
-# generic rules
-# please, remove them by adding more specific rules
+projectes_es:
+  url:  /:sf_culture/proyectos
+  param: { module: project, action: index }
+  requirements:
+    sf_culture: es
+
+projectes_ca:
+  url:  /:sf_culture/projectes
+  param: { module: project, action: index }
+  requirements:
+    sf_culture: ca
+
+projectes_en:
+  url:  /:sf_culture/projects
+  param: { module: project, action: index }
+  requirements:
+    sf_culture: en
+    
+serveis_es:
+  url:  /:sf_culture/servicios
+  param: { module: static, action: services }
+  requirements:
+    sf_culture: es
+
+serveis_ca:
+  url:  /:sf_culture/serveis
+  param: { module: static, action: services }
+  requirements:
+    sf_culture: ca
+    
+serveis_en:
+  url:  /:sf_culture/services
+  param: { module: static, action: services }
+  requirements:
+    sf_culture: en
+    
+equip_es:
+  url:  /:sf_culture/equipo
+  param: { module: static, action: team }
+  requirements:
+    sf_culture: es
+
+equip_ca:
+  url:  /:sf_culture/equip
+  param: { module: static, action: team }
+  requirements:
+    sf_culture: ca
+
+equip_en:
+  url:  /:sf_culture/team
+  param: { module: static, action: team }
+  requirements:
+    sf_culture: en
+
+contacte_es:
+  url:  /:sf_culture/contacto
+  param: { module: static, action: contact }
+  requirements:
+    sf_culture: es
+    
+contacte_ca:
+  url:  /:sf_culture/contacte
+  param: { module: static, action: contact }
+  requirements:
+    sf_culture: ca
+    
+contacte_en:
+  url:  /:sf_culture/contact
+  param: { module: static, action: contact }
+  requirements:
+    sf_culture: en
+    
+homepage_es:
+  url:   /:sf_culture/inicio
+  param: { module: static, action: home }
+  requirements:
+    sf_culture: es
+ 
+homepage_ca:
+  url:   /:sf_culture/inici
+  param: { module: static, action: home }
+  requirements:
+    sf_culture: ca
+ 
+homepage_en:
+  url:   /:sf_culture/home
+  param: { module: static, action: home }
+  requirements:
+    sf_culture: en
+ 
 default_index:
   url:   /:sf_culture/:module
   param: { action: index }
+  requirements:
+    sf_culture: (?:ca|es|en)
 
 default:
   url:   /:sf_culture/:module/:action/*
+  requirements:
+    sf_culture: (?:ca|es|en)
