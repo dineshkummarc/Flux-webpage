@@ -15,6 +15,8 @@ class projectActions extends sfActions
   {
     $this->projects = Doctrine_Core::getTable('Project')
       ->createQuery('a')
+      ->leftJoin('a.Enumeration e')
+      ->where('e.is_active = 1')
       ->execute();
   }
 

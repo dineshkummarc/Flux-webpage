@@ -20,8 +20,9 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) es una empresa joven dedicada al desarrollo de software. 
-          Nace del esfuerzo y la ilusión de conseguir los siguientes objetivos:</p>
+          <p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) es una empresa joven dedicada al desarrollo de software especializada en 
+          aplicaciones web y aplicaciones para dispositivos móviles iOS y Android. 
+          Nuestra ilusión y esfuerzo busca conseguir los siguientes objetivos:</p>
           <ul><li><span class='blacktext'>Producir y comercializar software como servicio [<a href="http://es.wikipedia.org/wiki/Software_como_servicio">SAAS</a>]</span></li>
           <li><span class='blacktext'>Desarollar aplicaciones funcionales y sencillas</span></li>
           <li><span class='blacktext'>Crear interfícies de usuario innovadoras, flexibles y útiles</span></li>
@@ -31,8 +32,9 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) és una empresa jove dedicada al desenvolupament de software. 
-          Neix de l'esforç i la il·lusió d'aconseguir els objectius següents:</p>
+          <p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) és una empresa jove dedicada al desenvolupament de software especialitzada amb 
+          aplicacions web i aplicacions per a dispositius mòbils iOS i Android. 
+          La nostra il·lusió i esforç cerca aconseguir els objectius següents:</p>
           <ul><li><span class='blacktext'>Produir i comercialitzar programari com a servei [<a href="http://es.wikipedia.org/wiki/Software_como_servicio">SAAS</a>]</span></li>
           <li><span class='blacktext'>Desenvolupar aplicacions funcionals i senzilles</span></li>
           <li><span class='blacktext'>Crear interfícies d'usuari innovadores, flexibles i útils</span></li>
