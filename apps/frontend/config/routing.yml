@@ -5,6 +5,24 @@ change_language:
   url:   /change_language
   param: { module: language, action: changeLanguage }
 
+projectes_show_es:
+  url:  /:sf_culture/proyecto/
+  param: { module: project, action: show }
+  requirements:
+    sf_culture: es
+    
+projectes_show_ca:
+  url:  /:sf_culture/projecte/
+  param: { module: project, action: show }
+  requirements:
+    sf_culture: ca
+    
+projectes_show_en:
+  url:  /:sf_culture/proyect/
+  param: { module: project, action: show }
+  requirements:
+    sf_culture: en
+    
 projectes_es:
   url:  /:sf_culture/proyectos
   param: { module: project, action: index }
