@@ -76,7 +76,7 @@ Unit:
           <ul><li><span class='blacktext'>can organize your bookmarks through groups, smart groups and tags</span></li>
           <li><span class='blacktext'>webpage preview with small screenshots</span></li>
           <li><span class='blacktext'>can share easily on social networks</span></li>
-          <li><span class='blacktext'>true fast-running web application based on HTML5 WebSocket</span></li>
+          <li><span class='blacktext'>true fast-running web application based on HTML5 [<a href="http://en.wikipedia.org/wiki/WebSocket">Websocket</a>]</span></li>
           <li><span class='blacktext'>assign bookmarks to groups or tags with drag and drop</span></li>
           <li><span class='blacktext'>import end export your bookmarks</span></li></ul>
       es:
@@ -88,7 +88,7 @@ Unit:
           <ul><li><span class='blacktext'>organización de bookmarks por grupos, grupos inteligentes y etiquetas</span></li>
           <li><span class='blacktext'>previsualitzación de bookmarks en miniatura</span></li>
           <li><span class='blacktext'>permite compartir fácilmente en redes sociales</span></li>
-          <li><span class='blacktext'>aplicación web en tiempo real verdadera basada en la tecnologia HTML5 WebSocket</span></li>
+          <li><span class='blacktext'>aplicación web en tiempo real verdadero basada en la tecnologia HTML5 [<a href="http://es.wikipedia.org/wiki/WebSocket">Websocket</a>]</span></li>
           <li><span class='blacktext'>arrastra y suelta per asignar bookmarks a grupos o etiquetas</span></li>
           <li><span class='blacktext'>importa y exporta tus bookmarks</span></li></ul>
       ca:
@@ -100,9 +100,9 @@ Unit:
           <ul><li><span class='blacktext'>organització de bookmarks per grups, grups intel·ligents i etiquetes</span></li>
           <li><span class='blacktext'>previsualització de bookmarks amb miniatura</span></li>
           <li><span class='blacktext'>permet compartir fàcilment amb xarxes socials</span></li>
-          <li><span class='blacktext'>aplicació web en temps real verdadera basada amb la tecnologia HTML5 WebSocket</span></li>
+          <li><span class='blacktext'>aplicació web en temps real verdader basada amb la tecnologia HTML5 [<a href="http://ca.wikipedia.org/wiki/WebSocket">Websocket</a>]</span></li>
           <li><span class='blacktext'>arrastra i solta per assignar bookmarks a grups o etiquetes</span></li>
-          <li><span class='blacktext'>importa i exporta els teus bookmarks</span><li></ul>
+          <li><span class='blacktext'>importa i exporta els teus bookmarks</span></li></ul>
   amep:
     name: AMEP
     url: www.automecanicaeduardoporres.com
