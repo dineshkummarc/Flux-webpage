@@ -16,20 +16,18 @@ abstract class BaseContactForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'             => new sfWidgetFormInputHidden(),
+      'target'         => new sfWidgetFormTextarea(),
       'member_id'      => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Member'), 'add_empty' => false)),
       'enumeration_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Enumeration'), 'add_empty' => false)),
-      'kind'           => new sfWidgetFormInputText(),
-      'target'         => new sfWidgetFormInputText(),
       'created_at'     => new sfWidgetFormDateTime(),
       'updated_at'     => new sfWidgetFormDateTime(),
     ));
 
     $this->setValidators(array(
       'id'             => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
+      'target'         => new sfValidatorString(array('max_length' => 500)),
       'member_id'      => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Member'))),
       'enumeration_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Enumeration'))),
-      'kind'           => new sfValidatorString(array('max_length' => 255)),
-      'target'         => new sfValidatorString(array('max_length' => 255)),
       'created_at'     => new sfValidatorDateTime(),
       'updated_at'     => new sfValidatorDateTime(),
     ));

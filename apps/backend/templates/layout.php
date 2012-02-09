@@ -19,7 +19,7 @@
   	</div>
   	<div id="main">
   		<div id="main-left">
-  			<?php include_component('menu', 'showMenu'); ?>
+  			<?php if ($sf_user->isAuthenticated()) include_component('menu', 'showMenu'); ?>
   		</div>
   		<div id="main-right">
   			<?php echo $sf_content ?>

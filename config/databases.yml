@@ -25,3 +25,9 @@ test:
       username: userflux
       password: flux
       
+      
+      
+      
+## Parametros de acceso al backend
+# ./symfony guard:create-user admin@flux.cat adminfluxweb 4ndr01d34ndr0 --env=prod
+# ./symfony guard:create-user admin@flux.cat adminfluxweb 4ndr01d34ndr0

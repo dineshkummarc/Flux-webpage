@@ -18,9 +18,9 @@ abstract class BaseMemberTranslationForm extends BaseFormDoctrine
       'id'          => new sfWidgetFormInputHidden(),
       'name'        => new sfWidgetFormInputText(),
       'surname'     => new sfWidgetFormInputText(),
-      'address'     => new sfWidgetFormInputText(),
+      'address'     => new sfWidgetFormTextarea(),
       'category'    => new sfWidgetFormInputText(),
-      'description' => new sfWidgetFormInputText(),
+      'description' => new sfWidgetFormTextarea(),
       'lang'        => new sfWidgetFormInputHidden(),
     ));
 
@@ -28,9 +28,9 @@ abstract class BaseMemberTranslationForm extends BaseFormDoctrine
       'id'          => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'name'        => new sfValidatorString(array('max_length' => 255)),
       'surname'     => new sfValidatorString(array('max_length' => 255)),
-      'address'     => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'category'    => new sfValidatorString(array('max_length' => 255)),
-      'description' => new sfValidatorInteger(),
+      'address'     => new sfValidatorString(array('max_length' => 500, 'required' => false)),
+      'category'    => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'description' => new sfValidatorString(array('max_length' => 4000, 'required' => false)),
       'lang'        => new sfValidatorChoice(array('choices' => array($this->getObject()->get('lang')), 'empty_value' => $this->getObject()->get('lang'), 'required' => false)),
     ));
 

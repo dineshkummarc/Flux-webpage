@@ -16,23 +16,35 @@ abstract class BaseProjectForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'             => new sfWidgetFormInputHidden(),
+      'name'           => new sfWidgetFormInputText(),
+      'logo'           => new sfWidgetFormTextarea(),
+      'logo_bw'        => new sfWidgetFormTextarea(),
+      'alt_image'      => new sfWidgetFormInputText(),
+      'begin_date'     => new sfWidgetFormDateTime(),
+      'end_date'       => new sfWidgetFormDateTime(),
       'unit_id'        => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Unit'), 'add_empty' => false)),
       'enumeration_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Enumeration'), 'add_empty' => false)),
-      'logo'           => new sfWidgetFormInputText(),
-      'alt_image'      => new sfWidgetFormInputText(),
       'created_at'     => new sfWidgetFormDateTime(),
       'updated_at'     => new sfWidgetFormDateTime(),
     ));
 
     $this->setValidators(array(
       'id'             => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
+      'name'           => new sfValidatorString(array('max_length' => 255)),
+      'logo'           => new sfValidatorString(array('max_length' => 500, 'required' => false)),
+      'logo_bw'        => new sfValidatorString(array('max_length' => 500, 'required' => false)),
+      'alt_image'      => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'begin_date'     => new sfValidatorDateTime(array('required' => false)),
+      'end_date'       => new sfValidatorDateTime(array('required' => false)),
       'unit_id'        => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Unit'))),
       'enumeration_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Enumeration'))),
-      'logo'           => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'alt_image'      => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'created_at'     => new sfValidatorDateTime(),
       'updated_at'     => new sfValidatorDateTime(),
     ));
+
+    $this->validatorSchema->setPostValidator(
+      new sfValidatorDoctrineUnique(array('model' => 'Project', 'column' => array('name')))
+    );
 
     $this->widgetSchema->setNameFormat('project[%s]');
 

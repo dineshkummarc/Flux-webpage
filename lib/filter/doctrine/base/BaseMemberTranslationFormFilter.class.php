@@ -16,8 +16,8 @@ abstract class BaseMemberTranslationFormFilter extends BaseFormFilterDoctrine
       'name'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'surname'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'address'     => new sfWidgetFormFilterInput(),
-      'category'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'description' => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'category'    => new sfWidgetFormFilterInput(),
+      'description' => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
@@ -25,7 +25,7 @@ abstract class BaseMemberTranslationFormFilter extends BaseFormFilterDoctrine
       'surname'     => new sfValidatorPass(array('required' => false)),
       'address'     => new sfValidatorPass(array('required' => false)),
       'category'    => new sfValidatorPass(array('required' => false)),
-      'description' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'description' => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('member_translation_filters[%s]');
@@ -50,7 +50,7 @@ abstract class BaseMemberTranslationFormFilter extends BaseFormFilterDoctrine
       'surname'     => 'Text',
       'address'     => 'Text',
       'category'    => 'Text',
-      'description' => 'Number',
+      'description' => 'Text',
       'lang'        => 'Text',
     );
   }

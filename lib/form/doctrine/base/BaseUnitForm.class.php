@@ -17,8 +17,8 @@ abstract class BaseUnitForm extends BaseFormDoctrine
     $this->setWidgets(array(
       'id'         => new sfWidgetFormInputHidden(),
       'name'       => new sfWidgetFormInputText(),
-      'url'        => new sfWidgetFormInputText(),
-      'image'      => new sfWidgetFormInputText(),
+      'url'        => new sfWidgetFormTextarea(),
+      'image'      => new sfWidgetFormTextarea(),
       'created_at' => new sfWidgetFormDateTime(),
       'updated_at' => new sfWidgetFormDateTime(),
     ));
@@ -26,8 +26,8 @@ abstract class BaseUnitForm extends BaseFormDoctrine
     $this->setValidators(array(
       'id'         => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'name'       => new sfValidatorString(array('max_length' => 255)),
-      'url'        => new sfValidatorString(array('max_length' => 255, 'required' => false)),
-      'image'      => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'url'        => new sfValidatorString(array('max_length' => 500, 'required' => false)),
+      'image'      => new sfValidatorString(array('max_length' => 500, 'required' => false)),
       'created_at' => new sfValidatorDateTime(),
       'updated_at' => new sfValidatorDateTime(),
     ));
