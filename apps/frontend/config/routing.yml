@@ -102,6 +102,8 @@ default_index:
     sf_culture: (?:ca|es|en)
 
 default:
-  url:   /:sf_culture/:module/:action/*
-  requirements:
-    sf_culture: (?:ca|es|en)
+  url: /
+  param: { sf_culture: es, module: static, action: home }
+#  url:   /:sf_culture/:module/:action/*
+#  requirements:
+#    sf_culture: (?:ca|es|en)
