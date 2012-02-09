@@ -40,6 +40,14 @@
         <source>Read more</source>
         <target>Leer más</target>
       </trans-unit>
+      <trans-unit id="10">
+        <source>To read more information about this project click </source>
+        <target>Para leer más información sobre este proyecto haz click </target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>here</source>
+        <target>aquí</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
