@@ -58,19 +58,19 @@ Member:
         surname: Romaní
         address:
         category: Founding partner, CEO & programmer
-        description:
+        description: Software Engineer
       es:
         name: David
         surname: Romaní
         address:
         category: Socio fundador, gerente y programador
-        description:
+        description: Ingenierio Técnico Informática de Sistemas
       ca:
         name: David
         surname: Romaní
         address:
         category: Soci fundador, gerent i programador
-        description:
+        description: Enginyer Tècnic Informàtica de Sistemes
   antonio:
     user: antonio.vicien
     is_partner: 1
