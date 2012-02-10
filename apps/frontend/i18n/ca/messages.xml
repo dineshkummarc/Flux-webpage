@@ -68,6 +68,22 @@
         <source>Invalid.</source>
         <target>Invàlid.</target>
       </trans-unit>
+      <trans-unit id="17">
+        <source>Invalid: 3 characters min.</source>
+        <target>Invàlid: mínim 3 caràcters.</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Invalid: 9 characters min.</source>
+        <target>Invàlid: mínim 9 caràcters.</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Invalid: 255 characters max.</source>
+        <target>Invàlid: màxim 255 caràcters.</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Invalid: 4000 characters max.</source>
+        <target>Invàlid: màxim 4000 caràcters.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
