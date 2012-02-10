@@ -75,7 +75,7 @@ Unit:
           <p>Si deseas contactar con nosotros para contratarnos, pedir un presupuesto o ampliar más información sobre lo que podemos hacer para mejorar la productividad de su negocio 
           puede encontrarnos</p>
           <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301</li>
-          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call' id="skype-icon">gnomehost</a></li>
+          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a></li>
           <li><span class='blacktext'>por Twitter en:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
           <li><span class='blacktext'>o simplemente escribiendo un texto breve en el formulario y contactaremos con usted en la mayor brevedad posible</span></li></ul>
       es:
@@ -86,7 +86,7 @@ Unit:
           <p>Si deseas contactar con nosotros para contratarnos, pedir un presupuesto o ampliar más información sobre lo que podemos hacer para mejorar la productividad de su negocio 
           puede encontrarnos</p>
           <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301</li>
-          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call' id="skype-icon">gnomehost</a></li>
+          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a></li>
           <li><span class='blacktext'>por Twitter en:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
           <li><span class='blacktext'>o simplemente escribiendo un texto breve en el formulario y contactaremos con usted en la mayor brevedad posible</span></li></ul>
       ca:

@@ -222,6 +222,36 @@ div {
   text-align: center;
 }
 
+form.contactForm {
+	display: block;
+}
+
+form.contactForm label {
+  display: block;
+  margin: 20px 0 5px;
+}
+
+form.contactForm input, textarea {
+	display: block;
+  width: 100%;
+  border: solid 1px #D09;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+form.contactForm textarea {
+  resize: none;
+}
+
+form.contactForm input.customSubmit {
+	margin-top: 25px;
+  background: #D09;
+  color: white;
+  font-weight: bold;
+  width: 20%;
+  box-shadow: 1px 1px 3px #888;
+}
+
 #footer-left {
   background-color: transparent; 
   height: 20px;

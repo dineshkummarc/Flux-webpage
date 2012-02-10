@@ -46,6 +46,7 @@ class staticActions extends sfActions
   	$unit = UnitTable::getContact();
   	$this->title = $unit->getTitle();
   	$this->text  = $unit->getDescription();
+  	$this->form  = new ContactForm();
   }
   
 }
