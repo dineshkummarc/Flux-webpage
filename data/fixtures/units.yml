@@ -100,6 +100,55 @@ Unit:
           <li><span class='blacktext'>trucant a travès de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a></li>
           <li><span class='blacktext'>per Twitter a:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
           <li><span class='blacktext'>o simplement escrivint un text breu al formulari i contactarem amb vostè el més aviat possible</span></li></ul>
+  privacy:
+    name: Privacy
+    url:
+    image:
+    Translation:
+      en:
+        title: privacy
+        subtitle:
+        summary:
+        description: |
+          <p>According to Organic Law 15/1999 of the Spanish legislation of 13 December on the Protection of Personal Data (LOPD), 
+          and the corresponding R.D. 1720/2007, we inform you that your personal data will become part of a file owned by Flexible User Experience SL 
+          (<a href='http://www.flux.cat'>FLUX</a>), duly registered at the Spanish Agency for Data Protection with the sole aim to offer you our services.</p>
+          <p>For use of this website is necessary to save a cookie in your browser for the sole purpose of remembering the language you have chosen to display the page. 
+          If you wish, you can set your browser to block the housing of the cookie on your hard drive.</p>
+          <p>To exercise your right of access, rectification, cancellation and opposition contact us through email address <a href='mailto:lopd@flux.cat'>lopd@flux.cat</a></p>
+          <p>Flux explicitly agrees to keep confidential all information received through this website. 
+          This data may be processed for commercial purposes but in no case be used for other purposes and will not be provided to third parties.</p><hr/>
+          <p>At Flux we do not like spam and contribute to eradicate.</p>
+      es:
+        title: privacidad
+        subtitle:
+        summary:
+        description: |
+          <p>En cumplimiento del que establece la Ley Orgánica 15/1999 de la legislación española de 13 de diciembre sobre la Protección de Datos de Carácter Personal (LOPD), 
+          y su correspondiente R.D. 1720/2007, le comunicamos que sus datos personales pasarán a formar parte de un fichero propiedad de Flexible User Experience SL 
+          (<a href='http://www.flux.cat'>FLUX</a>), debidamente registrado a la Agencia Española de Protección de Datos con la única finalidad de poder ofrecerle nuestros servicios.</p>
+          <p>Para el uso de esta página web es necesario alojar una galleta (<em>cookie</em>) en su navegador de Internet con el único fin de recordar el idioma 
+          que ha elegido para visualizar la página. Si usted lo desea, puede configurar su navegador para bloquear el alojamiento de la galleta en su disco duro.</p>
+          <p>Para ejercer su derecho de acceso, rectificación, cancelación y oposición póngase en contacto con nosotros a través de la dirección de correo electrónico 
+          <a href='mailto:lopd@flux.cat'>lopd@flux.cat</a></p>
+          <p>Flux se compromete explícitamente a mantener confidenciales todos los datos recibidos a través de esta página web. Estos datos podrán ser tratados con 
+          fines comerciales pero en ningún caso podrán ser destinados a otros fines ni serán entregados a terceros.</p><hr/>
+          <p>En Flux no nos gusta el spam, contribuimos a erradicarlo.</p>
+      ca:
+        title: privacitat
+        subtitle:
+        summary:
+        description: |
+          <p>En compliment del que estableix la Llei Orgànica 15/1999 de la legislació espanyola de 13 de desembre sobre la Protecció de Dades de Caràcter Personal (LOPD), 
+          i el seu corresponent R.D. 1720/2007, li comuniquem que les seves dades personals passaran a formar part d'un fitxer propietat de Flexible User Experience SL 
+          (<a href='http://www.flux.cat'>FLUX</a>), degudament registrat a l'Agència Espanyola de Protecció de Dades amb l'única finalitat de poder oferir-li els nostres serveis.</p>
+          <p>Per a l'ús d'aquesta pàgina web és necessari allotjar una galeta (<em>cookie</em>) al seu navegador de Internet amb l'única finalitat de recordar l'idioma 
+          que ha escollit per a visualitzar la pàgina. Si vostè ho desitja, pot configurar el seu navegador per a bloquejar l'allotjament de la galeta al seu disc dur.</p>
+          <p>Per exercir el seu dret d'accés, rectificació, cancel·lació i oposició posi's en contacte amb nosaltres a través de l'adreça de correu electrònic 
+          <a href='mailto:lopd@flux.cat'>lopd@flux.cat</a></p>
+          <p>Flux es compromet explícitament a mantenir confidencials totes les dades rebudes a través d'aquesta pàgina web. Aquestes dades podran ser tractades amb 
+          finalitats comercials però en cap cas podran ser destinades a altres finalitats ni seran entregades a tercers.</p><hr/>
+          <p>A Flux no ens agrada el spam, contribuïm a eradicar-lo.</p>
   services:
     name: Services
     url: 

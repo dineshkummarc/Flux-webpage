@@ -65,38 +65,15 @@ class staticActions extends sfActions
   			$this->getMailer()->send($message);
   			$this->getUser()->setFlash('msg', 'Email send');
   			$this->form  = new ContactForm();
-  			//$this->redirect('static/thankyouSuccess');
-  		} else {
-  			
   		}
   	}
   }
   
-  public function executeSendMessage(sfWebRequest $request)
+  public function executePrivacy(sfWebRequest $request)
   {
-  	$this->forward404Unless($request->isMethod(sfRequest::POST));
-  	$this->form = new ContactForm();
-  	$this->form->bind($request->getParameter($this->form->getName()), $request->getFiles($this->form->getName()));
- 		if ($this->form->isValid()) {
- 			// Send message and redirect
- 			$message = Swift_Message::newInstance()
- 				->setSubject('Missatge de contacte web Flux')
- 				->setFrom(array($this->form->getValue('email') => $this->form->getValue('name')))
- 				->setTo(array('david@flux.cat' => 'David Romani'))
- 				->setBody('Missatge de contacte formulari web')
- 				->addPart(
- 					'<p>Missatge de contacte formulari web<br/><br/></p>'.
- 					'<p>Enviat per: '. $this->form->getValue('name'). '<br/><br/>'.
- 					'Email: '. $this->form->getValue('email'). '<br/><br/>'.
- 					'Telèfon: '. $this->form->getValue('phone'). '<br/><br/>'.
- 					'Missatge: '. $this->form->getValue('message'). '</p>', 'text/html');
- 			$this->getMailer()->send($message);
- 			$this->redirect('static/thankyouSuccess');
-  	}
-  	$unit = UnitTable::getContact();
+  	$unit = UnitTable::getPrivacy();
   	$this->title = $unit->getTitle();
   	$this->text  = $unit->getDescription();
-  	$this->setTemplate('contact');
   }
   
 }

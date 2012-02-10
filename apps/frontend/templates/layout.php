@@ -59,7 +59,7 @@
 				<p><a href="mailto:info@flux.cat">info@flux.cat</a></p>
 			</div>
 			<div id="footer-right">
-				<p><a id="privacitat"><?php echo __('privacy')?></a> · &copy;<?php echo date('Y')?></p>
+				<p><a href="<?php echo url_for('static/privacy')?>" id="privacitat"><?php echo __('privacy')?></a> · &copy;<?php echo date('Y')?></p>
 			</div>		
 		</div> 
   </body>

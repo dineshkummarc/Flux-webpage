@@ -48,4 +48,14 @@ class UnitTable extends Doctrine_Table
     	return null;
     }
     
+    /**
+     * Obtiene la instancia Unit de la pagina de privacidad
+     */
+    public static function getPrivacy()
+    {
+    	$results = self::getInstance()->createQuery('q')->where('q.name = ?', 'Privacy')->limit(1)->execute();
+    	if (count($results) == 1) return $results[0];
+    	return null;
+    }
+    
 }

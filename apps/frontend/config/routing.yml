@@ -94,7 +94,25 @@ contacte_en:
   param: { module: static, action: contact }
   requirements:
     sf_culture: en
+
+privacitat_es:
+  url:  /:sf_culture/privacidad
+  param: { module: static, action: privacy }
+  requirements:
+    sf_culture: es
     
+privacitat_ca:
+  url:  /:sf_culture/privacitat
+  param: { module: static, action: privacy }
+  requirements:
+    sf_culture: ca
+    
+privacitat_en:
+  url:  /:sf_culture/privacy
+  param: { module: static, action: privacy }
+  requirements:
+    sf_culture: en
+
 homepage_es:
   url:   /:sf_culture/inicio
   param: { module: static, action: home }
