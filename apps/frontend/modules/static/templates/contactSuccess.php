@@ -1,8 +1,8 @@
 <?php if (!$sf_user->hasFlash('msg')): ?>
 	<h1><?php echo $title ?></h1>
 	<?php echo $sf_data->getRaw('text'); ?>
-	<form method="POST" action="<?php echo url_for('@message')?>" class="contactForm">
-	<?php /*echo $form->renderFormTag('sendMessage', array('class' => 'contactForm'))*/ ?>
+	<form method="POST" action="<?php echo url_for('static/contact') ?>" class="contactForm">
+	<?php /*echo $form->renderFormTag('static/contact', array('class' => 'contactForm'))*/ ?>
 	<?php echo $form ?>
 	<input type="submit" class="customSubmit"/>
 	</form>

@@ -158,6 +158,7 @@ div {
 
 #main-left li.current a {
   color: #FFF;
+  font-weight: bold;
 }
 
 #main-right {
