@@ -60,6 +60,14 @@
         <source>Message</source>
         <target>Missatge</target>
       </trans-unit>
+      <trans-unit id="15">
+        <source>Required.</source>
+        <target>Obligatori.</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Invalid.</source>
+        <target>Invàlid.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

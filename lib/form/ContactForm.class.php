@@ -10,10 +10,10 @@ class ContactForm extends sfForm
 					'message'     => new sfWidgetFormTextarea()
 		));
 		$this->setValidators(array(
-					'name'       => new sfValidatorString(array('min_length' => 3, 'max_length' => 255)), //, array('required' => '*dato obligatorio')),
-					'email'      => new sfValidatorEmail(), //array(), array('invalid' => '*dato inválido', 'required' => '*dato obligatorio')),
-					'phone'      => new sfValidatorString(array('required' => false, 'min_length' => 3)), //, array('required' => '*dato obligatorio')),
-					'message'    => new sfValidatorString(array('max_length' => 4000)) //, array('required' => '*dato obligatorio'))
+					'name'       => new sfValidatorString(array('min_length' => 3, 'max_length' => 255), array('min_length' => 'Invalid: 3 characters min.', 'max_length' => 'Invalid: 255 characters max.')),
+					'email'      => new sfValidatorEmail(),
+					'phone'      => new sfValidatorString(array('required' => false, 'min_length' => 9), array('min_length' => 'Invalid: 9 characters min.')),
+					'message'    => new sfValidatorString(array('max_length' => 4000), array('max_length' => 'Invalid: 4000 characters max.'))
 		));
 		$this->widgetSchema->setNameFormat('contacte[%s]');
 	}

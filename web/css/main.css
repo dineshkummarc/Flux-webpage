@@ -229,6 +229,7 @@ form.contactForm {
 form.contactForm label {
   display: block;
   margin: 20px 0 5px;
+  float: left;
 }
 
 form.contactForm input, textarea {
@@ -243,6 +244,19 @@ form.contactForm textarea {
   resize: none;
 }
 
+form.contactForm ul.error_list {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+form.contactForm ul.error_list li {
+	padding: 0;
+  margin: 20px 0 5px;
+  float: left;
+  list-style-type: none;
+}
+
 form.contactForm input.customSubmit {
 	margin-top: 25px;
   background: #D09;
@@ -250,7 +264,6 @@ form.contactForm input.customSubmit {
   font-weight: bold;
   width: 20%;
   box-shadow: 1px 1px 3px #888;
-  float: right;
 }
 
 #footer-left {

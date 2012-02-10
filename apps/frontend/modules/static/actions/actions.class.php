@@ -51,6 +51,7 @@ class staticActions extends sfActions
   
   public function executeSendMessage(sfWebRequest $request)
   {
+  	$this->forward404Unless($request->isMethod(sfRequest::POST));
   	$this->form = new ContactForm();
   	$this->form->bind($request->getParameter($this->form->getName()), $request->getFiles($this->form->getName()));
  		if ($this->form->isValid()) {
