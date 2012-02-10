@@ -6,6 +6,7 @@
     <?php include_title() ?>
     <link rel="shortcut icon" href="/images/favicon.png" />
     <?php include_stylesheets() ?>
+    <script type="text/javascript" src='http://download.skype.com/share/skypebuttons/js/skypeCheck.js'></script> 
     <?php include_javascripts() ?>
     <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
     <script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
