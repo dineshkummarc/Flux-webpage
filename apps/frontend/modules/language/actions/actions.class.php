@@ -17,6 +17,8 @@ class languageActions extends sfActions
 			$newRoute = '@equip_'.$request->getGetParameter('lang');
 		} else if ($accio == 'contacto' || $accio == 'contacte' || $accio == 'contact') {
 			$newRoute = '@contacte_'.$request->getGetParameter('lang');
+		} else if ($accio == 'privacidad' || $accio == 'privacitat' || $accio == 'privacy') {
+			$newRoute = '@privacitat_'.$request->getGetParameter('lang');
 		}
 		
 		sfContext::getInstance()->getLogger()->debug('[language/changeLanguage] Request language: '.$request->getGetParameter('lang'));
