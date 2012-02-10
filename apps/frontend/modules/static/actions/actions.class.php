@@ -49,4 +49,30 @@ class staticActions extends sfActions
   	$this->form  = new ContactForm();
   }
   
+  public function executeSendMessage(sfWebRequest $request)
+  {
+  	$this->form = new ContactForm();
+  	$this->form->bind($request->getParameter($this->form->getName()), $request->getFiles($this->form->getName()));
+ 		if ($this->form->isValid()) {
+ 			// Send message and redirect
+ 			$message = Swift_Message::newInstance()
+ 				->setSubject('Missatge de contacte web Flux')
+ 				->setFrom(array($this->form->getValue('email') => $this->form->getValue('name')))
+ 				->setTo(array('david@flux.cat' => 'David Romani'))
+ 				->setBody('Missatge de contacte formulari web')
+ 				->addPart(
+ 					'<p>Missatge de contacte formulari web<br/><br/></p>'.
+ 					'<p>Enviat per: '. $this->form->getValue('name'). '<br/><br/>'.
+ 					'Email: '. $this->form->getValue('email'). '<br/><br/>'.
+ 					'Telèfon: '. $this->form->getValue('phone'). '<br/><br/>'.
+ 					'Missatge: '. $this->form->getValue('message'). '</p>', 'text/html');
+ 			$this->getMailer()->send($message);
+ 			$this->redirect('static/thankyouSuccess');
+  	}
+  	$unit = UnitTable::getContact();
+  	$this->title = $unit->getTitle();
+  	$this->text  = $unit->getDescription();
+  	$this->setTemplate('contact');
+  }
+  
 }

@@ -7,7 +7,18 @@ prod:
     param:
       level:   err
       loggers: ~
-
+  mailer:
+    param:
+      delivery_strategy: realtime
+      transport:
+        class: Swift_SmtpTransport
+        param:
+          host:       smtp.gmail.com
+          port:       465
+          encryption: ssl
+          username:   david@flux.cat
+          password:   4ndr01d34ndr0
+          
 test:
   storage:
     class: sfSessionTestStorage
@@ -26,7 +37,16 @@ test:
 dev:
   mailer:
     param:
-      delivery_strategy: none
+      delivery_strategy: single_address
+      delivery_address:   david@flux.cat
+      transport:
+        class: Swift_SmtpTransport
+        param:
+          host:       smtp.gmail.com
+          port:       465
+          encryption: ssl
+          username:   david@flux.cat
+          password:   4ndr01d34ndr0
 
 all:
   routing:
