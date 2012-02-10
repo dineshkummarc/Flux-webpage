@@ -84,6 +84,18 @@
         <source>Invalid: 4000 characters max.</source>
         <target>Inválido: máximo 4000 caracteres.</target>
       </trans-unit>
+      <trans-unit id="21">
+        <source>Thank you</source>
+        <target>Gracias</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Message send</source>
+        <target>Mensaje enviado</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>We contact you as soon as possible.</source>
+        <target>Contactaremos con usted lo más pronto posible.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

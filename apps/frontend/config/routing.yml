@@ -7,7 +7,7 @@ change_language:
 
 message:
   url:  /sendMessage
-  param: { module: static, action: sendMessage }
+  param: { module: static, action: contact }
   
 projectes_show_es:
   url:  /:sf_culture/proyecto/
