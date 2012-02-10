@@ -2,7 +2,7 @@ Member:
   santiago:
     user: santiago.romani
     is_partner: 0
-    alt_image:
+    alt_image: santiagoromani.png
     Enumeration: one
     Translation:
       en:
@@ -26,7 +26,7 @@ Member:
   jordir:
     user: jordi.romani
     is_partner: 0
-    alt_image:
+    alt_image: jordiromani.png
     Enumeration: two
     Translation:
       en:
@@ -50,7 +50,7 @@ Member:
   david:
     user: david.romani
     is_partner: 0
-    alt_image:
+    alt_image: davidromani.png
     Enumeration: three
     Translation:
       en:
@@ -74,7 +74,7 @@ Member:
   antonio:
     user: antonio.vicien
     is_partner: 1
-    alt_image:
+    alt_image: antoniovicien.png
     Enumeration: five
     Translation:
       en:
@@ -98,7 +98,7 @@ Member:
   jordip:
     user: jordi.puiggene
     is_partner: 1
-    alt_image:
+    alt_image: jordipuiggne.png
     Enumeration: six
     Translation:
       en:
@@ -122,7 +122,7 @@ Member:
   ana:
     user: anna.codina
     is_partner: 1
-    alt_image:
+    alt_image: annacodina.png
     Enumeration: four
     Translation:
       en:

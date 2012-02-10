@@ -5,7 +5,7 @@
 	<?php $i = 0; ?>
 	<?php foreach ($coreMembers as $member): ?>
 		<?php if ($i > 0) echo '<hr/>'?>
-		<?php if (strlen($member->getAltImage()) > 0) echo "<img src='".$member->getAltImage()."' alt='Photo ".$member->getUser()."' />"; ?>
+		<?php if (strlen($member->getAltImage()) > 0) echo "<img src='uploads/".$member->getAltImage()."' alt='Photo ".$member->getUser()."' />"; ?>
 		<p><?php echo $member->getName().' '.$member->getSurname() ?><br/>
 		<?php echo $member->getCategory() ?><br/>
 		<?php echo $member->getDescription(ESC_RAW) ?></p>
@@ -20,7 +20,7 @@
 	<?php $i = 0; ?>
 	<?php foreach ($partnerMembers as $member): ?>
 		<?php if ($i > 0) echo '<hr/>'?>
-		<?php if (strlen($member->getAltImage()) > 0) echo "<img src='".$member->getAltImage()."' alt='Photo ".$member->getUser()."' />"; ?>
+		<?php if (strlen($member->getAltImage()) > 0) echo "<img src='uploads/".$member->getAltImage()."' alt='Photo ".$member->getUser()."' />"; ?>
 		<p><?php echo $member->getName().' '.$member->getSurname() ?><br/>
 		<?php echo $member->getCategory() ?><br/>
 		<?php echo $member->getDescription(ESC_RAW) ?></p>
