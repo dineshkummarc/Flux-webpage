@@ -13,7 +13,7 @@
 	<?php endforeach; ?>
 <?php endif; ?>
 
-<h1><?php echo __('partners')?></h1>
+<h1 style="margin-top:50px"><?php echo __('partners')?></h1>
 <?php if (count($partnerMembers) == 0): ?>
 	<p><?php echo __('There are no partner members') ?></p>
 <?php else: ?>

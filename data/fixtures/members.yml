@@ -75,7 +75,7 @@ Member:
     user: antonio.vicien
     is_partner: 1
     alt_image:
-    Enumeration: four
+    Enumeration: five
     Translation:
       en:
         name: Antonio
@@ -99,7 +99,7 @@ Member:
     user: jordi.puiggene
     is_partner: 1
     alt_image:
-    Enumeration: five
+    Enumeration: six
     Translation:
       en:
         name: Jordi
@@ -118,4 +118,28 @@ Member:
         surname: Puiggené
         address:
         category: Programador
+        description:
+  ana:
+    user: anna.codina
+    is_partner: 1
+    alt_image:
+    Enumeration: four
+    Translation:
+      en:
+        name: Anna
+        surname: Codina
+        address:
+        category: Strategy consultant
+        description:
+      es:
+        name: Anna
+        surname: Codina
+        address:
+        category: Consultora estratégica
+        description:
+      ca:
+        name: Anna
+        surname: Codina
+        address:
+        category: Consultora estratègica
         description:
