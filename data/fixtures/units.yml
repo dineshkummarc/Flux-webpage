@@ -110,19 +110,37 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Services</p>
+          <p>Además de desarrollar aplicaciones de gestión integrales también puede contratarnos para realizar tareas especializadas en tecnologias de la información y comunicación para:</p>
+          <ul><li><span class='blacktext'>Asesorar y valorar proyectes técnicos</span></li>
+          <li><span class='blacktext'>Integrar gestores de contenidos y servicios de pago electrónico</span></li>
+          <li><span class='blacktext'>Desarrollar aplicaciones hechas a medida para resolver la especificación de requisitos en un producto fácil y perfectamente adaptado a sus necesidades</span></li>
+          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónic, web, bases de datos y sistemes de sincronitzación de información</span></li>
+          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de márqueting que maximicen la visibilidad de seu negocio</span></li>
+          <li><span class='blacktext'>Soporte de aplicaciones ofimátiques, sistemes de gestión de contenidos y aplicaciones en la nube (cloud computing)</span></li></ul>
       es:
         title: servicios
         subtitle:
         summary:
         description: |
-          <p>Servicios</p>
+          <p>Además de desarrollar aplicaciones de gestión integrales también puede contratarnos para realizar tareas especializadas en tecnologias de la información y comunicación para:</p>
+          <ul><li><span class='blacktext'>Asesorar y valorar proyectes técnicos</span></li>
+          <li><span class='blacktext'>Integrar gestores de contenidos y servicios de pago electrónico</span></li>
+          <li><span class='blacktext'>Desarrollar aplicaciones hechas a medida para resolver la especificación de requisitos en un producto fácil y perfectamente adaptado a sus necesidades</span></li>
+          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónic, web, bases de datos y sistemes de sincronitzación de información</span></li>
+          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de márqueting que maximicen la visibilidad de seu negocio</span></li>
+          <li><span class='blacktext'>Soporte de aplicaciones ofimátiques, sistemes de gestión de contenidos y aplicaciones en la nube (cloud computing)</span></li></ul>
       ca:
         title: serveis
         subtitle:
         summary:
         description: |
-          <p>Serveis</p>
+          <p>Además de desarrollar aplicaciones de gestión integrales también puede contratarnos para realizar tareas especializadas en tecnologias de la información y comunicación para:</p>
+          <ul><li><span class='blacktext'>Asesorar y valorar proyectes técnicos</span></li>
+          <li><span class='blacktext'>Integrar gestores de contenidos y servicios de pago electrónico</span></li>
+          <li><span class='blacktext'>Desarrollar aplicaciones hechas a medida para resolver la especificación de requisitos en un producto fácil y perfectamente adaptado a sus necesidades</span></li>
+          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónic, web, bases de datos y sistemes de sincronitzación de información</span></li>
+          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de márqueting que maximicen la visibilidad de seu negocio</span></li>
+          <li><span class='blacktext'>Soporte de aplicaciones ofimátiques, sistemes de gestión de contenidos y aplicaciones en la nube (cloud computing)</span></li></ul>
   skaeda:
     name: Skaeda
     url: www.skaeda.com
