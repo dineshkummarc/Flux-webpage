@@ -110,37 +110,37 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Además de desarrollar aplicaciones de gestión integrales también puede contratarnos para realizar tareas especializadas en tecnologias de la información y comunicación para:</p>
+          <p>Además de desarrollar aplicaciones de gestión integrales, también puede contratarnos para realizar tareas especializadas en tecnologias de la información y comunicación para:</p>
           <ul><li><span class='blacktext'>Asesorar y valorar proyectes técnicos</span></li>
-          <li><span class='blacktext'>Integrar gestores de contenidos y servicios de pago electrónico</span></li>
-          <li><span class='blacktext'>Desarrollar aplicaciones hechas a medida para resolver la especificación de requisitos en un producto fácil y perfectamente adaptado a sus necesidades</span></li>
-          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónic, web, bases de datos y sistemes de sincronitzación de información</span></li>
-          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de márqueting que maximicen la visibilidad de seu negocio</span></li>
-          <li><span class='blacktext'>Soporte de aplicaciones ofimátiques, sistemes de gestión de contenidos y aplicaciones en la nube (cloud computing)</span></li></ul>
+          <li><span class='blacktext'>Integrar gestores de contenidos y servicios de pago electrónico en proyectos nuevos o existentes</span></li>
+          <li><span class='blacktext'>Desarrollar aplicaciones web o móviles hechas a medida para obtener un producto final fácil de utilizar y perfectamente adaptado a sus necesidades</span></li>
+          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónic, páginas web, bases de datos y sistemes de sincronitzación de información</span></li>
+          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de márqueting que maximicen la visibilidad de su negocio</span></li>
+          <li><span class='blacktext'>Soporte de aplicaciones ofimáticas, sistemes de gestión de contenidos y aplicaciones en la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>]</span></li></ul>
       es:
         title: servicios
         subtitle:
         summary:
         description: |
-          <p>Además de desarrollar aplicaciones de gestión integrales también puede contratarnos para realizar tareas especializadas en tecnologias de la información y comunicación para:</p>
+          <p>Además de desarrollar aplicaciones de gestión integrales, también puede contratarnos para realizar tareas especializadas en tecnologias de la información y comunicación para:</p>
           <ul><li><span class='blacktext'>Asesorar y valorar proyectes técnicos</span></li>
-          <li><span class='blacktext'>Integrar gestores de contenidos y servicios de pago electrónico</span></li>
-          <li><span class='blacktext'>Desarrollar aplicaciones hechas a medida para resolver la especificación de requisitos en un producto fácil y perfectamente adaptado a sus necesidades</span></li>
-          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónic, web, bases de datos y sistemes de sincronitzación de información</span></li>
-          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de márqueting que maximicen la visibilidad de seu negocio</span></li>
-          <li><span class='blacktext'>Soporte de aplicaciones ofimátiques, sistemes de gestión de contenidos y aplicaciones en la nube (cloud computing)</span></li></ul>
+          <li><span class='blacktext'>Integrar gestores de contenidos y servicios de pago electrónico en proyectos nuevos o existentes</span></li>
+          <li><span class='blacktext'>Desarrollar aplicaciones web o móviles hechas a medida para obtener un producto final fácil de utilizar y perfectamente adaptado a sus necesidades</span></li>
+          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónic, páginas web, bases de datos y sistemes de sincronitzación de información</span></li>
+          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de márqueting que maximicen la visibilidad de su negocio</span></li>
+          <li><span class='blacktext'>Soporte de aplicaciones ofimáticas, sistemes de gestión de contenidos y aplicaciones en la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>]</span></li></ul>
       ca:
         title: serveis
         subtitle:
         summary:
         description: |
-          <p>Además de desarrollar aplicaciones de gestión integrales también puede contratarnos para realizar tareas especializadas en tecnologias de la información y comunicación para:</p>
-          <ul><li><span class='blacktext'>Asesorar y valorar proyectes técnicos</span></li>
-          <li><span class='blacktext'>Integrar gestores de contenidos y servicios de pago electrónico</span></li>
-          <li><span class='blacktext'>Desarrollar aplicaciones hechas a medida para resolver la especificación de requisitos en un producto fácil y perfectamente adaptado a sus necesidades</span></li>
-          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónic, web, bases de datos y sistemes de sincronitzación de información</span></li>
-          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de márqueting que maximicen la visibilidad de seu negocio</span></li>
-          <li><span class='blacktext'>Soporte de aplicaciones ofimátiques, sistemes de gestión de contenidos y aplicaciones en la nube (cloud computing)</span></li></ul>
+          <p>A més a més de desenvolupar aplicacions de gestió integrals, també pot contractar-nos per a realitzar tasques especialitzades en tecnologies de la informació y comunicació per a:</p>
+          <ul><li><span class='blacktext'>Assessorar i valorar projectes tècnics</span></li>
+          <li><span class='blacktext'>Integrar gestors de continguts y serveis de pagament electrònic</span></li>
+          <li><span class='blacktext'>Desenvolupar aplicacions fetes a mida per a obtenir un producte final fàcil d'utilitzar i perfectament adaptat a les seves necessitats</span></li>
+          <li><span class='blacktext'>Assistència tècnica i manteniment de servidors de correu electrònic, pàgines web, bases de dades i sistemes de sincronització d'informació</span></li>
+          <li><span class='blacktext'>Assessorament amb xarxes socials i accions de màrqueting que maximitzin la visibilitat del seu negoci</span></li>
+          <li><span class='blacktext'>Soport d'aplicacions ofimàtiques, sistemes de gestió de continguts i aplicacions al núvol [<a href="http://ca.wikipedia.org/wiki/Cloud_computing">cloud computing</a>]</span></li></ul>
   skaeda:
     name: Skaeda
     url: www.skaeda.com
