@@ -200,6 +200,13 @@ div {
   border: solid 1px #D09;
 }
 
+#main-right img {
+	float: left;
+	margin: 0 20px 20px 0;
+	width: 100px;
+	height: auto;
+}
+
 .blacktext {
   color: black;
 }
