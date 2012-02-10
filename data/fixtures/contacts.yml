@@ -13,7 +13,7 @@ Contact:
   emaildavid:
     target: david@flux.cat
     Member: david
-    Enumeration: one
+    Enumeration: oneOff
     Translation:
       en:
         kind: Email
@@ -43,3 +43,14 @@ Contact:
         kind: Skype
       ca:
         kind: Skype
+  linkeddavid:
+    target: http://es.linkedin.com/in/dromani
+    Member: david
+    Enumeration: one
+    Translation:
+      en:
+        kind: LinkedIn
+      es:
+        kind: LinkedIn
+      ca:
+        kind: LinkedIn
