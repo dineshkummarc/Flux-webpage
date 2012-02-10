@@ -97,7 +97,7 @@ Member:
         description:
   jordip:
     user: jordi.puiggene
-    is_partner: 0
+    is_partner: 1
     alt_image:
     Enumeration: five
     Translation:
