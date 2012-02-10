@@ -39,6 +39,67 @@ Unit:
           <li><span class='blacktext'>Desenvolupar aplicacions funcionals i senzilles</span></li>
           <li><span class='blacktext'>Crear interfícies d'usuari innovadores, flexibles i útils</span></li>
           <li><span class='blacktext'>Millorar l'experiència d'usuari [<a href="http://ca.wikipedia.org/wiki/Experi%C3%A8ncia_d%27usuari">UX</a>]</span></li></ul>
+  team:
+    name: Team
+    url:
+    image:
+    Translation:
+      en:
+        title: team
+        subtitle:
+        summary:
+        description: |
+          <p></p>
+      es:
+        title: equipo
+        subtitle:
+        summary:
+        description: |
+          <p><</p>
+      ca:
+        title: equip
+        subtitle:
+        summary:
+        description: |
+          <p></p>
+  contact:
+    name: Contact
+    url:
+    image:
+    Translation:
+      en:
+        title: contact
+        subtitle:
+        summary:
+        description: |
+          <p>Si deseas contactar con nosotros para contratarnos, pedir un presupuesto o ampliar más información sobre lo que podemos hacer para mejorar la productividad de su negocio 
+          puede encontrarnos</p>
+          <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301</li>
+          <li><span class='blacktext'>llamando a través de Skype:</span> gnomehost</li>
+          <li><span class='blacktext'>por Twitter en:</span> @davidromani</li>
+          <li><span class='blacktext'>o simplemente escribiendo un texto breve en el formulario y contactaremos con usted en la mayor brevedad posible</span></li></ul>
+      es:
+        title: contacto
+        subtitle:
+        summary:
+        description: |
+          <p>Si deseas contactar con nosotros para contratarnos, pedir un presupuesto o ampliar más información sobre lo que podemos hacer para mejorar la productividad de su negocio 
+          puede encontrarnos</p>
+          <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301</li>
+          <li><span class='blacktext'>llamando a través de Skype:</span> gnomehost</li>
+          <li><span class='blacktext'>por Twitter en:</span> @davidromani</li>
+          <li><span class='blacktext'>o simplemente escribiendo un texto breve en el formulario y contactaremos con usted en la mayor brevedad posible</span></li></ul>
+      ca:
+        title: contacte
+        subtitle:
+        summary:
+        description: |
+          <p>Si desitja contactar amb nosaltres per a contractar-nos, demanar un pressupost o ampliar més informació sobre que podem fer per a millorar la productivitat del seu negoci 
+          pot localitzar-nos</p>
+          <ul><li><span class='blacktext'>trucant al telèfon mòvil:</span> (+34) 636 963 301</li>
+          <li><span class='blacktext'>trucant a travès de Skype:</span> gnomehost</li>
+          <li><span class='blacktext'>per Twitter a:</span> @davidromani</li>
+          <li><span class='blacktext'>o simplement escribint un text breu al formulari i contactarem amb vostè el més aviat possible</span></li></ul>
   services:
     name: Services
     url: 

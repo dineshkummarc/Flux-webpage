@@ -24,16 +24,16 @@ class staticActions extends sfActions
   		$this->redirect('localized_homepage');
   	}
   	//print ('Culture: '.$this->getUser()->getCulture());
-  	$unit = Doctrine::getTable('Unit')->getHomepage();
+  	$unit = UnitTable::getHomepage();
   	$this->title = $unit->getTitle(); 
   	$this->text  = $unit->getDescription();
   }
   
   public function executeServices(sfWebRequest $request)
   {
-  	$unit = Doctrine::getTable('Unit')->getServices();
+  	$unit = UnitTable::getServices();
   	$this->title = $unit->getTitle();
-  	$this->text  = $unit->getDescription();  	
+  	$this->text  = $unit->getDescription();
   }
   
   public function executeTeam(sfWebRequest $request)
@@ -43,7 +43,9 @@ class staticActions extends sfActions
   
   public function executeContact(sfWebRequest $request)
   {
-  	
+  	$unit = UnitTable::getContact();
+  	$this->title = $unit->getTitle();
+  	$this->text  = $unit->getDescription();
   }
   
 }
