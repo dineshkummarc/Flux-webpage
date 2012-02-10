@@ -10,6 +10,17 @@ Contact:
         kind: Email
       ca:
         kind: Email
+  linkedsanti:
+    target: http://es.linkedin.com/pub/santiago-romaní-also/19/729/689
+    Member: santiago
+    Enumeration: two
+    Translation:
+      en:
+        kind: LinkedIn
+      es:
+        kind: LinkedIn
+      ca:
+        kind: LinkedIn        
   emaildavid:
     target: david@flux.cat
     Member: david
@@ -54,3 +65,70 @@ Contact:
         kind: LinkedIn
       ca:
         kind: LinkedIn
+  emailjordip:
+    target: jordi.puiggene@gmail.com
+    Member: jordip
+    Enumeration: one
+    Translation:
+      en:
+        kind: Email
+      es:
+        kind: Email
+      ca:
+        kind: Email
+  linkedjordip:
+    target: http://es.linkedin.com/in/jordipuiggene
+    Member: jordip
+    Enumeration: one
+    Translation:
+      en:
+        kind: LinkedIn
+      es:
+        kind: LinkedIn
+      ca:
+        kind: LinkedIn 
+  twitterjordip:
+    target: @jordipuiggene
+    Member: jordip
+    Enumeration: two
+    Translation:
+      en:
+        kind: Twitter
+      es:
+        kind: Twitter
+      ca:
+        kind: Twitter       
+  twitteranna:
+    target: @ultrasonica
+    Member: anna
+    Enumeration: one
+    Translation:
+      en:
+        kind: Twitter
+      es:
+        kind: Twitter
+      ca:
+        kind: Twitter
+  webanna:
+    target: http://www.elgiroscopi.com
+    Member: anna
+    Enumeration: two
+    Translation:
+      en:
+        kind: Web
+      es:
+        kind: Página web
+      ca:
+        kind: Pàgina web
+  bloganna:
+    target: http://www.betesiclicks.com
+    Member: anna
+    Enumeration: three
+    Translation:
+      en:
+        kind: Blog
+      es:
+        kind: Blog
+      ca:
+        kind: Bloc
+        
