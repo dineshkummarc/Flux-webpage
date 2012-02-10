@@ -5,6 +5,8 @@
     <?php include_metas() ?>
     <?php include_title() ?>
     <link rel="shortcut icon" href="/images/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'/>
     <?php include_stylesheets() ?>
     <script type="text/javascript" src='http://download.skype.com/share/skypebuttons/js/skypeCheck.js'></script> 
     <?php include_javascripts() ?>

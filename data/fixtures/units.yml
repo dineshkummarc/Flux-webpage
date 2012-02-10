@@ -99,7 +99,7 @@ Unit:
           <ul><li><span class='blacktext'>trucant al telèfon mòvil:</span> (+34) 636 963 301</li>
           <li><span class='blacktext'>trucant a travès de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a></li>
           <li><span class='blacktext'>per Twitter a:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
-          <li><span class='blacktext'>o simplement escribint un text breu al formulari i contactarem amb vostè el més aviat possible</span></li></ul>
+          <li><span class='blacktext'>o simplement escrivint un text breu al formulari i contactarem amb vostè el més aviat possible</span></li></ul>
   services:
     name: Services
     url: 
