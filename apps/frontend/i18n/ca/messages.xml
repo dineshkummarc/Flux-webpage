@@ -48,6 +48,18 @@
         <source>here</source>
         <target>aquí</target>
       </trans-unit>
+      <trans-unit id="12">
+        <source>Name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Phone</source>
+        <target>Telèfon</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Message</source>
+        <target>Missatge</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
