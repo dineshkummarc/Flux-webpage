@@ -13,20 +13,19 @@ class staticActions extends sfActions
 	
   public function executeHome(sfWebRequest $request)
   {
-  	if (!$request->getParameter('sf_culture')) {
+  	$unit = UnitTable::getHomepage();
+  	$this->title = $unit->getTitle();
+  	$this->text  = $unit->getDescription();
+  	/*if (!$request->getParameter('sf_culture')) {
   		if ($this->getUser()->isFirstRequest()) {
-  			$culture = $request->getPreferredCulture(array('en', 'es', 'ca'));
+  			$culture = $request->getPreferredCulture(array('es', 'en', 'ca'));
   			$this->getUser()->setCulture($culture);
   			$this->getUser()->isFirstRequest(false);
   		}	else {
   			$culture = $this->getUser()->getCulture();
   		}
   		$this->redirect('localized_homepage');
-  	}
-  	//print ('Culture: '.$this->getUser()->getCulture());
-  	$unit = UnitTable::getHomepage();
-  	$this->title = $unit->getTitle(); 
-  	$this->text  = $unit->getDescription();
+  	}*/
   }
   
   public function executeServices(sfWebRequest $request)
@@ -38,7 +37,20 @@ class staticActions extends sfActions
   
   public function executeTeam(sfWebRequest $request)
   {
-  	
+  	$this->coreMembers = Doctrine_Core::getTable('Member')
+      ->createQuery('a')
+      ->leftJoin('a.Enumeration e')
+      ->where('a.is_partner = 0')
+      ->andWhere('e.is_active = 1')
+      ->orderBy('e.position')
+      ->execute();
+  	$this->partnerMembers = Doctrine_Core::getTable('Member')
+  		->createQuery('a')
+  		->leftJoin('a.Enumeration e')
+  		->where('a.is_partner = 1')
+  		->andWhere('e.is_active = 1')
+  		->orderBy('e.position')
+  		->execute();
   }
   
   public function executeContact(sfWebRequest $request)

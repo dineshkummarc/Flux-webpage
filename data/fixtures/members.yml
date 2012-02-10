@@ -9,19 +9,19 @@ Member:
         name: Santiago
         surname: Romaní
         address:
-        category:
+        category: Founding partner, CTO & programmer
         description:
       es:
         name: Santiago
         surname: Romaní
         address:
-        category:
+        category: Socio fundador, director técnico y programador
         description:
       ca:
         name: Santiago
         surname: Romaní
         address:
-        category:
+        category: Soci fundador, director tècnic i programador
         description:
   jordir:
     user: jordi.romani
@@ -33,19 +33,19 @@ Member:
         name: Jorge
         surname: Romaní
         address:
-        category:
-        description:
+        category: Founding partner
+        description: 
       es:
         name: Jorge
         surname: Romaní
         address:
-        category:
-        description:
+        category: Socio fundador
+        description: 
       ca:
         name: Jordi
         surname: Romaní
         address:
-        category:
+        category: Soci fundador
         description:
   david:
     user: david.romani
@@ -57,19 +57,19 @@ Member:
         name: David
         surname: Romaní
         address:
-        category:
+        category: Founding partner, CEO & programmer
         description:
       es:
         name: David
         surname: Romaní
         address:
-        category:
+        category: Socio fundador, gerente y programador
         description:
       ca:
         name: David
         surname: Romaní
         address:
-        category:
+        category: Soci fundador, gerent i programador
         description:
   antonio:
     user: antonio.vicien
@@ -81,19 +81,19 @@ Member:
         name: Antonio
         surname: Vicién
         address:
-        category:
+        category: Graphic designer
         description:
       es:
         name: Antonio
         surname: Vicién
         address:
-        category:
+        category: Diseñador gráfico
         description:
       ca:
         name: Antonio
         surname: Vicién
         address:
-        category:
+        category: Dissenyador gràfic
         description:
   jordip:
     user: jordi.puiggene
@@ -105,17 +105,17 @@ Member:
         name: Jordi
         surname: Puiggené
         address:
-        category:
+        category: Programmer
         description:
       es:
         name: Jordi
         surname: Puiggené
         address:
-        category:
+        category: Programador
         description:
       ca:
         name: Jordi
         surname: Puiggené
         address:
-        category:
+        category: Programador
         description:

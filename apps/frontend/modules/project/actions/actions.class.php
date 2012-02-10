@@ -17,6 +17,7 @@ class projectActions extends sfActions
       ->createQuery('a')
       ->leftJoin('a.Enumeration e')
       ->where('e.is_active = 1')
+      ->orderBy('e.position')
       ->execute();
   }
 
