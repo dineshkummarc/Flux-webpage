@@ -1,4 +1,15 @@
 Contact:
+  emailjordir:
+    target: <a href="mailto:jordi@flux.cat">jordi@flux.cat</a>
+    Member: jordir
+    Enumeration: one
+    Translation:
+      en:
+        kind: Email
+      es:
+        kind: Email
+      ca:
+        kind: Email
   emailsanti:
     target: <a href="mailto:santiago@flux.cat">santiago@flux.cat</a>
     Member: santiago
