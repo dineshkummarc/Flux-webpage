@@ -142,7 +142,7 @@ Contact:
         kind: Twitter
       ca:
         kind: Twitter
-  webanna:
+  webantonio:
     target: <a href="http://www.enraona.com">www.enraona.com</a>
     Member: antonio
     Enumeration: two
@@ -153,3 +153,14 @@ Contact:
         kind: Página web
       ca:
         kind: Pàgina web
+  linkedantonio:
+    target: <a href="http://es.linkedin.com/in/antoniovicienfaure">es.linkedin.com/in/antoniovicienfaure</a>
+    Member: jordip
+    Enumeration: one
+    Translation:
+      en:
+        kind: LinkedIn
+      es:
+        kind: LinkedIn
+      ca:
+        kind: LinkedIn
