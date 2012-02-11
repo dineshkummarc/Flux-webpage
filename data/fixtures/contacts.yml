@@ -131,4 +131,25 @@ Contact:
         kind: Blog
       ca:
         kind: Bloc
-        
+  twitterantonio:
+    target: <a href="https://twitter.com/#!/antoniopolonio">@antoniopolonio</a>
+    Member: antonio
+    Enumeration: one
+    Translation:
+      en:
+        kind: Twitter
+      es:
+        kind: Twitter
+      ca:
+        kind: Twitter
+  webanna:
+    target: <a href="http://www.enraona.com">www.enraona.com</a>
+    Member: antonio
+    Enumeration: two
+    Translation:
+      en:
+        kind: Web
+      es:
+        kind: Página web
+      ca:
+        kind: Pàgina web
