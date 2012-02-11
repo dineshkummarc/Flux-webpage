@@ -133,7 +133,7 @@ Unit:
           <a href='mailto:lopd@flux.cat'>lopd@flux.cat</a></p>
           <p>Flux se compromete explícitamente a mantener confidenciales todos los datos recibidos a través de esta página web. Estos datos podrán ser tratados con 
           fines comerciales pero en ningún caso podrán ser destinados a otros fines ni serán entregados a terceros.</p><hr/>
-          <p>En Flux no nos gusta el spam, contribuimos a erradicarlo.</p>
+          <p>En Flux no nos gusta el spam y contribuimos a erradicarlo.</p>
       ca:
         title: privacitat
         subtitle:
@@ -148,7 +148,7 @@ Unit:
           <a href='mailto:lopd@flux.cat'>lopd@flux.cat</a></p>
           <p>Flux es compromet explícitament a mantenir confidencials totes les dades rebudes a través d'aquesta pàgina web. Aquestes dades podran ser tractades amb 
           finalitats comercials però en cap cas podran ser destinades a altres finalitats ni seran entregades a tercers.</p><hr/>
-          <p>A Flux no ens agrada el spam, contribuïm a eradicar-lo.</p>
+          <p>A Flux no ens agrada el spam i contribuïm a eradicar-lo.</p>
   services:
     name: Services
     url: 
