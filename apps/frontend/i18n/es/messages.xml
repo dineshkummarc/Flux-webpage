@@ -92,9 +92,13 @@
         <source>Message send</source>
         <target>Mensaje enviado</target>
       </trans-unit>
-      <trans-unit id="21">
+      <trans-unit id="23">
         <source>We contact you as soon as possible.</source>
         <target>Contactaremos con usted lo más pronto posible.</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>partners</source>
+        <target>colaboradores</target>
       </trans-unit>
     </body>
   </file>
