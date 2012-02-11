@@ -10,6 +10,17 @@ Contact:
         kind: Email
       ca:
         kind: Email
+  mobiljordir:
+    target: 636 963 305
+    Member: jordir
+    Enumeration: two
+    Translation:
+      en:
+        kind: Mobile
+      es:
+        kind: Móbil
+      ca:
+        kind: Mòvil
   emailsanti:
     target: <a href="mailto:santiago@flux.cat">santiago@flux.cat</a>
     Member: santiago
