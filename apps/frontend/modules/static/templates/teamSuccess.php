@@ -11,7 +11,7 @@
 		<?php echo $member->getDescription(ESC_RAW) ?></p>
 		<?php if (count($member->Contact) > 0): ?>
 			<?php foreach ($member->Contact as $contacte): ?>
-				<?php if ($contacte->Enumeration->getIsActive()) echo $contacte->getKind().': '.$contacte->getTarget().'<br/>'?>
+				<?php if ($contacte->Enumeration->getIsActive()) echo $contacte->getKind().': '.$contacte->getTarget(ESC_RAW).'<br/>'?>
 			<?php endforeach; ?>
 		<?php endif; ?>
 		<?php $i = 1; ?>
@@ -31,7 +31,7 @@
 		<?php echo $member->getDescription(ESC_RAW) ?></p>
 		<?php if (count($member->Contact) > 0): ?>
 			<?php foreach ($member->Contact as $contacte): ?>
-				<?php if ($contacte->Enumeration->getIsActive()) echo $contacte->getKind().': '.$contacte->getTarget().'<br/>'?>
+				<?php if ($contacte->Enumeration->getIsActive()) echo $contacte->getKind().': '.$contacte->getTarget(ESC_RAW).'<br/>'?>
 			<?php endforeach; ?>
 		<?php endif; ?>
 		<?php $i = 1; ?>

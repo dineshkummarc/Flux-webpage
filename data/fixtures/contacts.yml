@@ -1,6 +1,6 @@
 Contact:
   emailsanti:
-    target: santiago@flux.cat
+    target: <a href="mailto:santiago@flux.cat">santiago@flux.cat</a>
     Member: santiago
     Enumeration: one
     Translation:
@@ -11,7 +11,7 @@ Contact:
       ca:
         kind: Email
   linkedsanti:
-    target: http://es.linkedin.com/pub/santiago-romaní-also/19/729/689
+    target: <a href="http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689">es.linkedin.com/pub/santiago-romaní-also/19/729/689</a>
     Member: santiago
     Enumeration: two
     Translation:
@@ -22,7 +22,7 @@ Contact:
       ca:
         kind: LinkedIn        
   emaildavid:
-    target: david@flux.cat
+    target: <a href="mailto:david@flux.cat">david@flux.cat</a>
     Member: david
     Enumeration: oneOff
     Translation:
@@ -33,7 +33,7 @@ Contact:
       ca:
         kind: Email
   twitterdavid:
-    target: @davidromani
+    target: <a href="https://twitter.com/#!/davidromani">@davidromani</a>
     Member: david
     Enumeration: two
     Translation:
@@ -55,7 +55,7 @@ Contact:
       ca:
         kind: Skype
   linkeddavid:
-    target: http://es.linkedin.com/in/dromani
+    target: <a href="http://es.linkedin.com/in/dromani">es.linkedin.com/in/dromani</a>
     Member: david
     Enumeration: one
     Translation:
@@ -66,7 +66,7 @@ Contact:
       ca:
         kind: LinkedIn
   emailjordip:
-    target: jordi.puiggene@gmail.com
+    target: <a href="mailto:jordi.puiggene@gmail.com">jordi.puiggene@gmail.com</a>
     Member: jordip
     Enumeration: one
     Translation:
@@ -77,7 +77,7 @@ Contact:
       ca:
         kind: Email
   linkedjordip:
-    target: http://es.linkedin.com/in/jordipuiggene
+    target: <a href="http://es.linkedin.com/in/jordipuiggene">es.linkedin.com/in/jordipuiggene</a>
     Member: jordip
     Enumeration: one
     Translation:
@@ -88,7 +88,7 @@ Contact:
       ca:
         kind: LinkedIn 
   twitterjordip:
-    target: @jordipuiggene
+    target: <a href="https://twitter.com/#!/jordipuiggene">@jordipuiggene</a>
     Member: jordip
     Enumeration: two
     Translation:
@@ -99,7 +99,7 @@ Contact:
       ca:
         kind: Twitter       
   twitteranna:
-    target: @ultrasonica
+    target: <a href="https://twitter.com/#!/ultrasonica">@ultrasonica</a>
     Member: anna
     Enumeration: one
     Translation:
@@ -110,7 +110,7 @@ Contact:
       ca:
         kind: Twitter
   webanna:
-    target: http://www.elgiroscopi.com
+    target: <a href="http://www.elgiroscopi.com">www.elgiroscopi.com</a>
     Member: anna
     Enumeration: two
     Translation:
@@ -121,7 +121,7 @@ Contact:
       ca:
         kind: Pàgina web
   bloganna:
-    target: http://www.betesiclicks.com
+    target: <a href="http://www.betesiclicks.com">www.betesiclicks.com</a>
     Member: anna
     Enumeration: three
     Translation:
