@@ -200,14 +200,17 @@ div {
   border: solid 1px #D09;
 }
 
-#main-right img.teamPhoto {
+#main-right img.teamPhoto, img.projectScreenshot {
 	float: left;
 	margin: 0 20px 20px 0;
-	width: 100px;
 	height: auto;
 	border-radius: 6px;
   box-shadow: 1px 1px 3px #888;
 }
+
+#main-right img.teamPhoto { width: 100px; }
+
+#main-right img.projectScreenshot { width: 540px; }
 
 .blacktext {
   color: black;
