@@ -18,9 +18,9 @@ Contact:
       en:
         kind: Mobile
       es:
-        kind: Móbil
+        kind: Móvil
       ca:
-        kind: Mòvil
+        kind: Mòbil
   emailsanti:
     target: <a href="mailto:santiago@flux.cat">santiago@flux.cat</a>
     Member: santiago
