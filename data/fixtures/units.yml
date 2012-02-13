@@ -279,17 +279,35 @@ Unit:
         subtitle:
         summary: <p>Aplicación web privada para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.</p>
         description: |
-          <p>AEPLA description project</p>
+          <p>Colaboración en el desarrollo de AeplaStats, una aplicación web para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios. 
+          La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologias:</p>
+          <ul><li><span class='blacktext'>Comparativos empresa-mercado</span></li>
+          <li><span class='blacktext'>Datos de ventas consolidados de mercado</span></li>
+          <li><span class='blacktext'>Ventas por toxicidades</span></li>
+          <li><span class='blacktext'>Ventas por agrupaciones de productos</span></li>
+          <li><span class='blacktext'>Comparativas de ventas interanuales</span></li></ul>
       es:
         title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
         summary: <p>Aplicación web privada para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.</p>
         description: |
-          <p>Descripción del proyecto AEPLA</p>
+          <p>Colaboración en el desarrollo de AeplaStats, una aplicación web para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios. 
+          La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologias:</p>
+          <ul><li><span class='blacktext'>Comparativos empresa-mercado</span></li>
+          <li><span class='blacktext'>Datos de ventas consolidados de mercado</span></li>
+          <li><span class='blacktext'>Ventas por toxicidades</span></li>
+          <li><span class='blacktext'>Ventas por agrupaciones de productos</span></li>
+          <li><span class='blacktext'>Comparativas de ventas interanuales</span></li></ul>
       ca:
         title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
         summary: <p>Aplicació web privada per al tractament estadístic de dades de venta al sector de productes fitosanitaris.</p>
         description: |
-          <p>Descripció del projecte AEPLA</p>
+          <p>Colaboración en el desarrollo de AeplaStats, una aplicación web para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios. 
+          La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologias:</p>
+          <ul><li><span class='blacktext'>Comparativos empresa-mercado</span></li>
+          <li><span class='blacktext'>Datos de ventas consolidados de mercado</span></li>
+          <li><span class='blacktext'>Ventas por toxicidades</span></li>
+          <li><span class='blacktext'>Ventas por agrupaciones de productos</span></li>
+          <li><span class='blacktext'>Comparativas de ventas interanuales</span></li></ul>
           
