@@ -200,11 +200,13 @@ div {
   border: solid 1px #D09;
 }
 
-#main-right img {
+#main-right img.teamPhoto {
 	float: left;
 	margin: 0 20px 20px 0;
 	width: 100px;
 	height: auto;
+	border-radius: 6px;
+  box-shadow: 1px 1px 3px #888;
 }
 
 .blacktext {

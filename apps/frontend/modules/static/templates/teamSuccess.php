@@ -5,7 +5,7 @@
 	<?php $i = 0; ?>
 	<?php foreach ($coreMembers as $member): ?>
 		<?php if ($i > 0) echo '<hr/>'?>
-		<?php if (strlen($member->getAltImage()) > 0) echo "<img src='/uploads/".$member->getAltImage()."' alt='Photo ".$member->getUser()."' />"; ?>
+		<?php if (strlen($member->getAltImage()) > 0) echo "<img class='teamPhoto' src='/uploads/".$member->getAltImage()."' alt='Photo ".$member->getUser()."' />"; ?>
 		<p><?php echo $member->getName().' '.$member->getSurname() ?><br/>
 		<?php echo $member->getCategory() ?><br/>
 		<?php echo $member->getDescription(ESC_RAW) ?></p>
@@ -18,14 +18,14 @@
 	<?php endforeach; ?>
 <?php endif; ?>
 
-<h1 style="margin-top:50px"><?php echo __('partners')?></h1>
+<h1 style="margin-top:60px"><?php echo __('partners')?></h1>
 <?php if (count($partnerMembers) == 0): ?>
 	<p><?php echo __('There are no partner members') ?></p>
 <?php else: ?>
 	<?php $i = 0; ?>
 	<?php foreach ($partnerMembers as $member): ?>
 		<?php if ($i > 0) echo '<hr/>'?>
-		<?php if (strlen($member->getAltImage()) > 0) echo "<img src='/uploads/".$member->getAltImage()."' alt='Photo ".$member->getUser()."' />"; ?>
+		<?php if (strlen($member->getAltImage()) > 0) echo "<img class='teamPhoto' src='/uploads/".$member->getAltImage()."' alt='Photo ".$member->getUser()."' />"; ?>
 		<p><?php echo $member->getName().' '.$member->getSurname() ?><br/>
 		<?php echo $member->getCategory() ?><br/>
 		<?php echo $member->getDescription(ESC_RAW) ?></p>
