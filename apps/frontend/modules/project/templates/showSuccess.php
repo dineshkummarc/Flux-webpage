@@ -14,3 +14,11 @@
 <?php if (strlen($project->getAltImage()) > 0): ?>
 	<img class='projectScreenshot' src='<?php echo $project->getAltImage() ?>' alt='Screenshot <?php echo $project->getName() ?>' />
 <?php endif; ?>
+
+<?php if (strlen($project->getUnit()->getUrl())): ?>
+	<p><strong><?php echo __('Homepage').': ' ?></strong><?php echo link_to($project->getUnit()->getUrl(), 'http://'.$project->getUnit()->getUrl()) ?></p>
+<?php endif; ?>
+
+<?php if (strlen($project->getTechnology())): ?>
+	<p><strong><?php echo __('Used technologies').': ' ?></strong><?php echo $project->getTechnology() ?></p>
+<?php endif; ?>

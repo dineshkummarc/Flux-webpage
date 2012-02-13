@@ -10,11 +10,11 @@ Project:
     Enumeration: one
     Translation:
       en:
-        technology:
+        technology: HTML5, CSS3, JavaScript, Websocket, Java Servlets, MySQL & PHP
       es:
-        technology:
+        technology: HTML5, CSS3, JavaScript, Websocket, Java Servlets, MySQL y PHP
       ca:
-        technology:
+        technology: HTML5, CSS3, JavaScript, Websocket, Java Servlets, MySQL i PHP
   amep:
     name: Amep
     logo:
