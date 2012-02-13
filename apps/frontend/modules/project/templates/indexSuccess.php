@@ -6,7 +6,7 @@
 	<?php $i = 0; ?>
 	<?php foreach ($projects as $project): ?>
 		<?php if ($i > 0) echo '<hr/>'?>
-		<?php if (strlen($project->getLogo()) > 0) echo "<img src='".$project->getLogo()."' alt='Logo ".$project->getName()."' />"; ?>
+		<?php if (strlen($project->getLogo()) > 0) echo "<img class='logo' src='".$project->getLogo()."' alt='Logo ".$project->getName()."' />"; ?>
 		<p><?php if ($project->getUnit()->getName() != 'Skaeda') echo $project->getUnit()->getName(); ?></p>
 		<?php echo $project->getUnit()->getSummary(ESC_RAW) ?>
 		<p><?php echo __('To read more information about this project click ').link_to(__('here'), 'project/show?id='.$project->getId()).'.'; ?></p>

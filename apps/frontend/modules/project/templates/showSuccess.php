@@ -1,7 +1,7 @@
 <h1><?php echo __('projects')?></h1>
 
 <?php if (strlen($project->getLogo()) > 0): ?>
-	<img src='<?php echo $project->getLogo() ?>' alt='Logo <?php echo $project->getName() ?>'/>
+	<img class="logo" src='<?php echo $project->getLogo() ?>' alt='Logo <?php echo $project->getName() ?>'/>
 <?php endif; ?>
 
 <?php if ($project->getUnit()->getName() != 'Skaeda'): ?>

@@ -212,6 +212,8 @@ div {
 
 #main-right img.projectScreenshot { width: 540px; }
 
+#main-right img.logo { margin: 0 20px 20px 0; }
+
 .blacktext {
   color: black;
 }
