@@ -18,7 +18,7 @@ projectes_show_ca:
     sf_culture: ca
     
 projectes_show_en:
-  url:  /:sf_culture/proyect/
+  url:  /:sf_culture/project/
   param: { module: project, action: show }
   requirements:
     sf_culture: en
