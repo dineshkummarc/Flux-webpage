@@ -21,6 +21,12 @@ class languageActions extends sfActions
 			$newRoute = '@privacitat_'.$request->getGetParameter('lang');
 		}
 		
+		if (substr($accio, 0, 1) == '?') {
+			// Es un detall de projecte
+			//$accio = 'projectes_show'; //strpos(($request->getReferer(), 'pro')
+			$newRoute = '@projectes_show_'.$request->getGetParameter('lang').$accio;
+		}
+		
 		sfContext::getInstance()->getLogger()->debug('[language/changeLanguage] Request language: '.$request->getGetParameter('lang'));
 		sfContext::getInstance()->getLogger()->debug('[language/changeLanguage] Path info: '.$request->getPathInfo());
 		sfContext::getInstance()->getLogger()->debug('[language/changeLanguage] Referer: '.$request->getReferer());
