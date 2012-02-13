@@ -275,21 +275,21 @@ Unit:
     image:
     Translation:
       en:
-        title: AEPLA
+        title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
-        summary:
+        summary: <p>Aplicación web privada para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.</p>
         description: |
           <p>AEPLA description project</p>
       es:
-        title: AEPLA
+        title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
-        summary:
+        summary: <p>Aplicación web privada para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.</p>
         description: |
           <p>Descripción del proyecto AEPLA</p>
       ca:
-        title: AEPLA
+        title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
-        summary:
+        summary: <p>Aplicació web privada per al tractament estadístic de dades de venta al sector de productes fitosanitaris.</p>
         description: |
           <p>Descripció del projecte AEPLA</p>
           

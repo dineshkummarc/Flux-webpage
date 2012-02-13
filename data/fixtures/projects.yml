@@ -1,8 +1,8 @@
 Project:
   skaeda:
     name: Skaeda
-    logo: /images/skaeda-logo.png
-    logo_bw:
+    logo: /images/skaeda-logo-color.png
+    logo_bw: /images/skaeda-logo.png
     alt_image: /images/skaeda-screenshot.png
     begin_date: '2011-01-17'
     end_date: '2012-01-17'
@@ -17,8 +17,8 @@ Project:
         technology: HTML5, CSS3, JavaScript, Websocket, Java Servlets, MySQL i PHP
   amep:
     name: Amep
-    logo: /images/amep-logo.png
-    logo_bw:
+    logo: /images/amep-logo-color.png
+    logo_bw: /images/amep-logo.png
     alt_image: /images/amep-screenshot.png
     begin_date: '2011-10-01'
     end_date: '2011-11-15'
@@ -33,17 +33,17 @@ Project:
         technology: PHP Symfony Framework, JavaScript i MySQL
   aepla:
     name: Aepla
-    logo:
-    logo_bw:
-    alt_image:
-    begin_date: '2011-10-01'
-    end_date:
+    logo: /images/aepla-logo-color.png
+    logo_bw: /images/aepla-logo.png
+    alt_image: /images/aepla-screenshot.png
+    begin_date: '2011-12-01'
+    end_date: '2012-03-01'
     Unit: aepla
-    Enumeration: threeOff
+    Enumeration: three
     Translation:
       en:
-        technology:
+        technology: PHP Symfony Framework, JavaScript & MSSQL Server 2008
       es:
-        technology:
+        technology: PHP Symfony Framework, JavaScript y MSSQL Server 2008
       ca:
-        technology:
+        technology: PHP Symfony Framework, JavaScript i MSSQL Server 2008
