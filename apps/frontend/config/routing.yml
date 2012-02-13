@@ -24,19 +24,19 @@ projectes_show_en:
     sf_culture: en
     
 projectes_es:
-  url:  /:sf_culture/proyectos
+  url:  /:sf_culture/proyecto
   param: { module: project, action: index }
   requirements:
     sf_culture: es
 
 projectes_ca:
-  url:  /:sf_culture/projectes
+  url:  /:sf_culture/projecte
   param: { module: project, action: index }
   requirements:
     sf_culture: ca
 
 projectes_en:
-  url:  /:sf_culture/projects
+  url:  /:sf_culture/project
   param: { module: project, action: index }
   requirements:
     sf_culture: en
