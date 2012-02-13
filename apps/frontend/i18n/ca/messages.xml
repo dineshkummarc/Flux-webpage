@@ -100,6 +100,14 @@
         <source>partners</source>
         <target>col·laboradors</target>
       </trans-unit>
+      <trans-unit id="25">
+        <source>Homepage</source>
+        <target>Pàgina web</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Used technologies</source>
+        <target>Tecnologies utilitzades</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

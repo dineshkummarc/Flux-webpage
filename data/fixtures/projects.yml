@@ -17,20 +17,20 @@ Project:
         technology: HTML5, CSS3, JavaScript, Websocket, Java Servlets, MySQL i PHP
   amep:
     name: Amep
-    logo:
+    logo: /images/amep-logo.png
     logo_bw:
-    alt_image:
+    alt_image: /images/amep-screenshot.png
     begin_date: '2011-10-01'
     end_date: '2011-11-15'
     Unit: amep
     Enumeration: two
     Translation:
       en:
-        technology:
+        technology: PHP Symfony Framework, JavaScript & MySQL
       es:
-        technology:
+        technology: PHP Symfony Framework, JavaScript y MySQL
       ca:
-        technology:
+        technology: PHP Symfony Framework, JavaScript i MySQL
   aepla:
     name: Aepla
     logo:

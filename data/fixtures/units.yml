@@ -232,28 +232,43 @@ Unit:
           <li><span class='blacktext'>arrastra i solta per assignar bookmarks a grups o etiquetes</span></li>
           <li><span class='blacktext'>importa i exporta els teus bookmarks</span></li></ul>
   amep:
-    name: AMEP
+    name: Web Automenánica Eduardo Porres
     url: www.automecanicaeduardoporres.com
     image:
     Translation:
       en:
-        title: AMEP
+        title: Automecánica Eduardo Porres
         subtitle:
-        summary:
+        summary: <p>Aplicación web dinámica para reservar cita previa online.</p>
         description: |
-          <p>AMEP description project</p>
+          <p>Esta aplicación integra las siguientes funcionalidades:</p>
+          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
+          <li><span class='blacktext'>Gestión de promociones online</span></li>
+          <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
+          <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
+          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
       es:
-        title: AMEP
+        title: Automecánica Eduardo Porres
         subtitle:
-        summary:
+        summary: <p>Aplicación web dinámica para reservar cita previa online.</p>
         description: |
-          <p>Descripción del proyecto AMEP</p>
+          <p>Esta aplicación integra las siguientes funcionalidades:</p>
+          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
+          <li><span class='blacktext'>Gestión de promociones online</span></li>
+          <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
+          <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
+          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
       ca:
-        title: AMEP
+        title: Automecánica Eduardo Porres
         subtitle:
-        summary:
+        summary: <p>Aplicació web dinàmica per a reservar cita prèvia online.</p>
         description: |
-          <p>Descripció del projecte AMEP</p>
+          <p>Esta aplicación integra las siguientes funcionalidades:</p>
+          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
+          <li><span class='blacktext'>Gestión de promociones online</span></li>
+          <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
+          <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
+          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
   aepla:
     name: AEPLA
     url: www.aepla.es
