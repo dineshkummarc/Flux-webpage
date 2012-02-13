@@ -232,14 +232,14 @@ Unit:
           <li><span class='blacktext'>arrastra i solta per assignar bookmarks a grups o etiquetes</span></li>
           <li><span class='blacktext'>importa i exporta els teus bookmarks</span></li></ul>
   amep:
-    name: Web Automenánica Eduardo Porres
+    name: Web Automenánica Eduardo Porres, S.L.
     url: www.automecanicaeduardoporres.com
     image:
     Translation:
       en:
         title: Automecánica Eduardo Porres
         subtitle:
-        summary: <p>Aplicación web dinámica para reservar cita previa online.</p>
+        summary: <p>Aplicación web para reservar cita previa online.</p>
         description: |
           <p>Esta aplicación integra las siguientes funcionalidades:</p>
           <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
@@ -248,9 +248,9 @@ Unit:
           <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
           <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
       es:
-        title: Automecánica Eduardo Porres
+        title: Automecánica Eduardo Porres, S.L.
         subtitle:
-        summary: <p>Aplicación web dinámica para reservar cita previa online.</p>
+        summary: <p>Aplicación web para reservar cita previa online.</p>
         description: |
           <p>Esta aplicación integra las siguientes funcionalidades:</p>
           <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
@@ -259,9 +259,9 @@ Unit:
           <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
           <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
       ca:
-        title: Automecánica Eduardo Porres
+        title: Automecánica Eduardo Porres, S.L.
         subtitle:
-        summary: <p>Aplicació web dinàmica per a reservar cita prèvia online.</p>
+        summary: <p>Aplicació web per a reservar cita prèvia online.</p>
         description: |
           <p>Esta aplicación integra las siguientes funcionalidades:</p>
           <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>

@@ -9,7 +9,7 @@ class languageActions extends sfActions
 		
 		if ($accio == 'inicio' || $accio == 'inici' || $accio == 'home') {
 			$newRoute = '@homepage_'.$request->getGetParameter('lang');
-		} else if ($accio == 'proyectos' || $accio == 'projectes' || $accio == 'projects') {
+		} else if ($accio == 'proyecto' || $accio == 'projecte' || $accio == 'project') {
 			$newRoute = '@projectes_'.$request->getGetParameter('lang');
 		} else if ($accio == 'servicios' || $accio == 'serveis' || $accio == 'services') {
 			$newRoute = '@serveis_'.$request->getGetParameter('lang');
