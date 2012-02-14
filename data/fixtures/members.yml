@@ -106,19 +106,19 @@ Member:
         surname: Puiggené
         address:
         category: Programmer
-        description:
+        description: ILS & LIMS Consultant
       es:
         name: Jordi
         surname: Puiggené
         address:
         category: Programador
-        description:
+        description: Consultor ILS y LIMS
       ca:
         name: Jordi
         surname: Puiggené
         address:
         category: Programador
-        description:
+        description: Consultor ILS i LIMS
   anna:
     user: anna.codina
     is_partner: 1

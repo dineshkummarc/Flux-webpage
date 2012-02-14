@@ -46,7 +46,7 @@ Contact:
   emaildavid:
     target: <a href="mailto:david@flux.cat">david@flux.cat</a>
     Member: david
-    Enumeration: oneOff
+    Enumeration: one
     Translation:
       en:
         kind: Email
@@ -90,7 +90,7 @@ Contact:
   emailjordip:
     target: <a href="mailto:jordi.puiggene@gmail.com">jordi.puiggene@gmail.com</a>
     Member: jordip
-    Enumeration: one
+    Enumeration: oneOff
     Translation:
       en:
         kind: Email
@@ -98,6 +98,17 @@ Contact:
         kind: Email
       ca:
         kind: Email
+  webjordip:
+    target: <a href="http://www.jordipuiggene.com/">www.jordipuiggene.com</a>
+    Member: jordip
+    Enumeration: one
+    Translation:
+      en:
+        kind: Web
+      es:
+        kind: Página web
+      ca:
+        kind: Pàgina web
   linkedjordip:
     target: <a href="http://es.linkedin.com/in/jordipuiggene">es.linkedin.com/in/jordipuiggene</a>
     Member: jordip

@@ -96,7 +96,7 @@ Unit:
         description: |
           <p>Si desitja contactar amb nosaltres per a contractar-nos, demanar un pressupost o ampliar més informació sobre que podem fer per a millorar la productivitat del seu negoci 
           pot localitzar-nos</p>
-          <ul><li><span class='blacktext'>trucant al telèfon mòvil:</span> (+34) 636 963 301</li>
+          <ul><li><span class='blacktext'>trucant al telèfon mòbil:</span> (+34) 636 963 301</li>
           <li><span class='blacktext'>trucant a travès de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a></li>
           <li><span class='blacktext'>per Twitter a:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
           <li><span class='blacktext'>o simplement escrivint un text breu al formulari i contactarem amb vostè el més aviat possible</span></li></ul>
@@ -183,13 +183,13 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>A més a més de desenvolupar aplicacions de gestió integrals, també pot contractar-nos per a realitzar tasques especialitzades en tecnologies de la informació y comunicació per a:</p>
+          <p>A més a més de desenvolupar aplicacions de gestió integrals, també pot contractar-nos per a realitzar tasques especialitzades en tecnologies de la informació i comunicació per a:</p>
           <ul><li><span class='blacktext'>Assessorar i valorar projectes tècnics</span></li>
-          <li><span class='blacktext'>Integrar gestors de continguts y serveis de pagament electrònic</span></li>
+          <li><span class='blacktext'>Integrar gestors de continguts i serveis de pagament electrònic</span></li>
           <li><span class='blacktext'>Desenvolupar aplicacions fetes a mida per a obtenir un producte final fàcil d'utilitzar i perfectament adaptat a les seves necessitats</span></li>
           <li><span class='blacktext'>Assistència tècnica i manteniment de servidors de correu electrònic, pàgines web, bases de dades i sistemes de sincronització d'informació</span></li>
           <li><span class='blacktext'>Assessorament amb xarxes socials i accions de màrqueting que maximitzin la visibilitat del seu negoci</span></li>
-          <li><span class='blacktext'>Soport d'aplicacions ofimàtiques, sistemes de gestió de continguts i aplicacions al núvol [<a href="http://ca.wikipedia.org/wiki/Cloud_computing">cloud computing</a>]</span></li></ul>
+          <li><span class='blacktext'>Suport d'aplicacions ofimàtiques, sistemes de gestió de continguts i aplicacions al núvol [<a href="http://ca.wikipedia.org/wiki/Cloud_computing">cloud computing</a>]</span></li></ul>
   skaeda:
     name: Skaeda
     url: www.skaeda.com
