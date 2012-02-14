@@ -6,25 +6,25 @@ class languageActions extends sfActions
 	{
 		$this->getUser()->setCulture($request->getGetParameter('lang'));
 		$accio = substr(strrchr($request->getReferer(), "/"), 1);
+		$found = false;
 		
 		if ($accio == 'inicio' || $accio == 'inici' || $accio == 'home') {
-			$newRoute = '@homepage_'.$request->getGetParameter('lang');
+			$newRoute = '@homepage_'.$request->getGetParameter('lang'); $found = true;
 		} else if ($accio == 'proyecto' || $accio == 'projecte' || $accio == 'project') {
-			$newRoute = '@projectes_'.$request->getGetParameter('lang');
+			$newRoute = '@projectes_'.$request->getGetParameter('lang'); $found = true;
 		} else if ($accio == 'servicios' || $accio == 'serveis' || $accio == 'services') {
-			$newRoute = '@serveis_'.$request->getGetParameter('lang');
+			$newRoute = '@serveis_'.$request->getGetParameter('lang'); $found = true;
 		} else if ($accio == 'equipo' || $accio == 'equip' || $accio == 'team') {
-			$newRoute = '@equip_'.$request->getGetParameter('lang');
+			$newRoute = '@equip_'.$request->getGetParameter('lang'); $found = true;
 		} else if ($accio == 'contacto' || $accio == 'contacte' || $accio == 'contact') {
-			$newRoute = '@contacte_'.$request->getGetParameter('lang');
+			$newRoute = '@contacte_'.$request->getGetParameter('lang'); $found = true;
 		} else if ($accio == 'privacidad' || $accio == 'privacitat' || $accio == 'privacy') {
-			$newRoute = '@privacitat_'.$request->getGetParameter('lang');
+			$newRoute = '@privacitat_'.$request->getGetParameter('lang'); $found = true;
 		}
 		
-		if (substr($accio, 0, 1) == '?') {
-			// Es un detall de projecte
-			//$accio = 'projectes_show'; //strpos(($request->getReferer(), 'pro')
-			$newRoute = '@projectes_show_'.$request->getGetParameter('lang').$accio;
+		if (!$found) {
+			// Es un detall de projecte (show)
+			$newRoute = '@project_by_name_'.$request->getGetParameter('lang').'?name='.$accio;
 		}
 		
 		sfContext::getInstance()->getLogger()->debug('[language/changeLanguage] Request language: '.$request->getGetParameter('lang'));

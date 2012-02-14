@@ -6,7 +6,7 @@
 	<?php $i = 0; ?>
 	<?php foreach ($projects as $project): ?>
 		<?php if ($i > 0) echo '<hr/>'?>
-		<?php if (strlen($project->getLogo()) > 0) echo link_to(image_tag($project->getLogoBw(), array('id' => 'logo-'.$project->getId(), 'onmouseout' => 'makeHoverOutEffect(this)', 'onmouseover' => 'makeHoverInEffect(this)', 'class' => 'logo', 'alt' => 'Logo '.$project->getName())), 'project/show?name='.$project->getName()); ?>
+		<?php if (strlen($project->getLogo()) > 0) echo link_to(image_tag($project->getLogoBw(), array('id' => 'logo-'.$project->getId(), 'onmouseout' => 'makeHoverOutEffect(this)', 'onmouseover' => 'makeHoverInEffect(this)', 'class' => 'logo', 'alt' => 'Logo '.$project->getName())), '@project_by_name_'.$sf_user->getCulture().'?name='.$project->getName()); ?>
 		<!-- <p><?php /*if ($project->getUnit()->getName() != 'Skaeda') echo $project->getUnit()->getName();*/ ?></p> -->
 		<p><?php echo $project->getUnit()->getSummary(ESC_RAW) ?></p>
 		<p><?php echo __('To read more information about this project click ').link_to(__('here'), 'project/show?id='.$project->getId()).'.'; ?></p>
