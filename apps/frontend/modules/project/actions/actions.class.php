@@ -23,8 +23,10 @@ class projectActions extends sfActions
 
   public function executeShow(sfWebRequest $request)
   {
-    $this->project = Doctrine_Core::getTable('Project')->find(array($request->getParameter('id')));
-    $this->forward404Unless($this->project);
+    //$this->project = Doctrine_Core::getTable('Project')->find(array($request->getParameter('id')));
+    $projects = ProjectTable::getInstance()->createQuery('t')->where('t.name = ?', $request->getParameter('name'))->limit(1)->execute();
+    if (count($projects) > 0) $this->project = $projects[0];
+  	$this->forward404Unless($this->project);
   }
 
 }

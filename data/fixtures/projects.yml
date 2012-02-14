@@ -1,6 +1,6 @@
 Project:
   skaeda:
-    name: Skaeda
+    name: skaeda
     logo: /images/skaeda-logo-color.png
     logo_bw: /images/skaeda-logo.png
     alt_image: /images/skaeda-screenshot.png
@@ -16,7 +16,7 @@ Project:
       ca:
         technology: HTML5, CSS3, JavaScript, Websocket, Java Servlets, MySQL i PHP
   amep:
-    name: Amep
+    name: amep
     logo: /images/amep-logo-color.png
     logo_bw: /images/amep-logo.png
     alt_image: /images/amep-screenshot.png
@@ -32,7 +32,7 @@ Project:
       ca:
         technology: PHP Symfony Framework, JavaScript i MySQL
   aepla:
-    name: Aepla
+    name: aepla
     logo: /images/aepla-logo-color.png
     logo_bw: /images/aepla-logo.png
     alt_image: /images/aepla-screenshot.png

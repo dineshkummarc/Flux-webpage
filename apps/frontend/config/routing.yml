@@ -5,6 +5,10 @@ change_language:
   url:   /change_language
   param: { module: language, action: changeLanguage }
   
+project_by_name:
+  url:    /proyecto/:name
+  param:  { module: project, action: show }
+  
 projectes_show_es:
   url:  /:sf_culture/proyecto/
   param: { module: project, action: show }
