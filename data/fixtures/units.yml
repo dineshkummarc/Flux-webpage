@@ -24,8 +24,8 @@ Unit:
           aplicaciones web y aplicaciones para dispositivos móviles iOS y Android. 
           Nuestra ilusión y esfuerzo busca conseguir los siguientes objetivos:</p>
           <ul><li><span class='blacktext'>Producir y comercializar software como servicio [<a href="http://es.wikipedia.org/wiki/Software_como_servicio">SAAS</a>]</span></li>
-          <li><span class='blacktext'>Desarollar aplicaciones funcionales y sencillas</span></li>
-          <li><span class='blacktext'>Crear interfícies de usuario innovadoras, flexibles y útiles</span></li>
+          <li><span class='blacktext'>Desarrollar aplicaciones funcionales y sencillas</span></li>
+          <li><span class='blacktext'>Crear interfaces de usuario innovadoras, flexibles y útiles</span></li>
           <li><span class='blacktext'>Mejorar la experiencia de usuario [<a href="http://es.wikipedia.org/wiki/Experiencia_de_usuario">UX</a>]</span></li></ul>
       ca:
         title: inici
@@ -171,13 +171,13 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Además de desarrollar aplicaciones de gestión integrales, también puede contratarnos para realizar tareas especializadas en tecnologias de la información y comunicación para:</p>
+          <p>Además de desarrollar aplicaciones de gestión integrales, también puede contratarnos para realizar tareas especializadas en tecnologías de la información y comunicación para:</p>
           <ul><li><span class='blacktext'>Asesorar y valorar proyectes técnicos</span></li>
           <li><span class='blacktext'>Integrar gestores de contenidos y servicios de pago electrónico en proyectos nuevos o existentes</span></li>
           <li><span class='blacktext'>Desarrollar aplicaciones web o móviles hechas a medida para obtener un producto final fácil de utilizar y perfectamente adaptado a sus necesidades</span></li>
-          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónico, páginas web, bases de datos y sistemes de sincronitzación de información</span></li>
-          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de márqueting que maximicen la visibilidad de su negocio</span></li>
-          <li><span class='blacktext'>Soporte de aplicaciones ofimáticas, sistemes de gestión de contenidos y aplicaciones en la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>]</span></li></ul>
+          <li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónico, páginas web, bases de datos y sistemas de sincronización de información</span></li>
+          <li><span class='blacktext'>Asesoramiento sobre redes sociales y acciones de marketing que maximicen la visibilidad de su negocio</span></li>
+          <li><span class='blacktext'>Soporte de aplicaciones ofimáticas, sistemas de gestión de contenidos y aplicaciones en la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>]</span></li></ul>
       ca:
         title: serveis
         subtitle:
@@ -217,7 +217,7 @@ Unit:
           <li><span class='blacktext'>previsualitzación de bookmarks en miniatura</span></li>
           <li><span class='blacktext'>permite compartir fácilmente en redes sociales</span></li>
           <li><span class='blacktext'>aplicación web en tiempo real verdadero basada en la tecnologia HTML5 [<a href="http://es.wikipedia.org/wiki/WebSocket">Websocket</a>]</span></li>
-          <li><span class='blacktext'>arrastra y suelta per asignar bookmarks a grupos o etiquetas</span></li>
+          <li><span class='blacktext'>arrastra y suelta para asignar bookmarks a grupos o etiquetas</span></li>
           <li><span class='blacktext'>importa y exporta tus bookmarks</span></li></ul>
       ca:
         title: Skaeda
@@ -263,12 +263,12 @@ Unit:
         subtitle:
         summary: <p>Aplicació web per a reservar cita prèvia online.</p>
         description: |
-          <p>Esta aplicación integra las siguientes funcionalidades:</p>
-          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
-          <li><span class='blacktext'>Gestión de promociones online</span></li>
-          <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
-          <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
-          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
+          <p>Aquesta aplicació integra les següents funcionalitats:</p>
+          <ul><li><span class='blacktext'>Calendari online per a que l'usuari pugui sol·licitar una visita al taller mitjançant cita prèvia</span></li>
+          <li><span class='blacktext'>Gestió de promocions online</span></li>
+          <li><span class='blacktext'>Gestor de continguts per actualitzar la página web fàcilment mitjançant un <em>backend</em></span></li>
+          <li><span class='blacktext'>Google Calendar API per a rebre avisos de recordatori mitjançant SMS</span></li>
+          <li><span class='blacktext'>Formulari de contacte amb registre d'usuaris per a rebre notificacions d'avís per email</span></li></ul>
   aepla:
     name: AEPLA
     url: www.aepla.es
@@ -292,7 +292,7 @@ Unit:
         summary: <p>Aplicación web privada para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.</p>
         description: |
           <p>Colaboración en el desarrollo de AeplaStats, una aplicación web para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios. 
-          La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologias:</p>
+          La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologías:</p>
           <ul><li><span class='blacktext'>Comparativos empresa-mercado</span></li>
           <li><span class='blacktext'>Datos de ventas consolidados de mercado</span></li>
           <li><span class='blacktext'>Ventas por toxicidades</span></li>
@@ -301,13 +301,13 @@ Unit:
       ca:
         title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
-        summary: <p>Aplicació web privada per al tractament estadístic de dades de venta al sector de productes fitosanitaris.</p>
+        summary: <p>Aplicació web privada per al tractament estadístic de dades de venda al sector de productes fitosanitaris.</p>
         description: |
-          <p>Colaboración en el desarrollo de AeplaStats, una aplicación web para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios. 
-          La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologias:</p>
-          <ul><li><span class='blacktext'>Comparativos empresa-mercado</span></li>
-          <li><span class='blacktext'>Datos de ventas consolidados de mercado</span></li>
-          <li><span class='blacktext'>Ventas por toxicidades</span></li>
-          <li><span class='blacktext'>Ventas por agrupaciones de productos</span></li>
-          <li><span class='blacktext'>Comparativas de ventas interanuales</span></li></ul>
+          <p>Colaboració amb el desenvolupament d'AeplaStats, una aplicació web per al tractament estadístic de dades de venda del sector de productes fitosanitaris. 
+          L'aplicació inclou l'auditoria i consolidació de dades de venda, així com la generació d'informes de diferents tipologies:</p>
+          <ul><li><span class='blacktext'>Comparatius empresa-mercat</span></li>
+          <li><span class='blacktext'>Dades de venda consolidades de mercat</span></li>
+          <li><span class='blacktext'>Venda per toxicitat</span></li>
+          <li><span class='blacktext'>Venda per agrupacions de productes</span></li>
+          <li><span class='blacktext'>Comparatives de vendes interanuals</span></li></ul>
           
