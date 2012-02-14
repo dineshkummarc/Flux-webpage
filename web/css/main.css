@@ -250,7 +250,7 @@ form.contactForm label {
 
 form.contactForm input, textarea {
 	display: block;
-  width: 100%;
+  width: 98%;
   border: solid 1px #D09;
   border-radius: 3px;
   padding: 5px;

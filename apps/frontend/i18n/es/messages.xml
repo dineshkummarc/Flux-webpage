@@ -108,6 +108,10 @@
         <source>Used technologies</source>
         <target>Tecnologías utilizadas</target>
       </trans-unit>
+      <trans-unit id="27">
+        <source>Date</source>
+        <target>Fecha</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
