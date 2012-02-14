@@ -9,7 +9,7 @@
 		<?php if (strlen($project->getLogo()) > 0) echo link_to(image_tag($project->getLogoBw(), array('id' => 'logo-'.$project->getId(), 'onmouseout' => 'makeHoverOutEffect(this)', 'onmouseover' => 'makeHoverInEffect(this)', 'class' => 'logo', 'alt' => 'Logo '.$project->getName())), '@project_by_name_'.$sf_user->getCulture().'?name='.$project->getName()); ?>
 		<!-- <p><?php /*if ($project->getUnit()->getName() != 'Skaeda') echo $project->getUnit()->getName();*/ ?></p> -->
 		<p><?php echo $project->getUnit()->getSummary(ESC_RAW) ?></p>
-		<p><?php echo __('To read more information about this project click ').link_to(__('here'), 'project/show?id='.$project->getId()).'.'; ?></p>
+		<p><?php echo __('To read more information about this project click ').link_to(__('here'), '@project_by_name_'.$sf_user->getCulture().'?name='.$project->getName()).'.'; ?></p>
 		<p><?php echo __('Website: ').link_to($project->getUnit()->getUrl(), 'http://'.$project->getUnit()->getUrl()); ?></p>
 		<?php $i = 1; ?>
 	<?php endforeach; ?>
