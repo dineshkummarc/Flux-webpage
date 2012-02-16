@@ -197,3 +197,25 @@ Contact:
         kind: LinkedIn
       ca:
         kind: LinkedIn
+  linkedvalenti:
+    target: <a href="http://es.linkedin.com/in/***">es.linkedin.com/in/***e</a>
+    Member: valenti
+    Enumeration: oneOff
+    Translation:
+      en:
+        kind: LinkedIn
+      es:
+        kind: LinkedIn
+      ca:
+        kind: LinkedIn
+  webvalenti:
+    target: <a href="http://www.vandiss.com">www.vandiss.com</a>
+    Member: valenti
+    Enumeration: two
+    Translation:
+      en:
+        kind: Web
+      es:
+        kind: Página web
+      ca:
+        kind: Pàgina web

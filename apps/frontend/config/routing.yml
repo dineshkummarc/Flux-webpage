@@ -23,23 +23,23 @@ project_by_name_en:
   requirements:
     sf_culture: en
       
-projectes_show_es:
-  url:  /:sf_culture/proyecto/
-  param: { module: project, action: show }
-  requirements:
-    sf_culture: es
+#projectes_show_es:
+#  url:  /:sf_culture/proyecto/
+#  param: { module: project, action: show }
+#  requirements:
+#    sf_culture: es
     
-projectes_show_ca:
-  url:  /:sf_culture/projecte/
-  param: { module: project, action: show }
-  requirements:
-    sf_culture: ca
+#projectes_show_ca:
+#  url:  /:sf_culture/projecte/
+#  param: { module: project, action: show }
+#  requirements:
+#    sf_culture: ca
     
-projectes_show_en:
-  url:  /:sf_culture/project/
-  param: { module: project, action: show }
-  requirements:
-    sf_culture: en
+#projectes_show_en:
+#  url:  /:sf_culture/project/
+#  param: { module: project, action: show }
+#  requirements:
+#    sf_culture: en
     
 projectes_es:
   url:  /:sf_culture/proyecto
@@ -60,91 +60,91 @@ projectes_en:
     sf_culture: en
     
 serveis_es:
-  url:  /:sf_culture/servicios
+  url:  /:sf_culture/servicios/*
   param: { module: static, action: services }
   requirements:
     sf_culture: es
 
 serveis_ca:
-  url:  /:sf_culture/serveis
+  url:  /:sf_culture/serveis/*
   param: { module: static, action: services }
   requirements:
     sf_culture: ca
     
 serveis_en:
-  url:  /:sf_culture/services
+  url:  /:sf_culture/services/*
   param: { module: static, action: services }
   requirements:
     sf_culture: en
     
 equip_es:
-  url:  /:sf_culture/equipo
+  url:  /:sf_culture/equipo/*
   param: { module: static, action: team }
   requirements:
     sf_culture: es
 
 equip_ca:
-  url:  /:sf_culture/equip
+  url:  /:sf_culture/equip/*
   param: { module: static, action: team }
   requirements:
     sf_culture: ca
 
 equip_en:
-  url:  /:sf_culture/team
+  url:  /:sf_culture/team/*
   param: { module: static, action: team }
   requirements:
     sf_culture: en
 
 contacte_es:
-  url:  /:sf_culture/contacto
+  url:  /:sf_culture/contacto/*
   param: { module: static, action: contact }
   requirements:
     sf_culture: es
     
 contacte_ca:
-  url:  /:sf_culture/contacte
+  url:  /:sf_culture/contacte/*
   param: { module: static, action: contact }
   requirements:
     sf_culture: ca
     
 contacte_en:
-  url:  /:sf_culture/contact
+  url:  /:sf_culture/contact/*
   param: { module: static, action: contact }
   requirements:
     sf_culture: en
 
 privacitat_es:
-  url:  /:sf_culture/privacidad
+  url:  /:sf_culture/privacidad/*
   param: { module: static, action: privacy }
   requirements:
     sf_culture: es
     
 privacitat_ca:
-  url:  /:sf_culture/privacitat
+  url:  /:sf_culture/privacitat/*
   param: { module: static, action: privacy }
   requirements:
     sf_culture: ca
     
 privacitat_en:
-  url:  /:sf_culture/privacy
+  url:  /:sf_culture/privacy/*
   param: { module: static, action: privacy }
   requirements:
     sf_culture: en
 
 homepage_es:
-  url:   /:sf_culture/inicio
+  url:   /:sf_culture/inicio/*
   param: { module: static, action: home }
   requirements:
     sf_culture: es
  
 homepage_ca:
-  url:   /:sf_culture/inici
+  url:   /:sf_culture/inici/*
   param: { module: static, action: home }
   requirements:
     sf_culture: ca
  
 homepage_en:
-  url:   /:sf_culture/home
+  url:   /:sf_culture/home/*
   param: { module: static, action: home }
   requirements:
     sf_culture: en

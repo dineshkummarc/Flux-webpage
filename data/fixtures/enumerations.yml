@@ -35,3 +35,27 @@ Enumeration:
   sixOff:
     position:   6
     is_active:  false
+  seven:
+    position:   7
+    is_active:  true
+  sevenOff:
+    position:   7
+    is_active:  false
+  eight:
+    position:   8
+    is_active:  true
+  eightOff:
+    position:   8
+    is_active:  false
+  nine:
+    position:   9
+    is_active:  true
+  nineOff:
+    position:   9
+    is_active:  false
+  ten:
+    position:   10
+    is_active:  true
+  tenOff:
+    position:   10
+    is_active:  false

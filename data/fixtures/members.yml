@@ -143,3 +143,27 @@ Member:
         address:
         category: Consultora estratègica
         description:
+  valenti:
+    user: valenti.garcia
+    is_partner: 1
+    alt_image: valentigarcia.png
+    Enumeration: seven
+    Translation:
+      en:
+        name: Valentí
+        surname: Garcia
+        address:
+        category: Graphic designer
+        description: Industry designer
+      es:
+        name: Valentí
+        surname: Garcia
+        address:
+        category: Diseñador gráfico
+        description: Diseñador industrial
+      ca:
+        name: Valentí
+        surname: Garcia
+        address:
+        category: Dissenyador gràfic
+        description:  Dissenyador industrial

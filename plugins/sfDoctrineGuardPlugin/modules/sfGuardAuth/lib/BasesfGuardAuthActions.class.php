@@ -40,6 +40,12 @@ class BasesfGuardAuthActions extends sfActions
         // or to the referer
         // or to the homepage
         $signinUrl = sfConfig::get('app_sf_guard_plugin_success_signin_url', $user->getReferer($request->getReferer()));
+        
+        // Comportament custom-made per a registrar l'entrada d'un usuari
+        $activitat = new Activitat();
+        $activitat->setRegistre('entrada');
+        $activitat->setIp($request->getRemoteAddress());
+        $activitat->save();
 
         return $this->redirect('' != $signinUrl ? $signinUrl : '@homepage');
       }
@@ -73,6 +79,12 @@ class BasesfGuardAuthActions extends sfActions
     $this->getUser()->signOut();
 
     $signoutUrl = sfConfig::get('app_sf_guard_plugin_success_signout_url', $request->getReferer());
+    
+    // Comportament custom-made per a registrar la sortida d'un usuari
+    $activitat = new Activitat();
+    $activitat->setRegistre('sortida');
+    $activitat->setIp($request->getRemoteAddress());
+    $activitat->save();
 
     $this->redirect('' != $signoutUrl ? $signoutUrl : '@homepage');
   }
