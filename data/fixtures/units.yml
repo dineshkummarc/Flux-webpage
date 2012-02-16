@@ -189,24 +189,16 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Descobreix com podem millorar la productivitat del seu negoci amb els nostres serveis especialitzats en tecnologies de la informació i comunicació. Algunes de les tasques que realitzem són:</p>
+          <p>Descobreixi com podem millorar la productivitat del seu negoci amb els nostres serveis especialitzats en tecnologies de la informació i comunicació. Algunes de les tasques que realitzem són:</p>
           <ul>
-            <li><span class='blacktext'>Desenvolupar aplicacions web fetes a mida per a obtenir un producte final fàcil d'utilitzar y perfectamente adaptat a les seves necessitats</span></li>
+            <li><span class='blacktext'>Desenvolupar aplicacions web a mida per a obtenir un producte final fàcil d'utilitzar y perfectament adaptat a les seves necessitats</span></li>
             <li><span class='blacktext'>Pujar els processos de gestió administrativa (albarans, partes, factures...) del seu negoci al núvol [<a href="http://ca.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] per a que pugui gestionar-los a través d'Internet des de qualsevol navegador o dispositiu mòbil (iPhone, iPad y Android)</span></li>
-            <li><span class='blacktext'>Crear pàginas web dinàmiques en les quals vostè mateix pugui administrar el seu contingut fàcilment. La nostra missió es crear gestors de continguts [<a href="http://ca.wikipedia.org/wiki/Sistema_de_gesti%C3%B3_de_continguts">CMS</a>] 100% personalitzats a les característiques del seu producte o servei</span></li>
-            <li><span class='blacktext'>Integrar serveis de pagament electrònic segur (PayPal, Visa y Mastercard) a projectes nous o existents per a que vostè pugui accedir a un mercat internacional a travès del comerç electrònic</span></li>
-            <li><span class='blacktext'>Assessorar sobre projectes tècnicos, xarxes socials i accions que maximitzin la visibilitat del seu negoci a la xarxa</span></li>
+            <li><span class='blacktext'>Crear pàgines web dinàmiques en les quals vostè mateix pugui administrar fàcilment el seu contingut. La nostra missió es crear gestors de continguts [<a href="http://ca.wikipedia.org/wiki/Sistema_de_gesti%C3%B3_de_continguts">CMS</a>] 100% personalitzats a les característiques del seu producte o servei</span></li>
+            <li><span class='blacktext'>Integrar serveis de pagament electrònic segur (PayPal, Visa y Mastercard) a projectes nous o existents per a que vostè pugui accedir a un mercat internacional a través del comerç electrònic</span></li>
+            <li><span class='blacktext'>Assessorar sobre projectes tècnics, xarxes socials i accions que maximitzin la visibilitat del seu negoci a la xarxa</span></li>
             <!--<li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónico, páginas web, bases de datos y sistemes de sincronitzación de información</span></li>-->
             <!--<li><span class='blacktext'>Soporte de aplicaciones ofimáticas, sistemes de gestión de contenidos y aplicaciones en la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>]</span></li>-->
           </ul>
-          
-          <p>A més a més de desenvolupar aplicacions de gestió integrals, també pot contractar-nos per a realitzar tasques especialitzades en tecnologies de la informació i comunicació per a:</p>
-          <ul><li><span class='blacktext'>Assessorar i valorar projectes tècnics</span></li>
-          <li><span class='blacktext'>Integrar gestors de continguts i serveis de pagament electrònic</span></li>
-          <li><span class='blacktext'>Desenvolupar aplicacions fetes a mida per a obtenir un producte final fàcil d'utilitzar i perfectament adaptat a les seves necessitats</span></li>
-          <li><span class='blacktext'>Assistència tècnica i manteniment de servidors de correu electrònic, pàgines web, bases de dades i sistemes de sincronització d'informació</span></li>
-          <li><span class='blacktext'>Assessorament amb xarxes socials i accions de màrqueting que maximitzin la visibilitat del seu negoci</span></li>
-          <li><span class='blacktext'>Suport d'aplicacions ofimàtiques, sistemes de gestió de continguts i aplicacions al núvol [<a href="http://ca.wikipedia.org/wiki/Cloud_computing">cloud computing</a>]</span></li></ul>
   skaeda:
     name: Skaeda
     url: www.skaeda.com
