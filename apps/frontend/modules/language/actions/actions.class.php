@@ -20,6 +20,8 @@ class languageActions extends sfActions
 			$newRoute = '@contacte_'.$request->getGetParameter('lang'); $found = true;
 		} else if ($accio == 'privacidad' || $accio == 'privacitat' || $accio == 'privacy') {
 			$newRoute = '@privacitat_'.$request->getGetParameter('lang'); $found = true;
+		} else if ($accio == '') {
+			$newRoute = '@homepage_'.$request->getGetParameter('lang'); $found = true;
 		}
 		
 		if (!$found) {
