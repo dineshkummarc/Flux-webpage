@@ -74,8 +74,8 @@ Unit:
         description: |
           <p>Si deseas contactar con nosotros para contratarnos, pedir un presupuesto o ampliar más información sobre lo que podemos hacer para mejorar la productividad de su negocio 
           puede encontrarnos</p>
-          <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301</li>
-          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a></li>
+          <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301 <span class='blacktext'>(David)</span></li>
+          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
           <li><span class='blacktext'>por Twitter en:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
           <li><span class='blacktext'>o simplemente escribiendo un texto breve en el formulario y contactaremos con usted en la mayor brevedad posible</span></li></ul>
       es:
@@ -85,8 +85,8 @@ Unit:
         description: |
           <p>Si deseas contactar con nosotros para contratarnos, pedir un presupuesto o ampliar más información sobre lo que podemos hacer para mejorar la productividad de su negocio 
           puede encontrarnos</p>
-          <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301</li>
-          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a></li>
+          <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301 <span class='blacktext'>(David)</span></li>
+          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
           <li><span class='blacktext'>por Twitter en:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
           <li><span class='blacktext'>o simplemente escribiendo un texto breve en el formulario y contactaremos con usted en la mayor brevedad posible</span></li></ul>
       ca:
@@ -96,8 +96,8 @@ Unit:
         description: |
           <p>Si desitja contactar amb nosaltres per a contractar-nos, demanar un pressupost o ampliar més informació sobre que podem fer per a millorar la productivitat del seu negoci 
           pot localitzar-nos</p>
-          <ul><li><span class='blacktext'>trucant al telèfon mòbil:</span> (+34) 636 963 301</li>
-          <li><span class='blacktext'>trucant a travès de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a></li>
+          <ul><li><span class='blacktext'>trucant al telèfon mòbil:</span> (+34) 636 963 301 <span class='blacktext'>(David)</span></li>
+          <li><span class='blacktext'>trucant a travès de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
           <li><span class='blacktext'>per Twitter a:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
           <li><span class='blacktext'>o simplement escrivint un text breu al formulari i contactarem amb vostè el més aviat possible</span></li></ul>
   privacy:

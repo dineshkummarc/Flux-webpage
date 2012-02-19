@@ -10,19 +10,19 @@ Member:
         surname: Romaní
         address:
         category: Founding partner, CTO & programmer
-        description:
+        description: Ph.D. in Computer Sciences
       es:
         name: Santiago
         surname: Romaní
         address:
         category: Socio fundador, director técnico y programador
-        description:
+        description: Doctorado en Informática
       ca:
         name: Santiago
         surname: Romaní
         address:
         category: Soci fundador, director tècnic i programador
-        description:
+        description: Doctorat en Informàtica
   jordir:
     user: jordi.romani
     is_partner: 0

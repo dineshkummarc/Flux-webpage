@@ -11,7 +11,13 @@
 		<span style="font-size:0.85em;font-style:italic;"><?php echo $member->getDescription(ESC_RAW) ?></span></p>
 		<?php if (count($member->Contact) > 0): ?>
 			<?php foreach ($member->Contact as $contacte): ?>
-				<?php if ($contacte->Enumeration->getIsActive()) echo $contacte->getKind().': '.$contacte->getTarget(ESC_RAW).'<br/>'?>
+				<?php if ($contacte->Enumeration->getIsActive()): ?>
+					<?php if ($contacte->getKind() !== 'NO-LINE'): ?>
+						<?php echo $contacte->getKind().': '.$contacte->getTarget(ESC_RAW).'<br/>'; ?>
+					<?php else: ?>
+						<?php echo '&nbsp;<br/>'; ?>
+					<?php endif; ?>
+				<?php endif; ?>
 			<?php endforeach; ?>
 		<?php endif; ?>
 		<?php $i = 1; ?>
@@ -31,7 +37,7 @@
 		<span style="font-size:0.85em;font-style:italic;"><?php echo $member->getDescription(ESC_RAW) ?></span></p>
 		<?php if (count($member->Contact) > 0): ?>
 			<?php foreach ($member->Contact as $contacte): ?>
-				<?php if ($contacte->Enumeration->getIsActive()) echo $contacte->getKind().': '.$contacte->getTarget(ESC_RAW).'<br/>'?>
+				<?php if ($contacte->Enumeration->getIsActive() && $contacte->getKind() !== 'NO-LINE') echo $contacte->getKind().': '.$contacte->getTarget(ESC_RAW).'<br/>' ?>
 			<?php endforeach; ?>
 		<?php endif; ?>
 		<?php $i = 1; ?>
