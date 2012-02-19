@@ -159,7 +159,7 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Descubra cómo podemos mejorar la productividad de su negocio con nuestros servicios especializados en tecnologias de la información y comunicación. Algunas de las tareas que realizamos son:</p>
+          <p>Descubra como podemos mejorar la productividad de su negocio con nuestros servicios especializados en tecnologías de la información y comunicación. Algunas de las tareas que realizamos son:</p>
           <ul>
               <li><span class='blacktext'>Desarrollar aplicaciones web de hechas a medida para obtener un producto final fácil de utilizar y perfectamente adaptado a sus necesidades</span></li>
               <li><span class='blacktext'>Subir los procesos de gestión administrativa (albaranes, partes, facturas...) de su negocio a la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] para que pueda gestionarlos a través de Internet desde cualquier navegador o dispositivo móvil (iPhone, iPad y Android)</span></li>
@@ -174,9 +174,9 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Descubra cómo podemos mejorar la productividad de su negocio con nuestros servicios especializados en tecnologias de la información y comunicación. Algunas de las tareas que realizamos son:</p>
+          <p>Descubra como podemos mejorar la productividad de su negocio con nuestros servicios especializados en tecnologías de la información y comunicación. Algunas de las tareas que realizamos son:</p>
           <ul>
-            <li><span class='blacktext'>Desarrollar aplicaciones web de hechas a medida para obtener un producto final fácil de utilizar y perfectamente adaptado a sus necesidades</span></li>
+            <li><span class='blacktext'>Desarrollar aplicaciones web hechas a medida para obtener un producto final fácil de utilizar y perfectamente adaptado a sus necesidades</span></li>
             <li><span class='blacktext'>Subir los procesos de gestión administrativa (albaranes, partes, facturas...) de su negocio a la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] para que pueda gestionarlos a través de Internet desde cualquier navegador o dispositivo móvil (iPhone, iPad y Android)</span></li>
             <li><span class='blacktext'>Crear páginas web dinámicas en las que usted mismo pueda administrar cómodamente su contenido. Nuestra misión es crear gestores de contenidos [<a href="http://es.wikipedia.org/wiki/Cms">CMS</a>] 100% personalizados a las características de su producto o servicio</span></li>
             <li><span class='blacktext'>Integrar servicios de pago electrónico seguro (PayPal, Visa y Mastercard) en proyectos nuevos o existentes para que usted pueda acceder a un mercado internacional a través del comercio electrónico</span></li>
@@ -193,8 +193,8 @@ Unit:
           <ul>
             <li><span class='blacktext'>Desenvolupar aplicacions web a mida per a obtenir un producte final fàcil d'utilitzar y perfectament adaptat a les seves necessitats</span></li>
             <li><span class='blacktext'>Pujar els processos de gestió administrativa (albarans, partes, factures...) del seu negoci al núvol [<a href="http://ca.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] per a que pugui gestionar-los a través d'Internet des de qualsevol navegador o dispositiu mòbil (iPhone, iPad y Android)</span></li>
-            <li><span class='blacktext'>Crear pàgines web dinàmiques en les quals vostè mateix pugui administrar fàcilment el seu contingut. La nostra missió es crear gestors de continguts [<a href="http://ca.wikipedia.org/wiki/Sistema_de_gesti%C3%B3_de_continguts">CMS</a>] 100% personalitzats a les característiques del seu producte o servei</span></li>
-            <li><span class='blacktext'>Integrar serveis de pagament electrònic segur (PayPal, Visa y Mastercard) a projectes nous o existents per a que vostè pugui accedir a un mercat internacional a través del comerç electrònic</span></li>
+            <li><span class='blacktext'>Crear pàgines web dinàmiques en les quals vostè mateix pugui administrar fàcilment el seu contingut. La nostra missió és crear gestors de continguts [<a href="http://ca.wikipedia.org/wiki/Sistema_de_gesti%C3%B3_de_continguts">CMS</a>] 100% personalitzats a les característiques del seu producte o servei</span></li>
+            <li><span class='blacktext'>Integrar serveis de pagament electrònic segur (PayPal, Visa i Mastercard) a projectes nous o existents per a que vostè pugui accedir a un mercat internacional a través del comerç electrònic</span></li>
             <li><span class='blacktext'>Assessorar sobre projectes tècnics, xarxes socials i accions que maximitzin la visibilitat del seu negoci a la xarxa</span></li>
             <!--<li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónico, páginas web, bases de datos y sistemes de sincronitzación de información</span></li>-->
             <!--<li><span class='blacktext'>Soporte de aplicaciones ofimáticas, sistemes de gestión de contenidos y aplicaciones en la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>]</span></li>-->
