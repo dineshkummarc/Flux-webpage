@@ -1,6 +1,6 @@
-<h1><?php echo __('team')?></h1>
+<h1><?php echo __('bussiness core')?></h1>
 <?php if (count($coreMembers) == 0): ?>
-	<p><?php echo __('There are no core members') ?></p>
+	<p><?php echo __('There are no bussiness core members') ?></p>
 <?php else: ?>
 	<?php $i = 0; ?>
 	<?php foreach ($coreMembers as $member): ?>
@@ -24,9 +24,9 @@
 	<?php endforeach; ?>
 <?php endif; ?>
 
-<h1 style="margin-top:60px"><?php echo __('partners')?></h1>
+<h1 style="margin-top:60px"><?php echo __('collaborators')?></h1>
 <?php if (count($partnerMembers) == 0): ?>
-	<p><?php echo __('There are no partner members') ?></p>
+	<p><?php echo __('There are no collaborators members') ?></p>
 <?php else: ?>
 	<?php $i = 0; ?>
 	<?php foreach ($partnerMembers as $member): ?>

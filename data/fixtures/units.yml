@@ -72,12 +72,11 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Si deseas contactar con nosotros para contratarnos, pedir un presupuesto o ampliar más información sobre lo que podemos hacer para mejorar la productividad de su negocio 
-          puede encontrarnos</p>
-          <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301 <span class='blacktext'>(David)</span></li>
-          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
-          <li><span class='blacktext'>por Twitter en:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
-          <li><span class='blacktext'>o simplemente escribiendo un texto breve en el formulario y contactaremos con usted en la mayor brevedad posible</span></li></ul>
+          <p>Provide specialized advise on technical projects, social networks and actions that maximize the visibility of your business in the net</p>
+          <ul><li><span class='blacktext'>Phone:</span> (+34) 636 963 301 <span class='blacktext'>(David)</span></li>
+          <li><span class='blacktext'>Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
+          <li><span class='blacktext'>Twitter:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
+          <li><span class='blacktext'>Or simply by typing a short text on the form and we will contact you as soon as possible</span></li></ul>
       es:
         title: contacto
         subtitle:
@@ -159,15 +158,13 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Descubra como podemos mejorar la productividad de su negocio con nuestros servicios especializados en tecnologías de la información y comunicación. Algunas de las tareas que realizamos son:</p>
+          <p>Discover how we can improve the productivity of your business with our specialized services in information and communication technologies. Some of the tasks we perform are:</p>
           <ul>
-              <li><span class='blacktext'>Desarrollar aplicaciones web de hechas a medida para obtener un producto final fácil de utilizar y perfectamente adaptado a sus necesidades</span></li>
-              <li><span class='blacktext'>Subir los procesos de gestión administrativa (albaranes, partes, facturas...) de su negocio a la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] para que pueda gestionarlos a través de Internet desde cualquier navegador o dispositivo móvil (iPhone, iPad y Android)</span></li>
-              <li><span class='blacktext'>Crear páginas web dinámicas en las que usted mismo pueda administrar cómodamente su contenido. Nuestra misión es crear gestores de contenidos [<a href="http://es.wikipedia.org/wiki/Cms">CMS</a>] 100% personalizados a las características de su producto o servicio</span></li>
-              <li><span class='blacktext'>Integrar servicios de pago electrónico seguro (PayPal, Visa y Mastercard) en proyectos nuevos o existentes para que usted pueda acceder a un mercado internacional a través del comercio electrónico</span></li>
-              <li><span class='blacktext'>Asesorar sobre proyectes técnicos, redes sociales y acciones que maximicen la visibilidad de su negocio en la red</span></li>
-              <!--<li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónico, páginas web, bases de datos y sistemes de sincronitzación de información</span></li>-->
-              <!--<li><span class='blacktext'>Soporte de aplicaciones ofimáticas, sistemes de gestión de contenidos y aplicaciones en la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>]</span></li>-->
+              <li><span class='blacktext'>Develop web applications tailored to obtain a final product easy to use and perfectly suited to your needs</span></li>
+              <li><span class='blacktext'>Upload the administrative processes of your business (invoices, statements, ...) to the cloud [<a href="http://en.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] so that you will be able to manage them via the Internet from any browser or mobile device (iPhone, iPhone and Android)</span></li>
+              <li><span class='blacktext'>Create dynamic web pages in which yourself can organize your content easily. Our mission is to create content management systems [<a href="http://en.wikipedia.org/wiki/Content_management_system">CMS</a>] 100% customized to the nature of your product or service</span></li>
+              <li><span class='blacktext'>Integrate secure electronic payment services (PayPal, Visa and Mastercard) in new or existing projects for you to access an international market through e-commerce</span></li>
+              <li><span class='blacktext'>Provide specialized advise on technical projects, social networks and actions that maximize the visibility of your business in the net</span></li>
           </ul>
       es:
         title: servicios
@@ -181,8 +178,6 @@ Unit:
             <li><span class='blacktext'>Crear páginas web dinámicas en las que usted mismo pueda administrar cómodamente su contenido. Nuestra misión es crear gestores de contenidos [<a href="http://es.wikipedia.org/wiki/Cms">CMS</a>] 100% personalizados a las características de su producto o servicio</span></li>
             <li><span class='blacktext'>Integrar servicios de pago electrónico seguro (PayPal, Visa y Mastercard) en proyectos nuevos o existentes para que usted pueda acceder a un mercado internacional a través del comercio electrónico</span></li>
             <li><span class='blacktext'>Asesorar sobre proyectes técnicos, redes sociales y acciones que maximicen la visibilidad de su negocio en la red</span></li>
-            <!--<li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónico, páginas web, bases de datos y sistemes de sincronitzación de información</span></li>-->
-            <!--<li><span class='blacktext'>Soporte de aplicaciones ofimáticas, sistemes de gestión de contenidos y aplicaciones en la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>]</span></li>-->
           </ul>
       ca:
         title: serveis
@@ -196,8 +191,6 @@ Unit:
             <li><span class='blacktext'>Crear pàgines web dinàmiques en les quals vostè mateix pugui administrar fàcilment el seu contingut. La nostra missió és crear gestors de continguts [<a href="http://ca.wikipedia.org/wiki/Sistema_de_gesti%C3%B3_de_continguts">CMS</a>] 100% personalitzats a les característiques del seu producte o servei</span></li>
             <li><span class='blacktext'>Integrar serveis de pagament electrònic segur (PayPal, Visa i Mastercard) a projectes nous o existents per a que vostè pugui accedir a un mercat internacional a través del comerç electrònic</span></li>
             <li><span class='blacktext'>Assessorar sobre projectes tècnics, xarxes socials i accions que maximitzin la visibilitat del seu negoci a la xarxa</span></li>
-            <!--<li><span class='blacktext'>Asistencia técnica y mantenimiento de servidores de correo electrónico, páginas web, bases de datos y sistemes de sincronitzación de información</span></li>-->
-            <!--<li><span class='blacktext'>Soporte de aplicaciones ofimáticas, sistemes de gestión de contenidos y aplicaciones en la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>]</span></li>-->
           </ul>
   skaeda:
     name: Skaeda

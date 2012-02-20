@@ -29,7 +29,7 @@
         <target>serveis</target>
       </trans-unit>
       <trans-unit id="7">
-        <source>team</source>
+        <source>bussiness core</source>
         <target>equip</target>
       </trans-unit>
       <trans-unit id="8">
@@ -97,7 +97,7 @@
         <target>Contactarem amb vostè el més aviat possible.</target>
       </trans-unit>
       <trans-unit id="24">
-        <source>partners</source>
+        <source>collaborators</source>
         <target>col·laboradors</target>
       </trans-unit>
       <trans-unit id="25">
@@ -111,6 +111,14 @@
       <trans-unit id="27">
         <source>Date</source>
         <target>Data</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>There are no bussiness core member</source>
+        <target>No hi han membres de l'equip</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>There are no collaborators members</source>
+        <target>No hi han membres col·laboradors</target>
       </trans-unit>
     </body>
   </file>
