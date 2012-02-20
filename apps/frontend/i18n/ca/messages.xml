@@ -120,6 +120,10 @@
         <source>There are no collaborators members</source>
         <target>No hi han membres col·laboradors</target>
       </trans-unit>
+      <trans-unit id="30">
+        <source>Submit</source>
+        <target>Enviar</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

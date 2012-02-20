@@ -4,7 +4,7 @@
 	<form method="POST" action="<?php echo url_for('static/contact') ?>" class="contactForm">
 	<?php /*echo $form->renderFormTag('static/contact', array('class' => 'contactForm'))*/ ?>
 	<?php echo $form ?>
-	<input type="submit" class="customSubmit"/>
+	<input type="submit" class="customSubmit" value="<?php echo __('Submit') ?>"/>
 	</form>
 <?php else: ?>
 	<h1><?php echo __('Thank you') ?></h1>
