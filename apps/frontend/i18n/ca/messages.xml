@@ -124,6 +124,10 @@
         <source>Submit</source>
         <target>Enviar</target>
       </trans-unit>
+      <trans-unit id="31">
+        <source>team</source>
+        <target>equip</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
