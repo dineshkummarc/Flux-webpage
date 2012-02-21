@@ -1,6 +1,6 @@
-<h1><?php echo __('bussiness core')?></h1>
+<h1><?php echo __('business core')?></h1>
 <?php if (count($coreMembers) == 0): ?>
-	<p><?php echo __('There are no bussiness core members') ?></p>
+	<p><?php echo __('There are no business core members') ?></p>
 <?php else: ?>
 	<?php $i = 0; ?>
 	<?php foreach ($coreMembers as $member): ?>
