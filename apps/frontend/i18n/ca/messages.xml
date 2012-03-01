@@ -128,6 +128,10 @@
         <source>team</source>
         <target>equip</target>
       </trans-unit>
+      <trans-unit id="32">
+        <source>Read more.</source>
+        <target>Llegir més.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
