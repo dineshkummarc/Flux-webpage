@@ -241,7 +241,7 @@ Unit:
       en:
         title: Automecánica Eduardo Porres
         subtitle:
-        summary: <p>Aplicación web Automecánica Eduardo Porres para reservar cita previa online.</p>
+        summary: <p>Aplicación web Automecánica Eduardo Porres para reservar cita previa online.
         description: |
           <p>Esta aplicación integra las siguientes funcionalidades:</p>
           <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
@@ -252,7 +252,7 @@ Unit:
       es:
         title: Automecánica Eduardo Porres, S.L.
         subtitle:
-        summary: <p>Aplicación web Automecánica Eduardo Porres para reservar cita previa online.</p>
+        summary: <p>Aplicación web Automecánica Eduardo Porres para reservar cita previa online.
         description: |
           <p>Esta aplicación integra las siguientes funcionalidades:</p>
           <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
@@ -263,7 +263,7 @@ Unit:
       ca:
         title: Automecánica Eduardo Porres, S.L.
         subtitle:
-        summary: <p>Aplicació web Automecànica Eduardo Porres per a reservar cita prèvia online.</p>
+        summary: <p>Aplicació web Automecànica Eduardo Porres per a reservar cita prèvia online.
         description: |
           <p>Aquesta aplicació integra les següents funcionalitats:</p>
           <ul><li><span class='blacktext'>Calendari online per a que l'usuari pugui sol·licitar una visita al taller mitjançant cita prèvia</span></li>
@@ -279,7 +279,7 @@ Unit:
       en:
         title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
-        summary: <p>Aplicación web asociación privada AEPLA para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.</p>
+        summary: <p>Aplicación web asociación privada AEPLA para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.
         description: |
           <p>Colaboración en el desarrollo de AeplaStats, una aplicación web para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios. 
           La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologias:</p>
@@ -291,7 +291,7 @@ Unit:
       es:
         title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
-        summary: <p>Aplicación web asociación privada AEPLA para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.</p>
+        summary: <p>Aplicación web asociación privada AEPLA para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.
         description: |
           <p>Colaboración en el desarrollo de AeplaStats, una aplicación web para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios. 
           La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologías:</p>
@@ -303,7 +303,7 @@ Unit:
       ca:
         title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
-        summary: <p>Aplicació web associació privada AEPLA per al tractament estadístic de dades de venda al sector de productes fitosanitaris.</p>
+        summary: <p>Aplicació web associació privada AEPLA per al tractament estadístic de dades de venda al sector de productes fitosanitaris.
         description: |
           <p>Colaboració amb el desenvolupament d'AeplaStats, una aplicació web per al tractament estadístic de dades de venda del sector de productes fitosanitaris. 
           L'aplicació inclou l'auditoria i consolidació de dades de venda, així com la generació d'informes de diferents tipologies:</p>
@@ -312,4 +312,35 @@ Unit:
           <li><span class='blacktext'>Venda per toxicitat</span></li>
           <li><span class='blacktext'>Venda per agrupacions de productes</span></li>
           <li><span class='blacktext'>Comparatives de vendes interanuals</span></li></ul>
-          
+  deltacactus:
+    name: Web Deltacactus, S.L.
+    url: www.deltacactus.com/es/empresa
+    image:
+    Translation:
+      en:
+        title: Web Deltacactus, S.L.
+        subtitle:
+        summary: <p>Página web corporativa con gestor de contenidos privado (CMS) para administrar los productos mostrados en la web.
+        description: |
+          <p>Empresa dedicada a la producción y venta al por mayor de cactus y suculentas cultiva una gran variedad de especies y necesita un escaparate online donde poder mostrarlas. 
+          Se desarrolla un sistema hecho a medida para poder gestionar cómodamente las asociacones entre bandejas, diámetros y sus plantas correspondientes.</p>
+          <ul><li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
+          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul></ul>
+      es:
+        title: Web Deltacactus, S.L.
+        subtitle:
+        summary: <p>Página web corporativa con gestor de contenidos privado (CMS) para administrar los productos mostrados en la web.
+        description: |
+          <p>Empresa dedicada a la producción y venta al por mayor de cactus y suculentas cultiva una gran variedad de especies y necesita un escaparate online donde poder mostrarlas. 
+          Se desarrolla un sistema hecho a medida para poder gestionar cómodamente las asociacones entre bandejas, diámetros y sus plantas correspondientes.</p>
+          <ul><li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
+          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul></ul>
+      ca:
+        title: Web Deltacactus, S.L.
+        subtitle:
+        summary: <p>Página web corporativa con gestor de contenidos privado (CMS) para administrar los productos mostrados en la web.
+        description: |
+          <p>Empresa dedicada a la producción y venta al por mayor de cactus y suculentas cultiva una gran variedad de especies y necesita un escaparate online donde poder mostrarlas. 
+          Se desarrolla un sistema hecho a medida para poder gestionar cómodamente las asociacones entre bandejas, diámetros y sus plantas correspondientes.</p>
+          <ul><li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
+          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul></ul>

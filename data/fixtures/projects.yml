@@ -47,3 +47,19 @@ Project:
         technology: PHP Symfony Framework, JavaScript y MSSQL Server 2008
       ca:
         technology: PHP Symfony Framework, JavaScript i MSSQL Server 2008
+  deltacactus:
+    name: deltacactus
+    logo: /images/deltacactus-logo-color.png
+    logo_bw: /images/deltacactus-logo.png
+    alt_image: /images/deltacactus-screenshot.png
+    begin_date: '2012-02-23'
+    end_date: '2012-03-01'
+    Unit: deltacactus
+    Enumeration: four
+    Translation:
+      en:
+        technology: PHP Symfony Framework, JavaScript & MySQL
+      es:
+        technology: PHP Symfony Framework, JavaScript y MySQL
+      ca:
+        technology: PHP Symfony Framework, JavaScript i MySQL
