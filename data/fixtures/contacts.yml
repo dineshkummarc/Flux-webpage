@@ -1,6 +1,6 @@
 Contact:
   emailjordir:
-    target: <a href="mailto:jordi@flux.cat">jordi@flux.cat</a>
+    target: mailto:jordi@flux.cat
     Member: jordir
     Enumeration: one
     Translation:
@@ -22,7 +22,7 @@ Contact:
       ca:
         kind: NO-LINE
   emailsanti:
-    target: <a href="mailto:santiago@flux.cat">santiago@flux.cat</a>
+    target: mailto:santiago@flux.cat
     Member: santiago
     Enumeration: one
     Translation:
@@ -33,7 +33,7 @@ Contact:
       ca:
         kind: Email
   linkedsanti:
-    target: <a href="http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689">es.linkedin.com/pub/santiago-romaní-also/19/729/689</a>
+    target: http://es.linkedin.com/pub/santiago-roman%C3%AD-also/19/729/689
     Member: santiago
     Enumeration: two
     Translation:
@@ -44,7 +44,7 @@ Contact:
       ca:
         kind: LinkedIn
   githubsanti:
-    target: <a href="https://github.com/SantiagoRomani">github.com/SantiagoRomani</a>
+    target: https://github.com/SantiagoRomani
     Member: santiago
     Enumeration: three
     Translation:
@@ -55,7 +55,7 @@ Contact:
       ca:
         kind: GitHub
   emaildavid:
-    target: <a href="mailto:david@flux.cat">david@flux.cat</a>
+    target: mailto:david@flux.cat
     Member: david
     Enumeration: one
     Translation:
@@ -66,7 +66,7 @@ Contact:
       ca:
         kind: Email
   twitterdavid:
-    target: <a href="https://twitter.com/#!/davidromani">@davidromani</a>
+    target: https://twitter.com/#!/davidromani
     Member: david
     Enumeration: two
     Translation:
@@ -88,7 +88,7 @@ Contact:
       ca:
         kind: Skype
   linkeddavid:
-    target: <a href="http://es.linkedin.com/in/dromani">es.linkedin.com/in/dromani</a>
+    target: http://es.linkedin.com/in/dromani
     Member: david
     Enumeration: four
     Translation:
@@ -99,7 +99,7 @@ Contact:
       ca:
         kind: LinkedIn
   githubdavid:
-    target: <a href="https://github.com/gnomehost">github.com/gnomehost</a>
+    target: https://github.com/gnomehost
     Member: david
     Enumeration: five
     Translation:
@@ -110,7 +110,7 @@ Contact:
       ca:
         kind: GitHub
   emailjordip:
-    target: <a href="mailto:jordi.puiggene@gmail.com">jordi.puiggene@gmail.com</a>
+    target: mailto:jordi.puiggene@gmail.com
     Member: jordip
     Enumeration: oneOff
     Translation:
@@ -121,18 +121,18 @@ Contact:
       ca:
         kind: Email
   webjordip:
-    target: <a href="http://www.jordipuiggene.com/">www.jordipuiggene.com</a>
+    target: http://www.jordipuiggene.com
     Member: jordip
     Enumeration: one
     Translation:
       en:
         kind: Web
       es:
-        kind: Página web
+        kind: Web
       ca:
-        kind: Pàgina web
+        kind: Web
   linkedjordip:
-    target: <a href="http://es.linkedin.com/in/jordipuiggene">es.linkedin.com/in/jordipuiggene</a>
+    target: http://es.linkedin.com/in/jordipuiggene
     Member: jordip
     Enumeration: one
     Translation:
@@ -143,7 +143,7 @@ Contact:
       ca:
         kind: LinkedIn 
   twitterjordip:
-    target: <a href="https://twitter.com/#!/jordipuiggene">@jordipuiggene</a>
+    target: https://twitter.com/#!/jordipuiggene
     Member: jordip
     Enumeration: two
     Translation:
@@ -154,7 +154,7 @@ Contact:
       ca:
         kind: Twitter
   githubjordip:
-    target: <a href="https://github.com/xispa">github.com/xispa</a>
+    target: https://github.com/xispa
     Member: jordip
     Enumeration: three
     Translation:
@@ -165,7 +165,7 @@ Contact:
       ca:
         kind: GitHub
   twitteranna:
-    target: <a href="https://twitter.com/#!/ultrasonica">@ultrasonica</a>
+    target: https://twitter.com/#!/ultrasonica
     Member: anna
     Enumeration: one
     Translation:
@@ -176,18 +176,18 @@ Contact:
       ca:
         kind: Twitter
   webanna:
-    target: <a href="http://www.elgiroscopi.com">www.elgiroscopi.com</a>
+    target: http://www.elgiroscopi.com
     Member: anna
     Enumeration: two
     Translation:
       en:
         kind: Web
       es:
-        kind: Página web
+        kind: Web
       ca:
-        kind: Pàgina web
+        kind: Web
   bloganna:
-    target: <a href="http://www.betesiclicks.com">www.betesiclicks.com</a>
+    target: http://www.betesiclicks.com
     Member: anna
     Enumeration: three
     Translation:
@@ -196,9 +196,9 @@ Contact:
       es:
         kind: Blog
       ca:
-        kind: Bloc
+        kind: Blog
   twitterantonio:
-    target: <a href="https://twitter.com/#!/antoniopolonio">@antoniopolonio</a>
+    target: https://twitter.com/#!/antoniopolonio
     Member: antonio
     Enumeration: one
     Translation:
@@ -209,18 +209,18 @@ Contact:
       ca:
         kind: Twitter
   webantonio:
-    target: <a href="http://www.enraona.com">www.enraona.com</a>
+    target: http://www.enraona.com
     Member: antonio
     Enumeration: two
     Translation:
       en:
         kind: Web
       es:
-        kind: Página web
+        kind: Web
       ca:
-        kind: Pàgina web
+        kind: Web
   linkedantonio:
-    target: <a href="http://es.linkedin.com/in/antoniovicienfaure">es.linkedin.com/in/antoniovicienfaure</a>
+    target: http://es.linkedin.com/in/antoniovicienfaure
     Member: antonio
     Enumeration: three
     Translation:
@@ -231,7 +231,7 @@ Contact:
       ca:
         kind: LinkedIn
   linkedvalenti:
-    target: <a href="http://es.linkedin.com/in/***">es.linkedin.com/in/***e</a>
+    target: http://es.linkedin.com/in/***
     Member: valenti
     Enumeration: oneOff
     Translation:
@@ -242,18 +242,18 @@ Contact:
       ca:
         kind: LinkedIn
   webvalenti:
-    target: <a href="http://www.vandiss.com">www.vandiss.com</a>
+    target: http://www.vandiss.com
     Member: valenti
     Enumeration: two
     Translation:
       en:
         kind: Web
       es:
-        kind: Página web
+        kind: Web
       ca:
-        kind: Pàgina web
+        kind: Web
   linkedmarcos:
-    target: <a href="http://www.linkedin.com/in/marcosjurado">www.linkedin.com/in/marcosjurado</a>
+    target: http://www.linkedin.com/in/marcosjurado
     Member: marcos
     Enumeration: two
     Translation:
@@ -264,7 +264,7 @@ Contact:
       ca:
         kind: LinkedIn
   twittermarcos:
-    target: <a href="https://twitter.com/#!/marcosjurado83">@marcosjurado83</a>
+    target: https://twitter.com/#!/marcosjurado83
     Member: marcos
     Enumeration: one
     Translation:

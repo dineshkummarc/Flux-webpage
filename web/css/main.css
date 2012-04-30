@@ -200,6 +200,12 @@ div {
   border: solid 1px #D09;
 }
 
+#main-right img.webicon-projects {
+	vertical-align: middle;
+  width: 45px;
+  cursor: pointer;
+}
+
 #main-right img.teamPhoto, img.projectScreenshot {
 	float: left;
 	height: auto;
@@ -222,6 +228,41 @@ div {
 div#main-right div.blockmember {
 	float: left;
   width: 100%;
+}
+
+div#main-right div.blockmember a.Email {
+  background: url("../images/mail-icon.png");
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+div#main-right div.blockmember a.LinkedIn {
+	background: url("../images/linkedin-icon.png");
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+div#main-right div.blockmember a.Twitter {
+  background: url("../images/twitter-icon.png");
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+div#main-right div.blockmember a.Web {
+  background: url("../images/web-icon.png");
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+div#main-right div.blockmember a.Blog {
+  background: url("../images/blog-icon.png");
+  width: 64px;
+  height: 64px;
+  display: inline-block;
 }
 
 .blacktext {
