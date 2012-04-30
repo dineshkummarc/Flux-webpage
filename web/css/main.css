@@ -15,8 +15,8 @@ body {
 
 p { 
   margin-top: 0; 
-  text-align: justify;
-  font-size: 14px;
+  /*text-align: justify;*/
+  font-size: 1.3em;
 }
 
 a:link, a:visited {
@@ -181,7 +181,7 @@ div {
 
 #main-right ul {
   color: #D09;
-  font-size: 14px;
+  font-size: 1.1em;
 }
 
 #main-right li {
@@ -196,7 +196,7 @@ div {
 }
 
 #main-right hr {
-  margin: 40px 0;
+  margin: 60px 0;
   border: solid 1px #D09;
 }
 
@@ -212,7 +212,7 @@ div {
 
 #main-right img.projectScreenshot { width: 540px; }
 
-#main-right img.logo { margin: 0 20px 20px 0; }
+#main-right img.logo { margin: 0 20px 0 0; }
 
 .blacktext {
   color: black;
@@ -232,9 +232,11 @@ span.blacktext a:hover {
 
 #main p {
   color: #222;
-  text-align: justify;
-  line-height: 1.5em;
+  /*text-align: justify;*/
+  line-height: 1.65em;
 }
+
+div#main-right p.subinfo { font-size: 1.1em; }
 
 #main h1 {
   color: #D09;
