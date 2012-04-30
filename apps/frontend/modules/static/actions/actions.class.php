@@ -16,16 +16,21 @@ class staticActions extends sfActions
   	$unit = UnitTable::getHomepage();
   	$this->title = $unit->getTitle();
   	$this->text  = $unit->getDescription();
-  	/*if (!$request->getParameter('sf_culture')) {
-  		if ($this->getUser()->isFirstRequest()) {
-  			$culture = $request->getPreferredCulture(array('es', 'en', 'ca'));
-  			$this->getUser()->setCulture($culture);
-  			$this->getUser()->isFirstRequest(false);
-  		}	else {
-  			$culture = $this->getUser()->getCulture();
-  		}
-  		$this->redirect('localized_homepage');
-  	}*/
+  	if (!$request->getParameter('sf_culture')) {
+			// La ruta NO contiene informacion sobre la cultura
+			sfContext::getInstance()->getLogger()->debug('[static/home] La ruta NO contiene información sobre la cultura');
+			if ($this->getUser()->isFirstRequest()) {
+				$culture = $request->getPreferredCulture(array('ca', 'es', 'en'));
+				$this->getUser()->setCulture($culture);
+				$this->getUser()->isFirstRequest(false);
+			}	else {
+				$culture = $this->getUser()->getCulture();
+			}
+			$this->redirect('@homepage_'.$culture);
+		} else {
+			// La ruta contiene informacion sobre la cultura
+			sfContext::getInstance()->getLogger()->debug('[static/home] La ruta contiene información sobre la cultura');
+		}
   }
   
   public function executeServices(sfWebRequest $request)

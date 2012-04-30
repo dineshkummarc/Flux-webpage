@@ -218,6 +218,10 @@ div {
   color: black;
 }
 
+span.blacktext a:hover {
+	text-decoration: underline;
+}
+
 #main {
   background-color: #FFF;
   color: #222;
