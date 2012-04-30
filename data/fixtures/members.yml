@@ -167,3 +167,27 @@ Member:
         address:
         category: Dissenyador gràfic
         description:  Dissenyador industrial
+  marcos:
+    user: marcos.jurado
+    is_partner: 1
+    alt_image: marcosjurado.png
+    Enumeration: eight
+    Translation:
+      en:
+        name: Marcos
+        surname: Jurado
+        address:
+        category: Graphic designer
+        description: Advertising Graphics Technician
+      es:
+        name: Marcos
+        surname: Jurado
+        address:
+        category: Diseñador gráfico
+        description: Técnico Superior de Gráfica Publicitaria
+      ca:
+        name: Marcos
+        surname: Jurado
+        address:
+        category: Dissenyador gràfic
+        description: Tècnic Superior de Gràfica Publicitària

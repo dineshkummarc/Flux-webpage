@@ -219,3 +219,25 @@ Contact:
         kind: Página web
       ca:
         kind: Pàgina web
+  linkedmarcos:
+    target: <a href="http://www.linkedin.com/in/marcosjurado">www.linkedin.com/in/marcosjurado</a>
+    Member: marcos
+    Enumeration: two
+    Translation:
+      en:
+        kind: LinkedIn
+      es:
+        kind: LinkedIn
+      ca:
+        kind: LinkedIn
+  twittermarcos:
+    target: <a href="https://twitter.com/#!/marcosjurado83">@marcosjurado83</a>
+    Member: marcos
+    Enumeration: one
+    Translation:
+      en:
+        kind: Twitter
+      es:
+        kind: Twitter
+      ca:
+        kind: Twitter

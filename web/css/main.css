@@ -202,15 +202,20 @@ div {
 
 #main-right img.teamPhoto, img.projectScreenshot {
 	float: left;
-	margin: 0 20px 20px 0;
 	height: auto;
 	border-radius: 6px;
   box-shadow: 1px 1px 3px #888;
 }
 
-#main-right img.teamPhoto { width: 100px; }
+#main-right img.teamPhoto { 
+	width: 100px;
+	margin: 0 20px 80px 0;
+}
 
-#main-right img.projectScreenshot { width: 540px; }
+#main-right img.projectScreenshot { 
+	width: 540px;
+	margin: 0 20px 20px 0;
+}
 
 #main-right img.logo { margin: 0 20px 0 0; }
 

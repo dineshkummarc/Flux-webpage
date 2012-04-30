@@ -344,3 +344,41 @@ Unit:
           Se desarrolla un sistema hecho a medida para poder gestionar cómodamente las asociacones entre bandejas, diámetros y sus plantas correspondientes.</p>
           <ul><li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
           <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul></ul>
+  viucar:
+    name: Web Viucar, S.A.
+    url: www.viucar.com
+    image:
+    Translation:
+      en:
+        title: Viucar
+        subtitle:
+        summary: <p>Aplicación web Viucar para reservar cita previa online.
+        description: |
+          <p>Esta aplicación integra las siguientes funcionalidades:</p>
+          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
+          <li><span class='blacktext'>Gestión de promociones online</span></li>
+          <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
+          <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
+          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
+      es:
+        title: Viucar
+        subtitle:
+        summary: <p>Aplicación web Viucar para reservar cita previa online.
+        description: |
+          <p>Esta aplicación integra las siguientes funcionalidades:</p>
+          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
+          <li><span class='blacktext'>Gestión de promociones online</span></li>
+          <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
+          <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
+          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
+      ca:
+        title: Viucar
+        subtitle:
+        summary: <p>Aplicació web Viucar per a reservar cita prèvia online.
+        description: |
+          <p>Aquesta aplicació integra les següents funcionalitats:</p>
+          <ul><li><span class='blacktext'>Calendari online per a que l'usuari pugui sol·licitar una visita al taller mitjançant cita prèvia</span></li>
+          <li><span class='blacktext'>Gestió de promocions online</span></li>
+          <li><span class='blacktext'>Gestor de continguts per actualitzar la página web fàcilment mitjançant un <em>backend</em></span></li>
+          <li><span class='blacktext'>Google Calendar API per a rebre avisos de recordatori mitjançant SMS</span></li>
+          <li><span class='blacktext'>Formulari de contacte amb registre d'usuaris per a rebre notificacions d'avís per email</span></li></ul>
