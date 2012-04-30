@@ -241,14 +241,14 @@ Unit:
       en:
         title: Automecánica Eduardo Porres
         subtitle:
-        summary: <p>Aplicación web Automecánica Eduardo Porres para reservar cita previa online.
+        summary: <p>Automecánica Eduardo Porres web application appointment booking online.
         description: |
-          <p>Esta aplicación integra las siguientes funcionalidades:</p>
-          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
-          <li><span class='blacktext'>Gestión de promociones online</span></li>
-          <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
-          <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
-          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
+          <p>This application integrates the following features:</p>
+          <ul><li><span class='blacktext'>Online calendar for the user to manage a visit to the workshop by appointment</span></li>
+          <li><span class='blacktext'>Online promotion management</span></li>
+          <li><span class='blacktext'>Content management for the customer to update the web page content easily through <em>backend</em></span></li>
+          <li><span class='blacktext'>Google Calendar APIs to receive reminder alerts via SMS</span></li>
+          <li><span class='blacktext'>Contact form with user registration to be notified by email alert</span></li></ul>
       es:
         title: Automecánica Eduardo Porres, S.L.
         subtitle:
@@ -279,15 +279,15 @@ Unit:
       en:
         title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
-        summary: <p>Aplicación web asociación privada AEPLA para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios.
+        summary: <p>Web Application AEPLA private partnership for the statistical treatment of sales data in the field of plant protection products.
         description: |
-          <p>Colaboración en el desarrollo de AeplaStats, una aplicación web para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios. 
-          La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologias:</p>
-          <ul><li><span class='blacktext'>Comparativos empresa-mercado</span></li>
-          <li><span class='blacktext'>Datos de ventas consolidados de mercado</span></li>
-          <li><span class='blacktext'>Ventas por toxicidades</span></li>
-          <li><span class='blacktext'>Ventas por agrupaciones de productos</span></li>
-          <li><span class='blacktext'>Comparativas de ventas interanuales</span></li></ul>
+          <p>Collaboration in developing AeplaStats, a web application for statistical processing of sales data in the field of plant protection products. 
+          The application includes the audit and consolidation of sales data, and reporting of different typologies:</p>
+          <ul><li><span class='blacktext'>Comparative company-market</span></li>
+          <li><span class='blacktext'>Consolidated sales data market</span></li>
+          <li><span class='blacktext'>Sales toxicities</span></li>
+          <li><span class='blacktext'>Sales by product groups</span></li>
+          <li><span class='blacktext'>Comparative-year sales</span></li></ul>
       es:
         title: Asociación Empresarial para la Protección de las Plantas
         subtitle:
@@ -319,31 +319,36 @@ Unit:
     Translation:
       en:
         title: Web Deltacactus, S.L.
-        subtitle:
-        summary: <p>Página web corporativa con gestor de contenidos privado (CMS) para administrar los productos mostrados en la web.
+        summary: <p>Corporate web application that integrates a content management system to manage the products on the web with the administrative management of the company.
         description: |
-          <p>Empresa dedicada a la producción y venta al por mayor de cactus y suculentas cultiva una gran variedad de especies y necesita un escaparate online donde poder mostrarlas. 
-          Se desarrolla un sistema hecho a medida para poder gestionar cómodamente las asociacones entre bandejas, diámetros y sus plantas correspondientes.</p>
-          <ul><li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
-          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul></ul>
+          <p>Company dedicated to the production and wholesale of cactus and succulents grown a variety of species needs to have an online catalog. 
+          We develop a bespoke system to manage comfortably asociacones between trays, diameters and their corresponding plants. It also integrates order management, delivery notes, invoices and stock that share the same database but in a private front.</p>
+          <ul><li><span class='blacktext'>Content management for the customer to update the web page content easily through <em>backend</em></span></li>
+          <li><span class='blacktext'>Contact form with user registration to be notified by email alert</span></li>
+          <li><span class='blacktext'>Shipping offers, delivery notes and invoices by email in PDF format</span></li>
+          <li><span class='blacktext'><em>Live</em> stock management (plants change as they grow category)</span></li></ul>
       es:
         title: Web Deltacactus, S.L.
         subtitle:
-        summary: <p>Página web corporativa con gestor de contenidos privado (CMS) para administrar los productos mostrados en la web.
+        summary: <p>Aplicación web corporativa que integra un gestor de contenidos para administrar los productos mostrados en la web con la gestión administrativa de la empresa.
         description: |
-          <p>Empresa dedicada a la producción y venta al por mayor de cactus y suculentas cultiva una gran variedad de especies y necesita un escaparate online donde poder mostrarlas. 
-          Se desarrolla un sistema hecho a medida para poder gestionar cómodamente las asociacones entre bandejas, diámetros y sus plantas correspondientes.</p>
+          <p>Empresa dedicada a la producción y venta al por mayor de cactus y suculentas cultiva una gran variedad de especies necesita disponer de un catálogo online. 
+          Se desarrolla un sistema hecho a medida para poder gestionar cómodamente las asociacones entre bandejas, diámetros y sus plantas correspondientes. Además se integra la gestión de pedidos, albaranes, facturas y stock que compartiendo la misma base de datos però dentro de un frontal privado.</p>
           <ul><li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
-          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul></ul>
+          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li>
+          <li><span class='blacktext'>Envio de ofertas, albaranes y facturas por email en formato PDF</span></li>
+          <li><span class='blacktext'>Gestión de stock <em>vivo</em> (las plantas cambian de categoria según van creciendo)</span></li></ul>
       ca:
         title: Web Deltacactus, S.L.
         subtitle:
-        summary: <p>Página web corporativa con gestor de contenidos privado (CMS) para administrar los productos mostrados en la web.
+        summary: <p>Aplicació web corportativa que integra un gestor de continguts per administrar els productes mostrats a la web amb la gestió administrativa de l'empresa.
         description: |
-          <p>Empresa dedicada a la producción y venta al por mayor de cactus y suculentas cultiva una gran variedad de especies y necesita un escaparate online donde poder mostrarlas. 
-          Se desarrolla un sistema hecho a medida para poder gestionar cómodamente las asociacones entre bandejas, diámetros y sus plantas correspondientes.</p>
-          <ul><li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
-          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul></ul>
+          <p>Empresa dedicada a la producció i venda al major de cactus i suculentes cultiva un gran varietat d'espècies necessita disposar d'un catàleg online. 
+          Es desenvolupa un sistema fet a mida per a poder gestionar comodament les associacions entre safates, diàmetres i les plantes corresponents. A més s'integra la gestió de comandes, albarans, factures i stock que comparteix la mateixa base de dades però dins d'un frontal privat.</p>
+          <ul><li><span class='blacktext'>Gestor de continguts per actualitzar la página web fàcilment mitjançant un <em>backend</em></span></li>
+          <li><span class='blacktext'>Formulari de contacte amb registre d'usuaris per a rebre notificacions d'avís per email</span></li>
+          <li><span class='blacktext'>Enviament d'ofertes, albarans i factures per email en format PDF</span></li>
+          <li><span class='blacktext'>Gestió de stock <em>viu</em> (les plantes canvien de categoria segons van creixent)</span></li></ul>
   viucar:
     name: Web Viucar, S.A.
     url: www.viucar.com
@@ -352,14 +357,14 @@ Unit:
       en:
         title: Viucar
         subtitle:
-        summary: <p>Aplicación web Viucar para reservar cita previa online.
+        summary: <p>Viucar web application appointment booking online.
         description: |
-          <p>Esta aplicación integra las siguientes funcionalidades:</p>
-          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
-          <li><span class='blacktext'>Gestión de promociones online</span></li>
-          <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
-          <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
-          <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li></ul>
+          <p>This application integrates the following features:</p>
+          <ul><li><span class='blacktext'>Online calendar for the user to manage a visit to the workshop by appointment</span></li>
+          <li><span class='blacktext'>Online promotion management</span></li>
+          <li><span class='blacktext'>Content management for the customer to update the web page content easily through <em>backend</em></span></li>
+          <li><span class='blacktext'>Google Calendar APIs to receive reminder alerts via SMS</span></li>
+          <li><span class='blacktext'>Contact form with user registration to be notified by email alert</span></li></ul>
       es:
         title: Viucar
         subtitle:
