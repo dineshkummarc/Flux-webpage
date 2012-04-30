@@ -17,14 +17,16 @@
 	<img class='projectScreenshot' src='<?php echo $project->getAltImage() ?>' alt='Screenshot <?php echo $project->getName() ?>' />
 <?php endif; ?>
 
-<?php if (strlen($project->getUnit()->getUrl())): ?>
-	<p><strong><?php echo __('Homepage').': ' ?></strong><?php echo link_to($project->getUnit()->getUrl(), 'http://'.$project->getUnit()->getUrl()) ?></p>
-<?php endif; ?>
-
-<?php if (strlen($project->getBeginDate())): ?>
-	<p><strong><?php echo __('Date').': ' ?></strong><?php echo format_date($project->getBeginDate()) ?></p>
-<?php endif; ?>
-
-<?php if (strlen($project->getTechnology())): ?>
-	<p><strong><?php echo __('Used technologies').': ' ?></strong><?php echo $project->getTechnology() ?></p>
-<?php endif; ?>
+<p class="subinfo">
+	<?php if (strlen($project->getBeginDate())): ?>
+		<strong><?php echo __('Date').': ' ?></strong><?php echo format_date($project->getBeginDate()) ?><br/>
+	<?php endif; ?>
+	
+	<?php if (strlen($project->getUnit()->getUrl())): ?>
+		<strong><?php echo __('Homepage').': ' ?></strong><?php echo link_to($project->getUnit()->getUrl(), 'http://'.$project->getUnit()->getUrl()) ?><br/>
+	<?php endif; ?>
+	
+	<?php if (strlen($project->getTechnology())): ?>
+		<strong><?php echo __('Used technologies').': ' ?></strong><?php echo $project->getTechnology() ?><br/>
+	<?php endif; ?>
+</p>
