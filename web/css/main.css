@@ -230,40 +230,31 @@ div#main-right div.blockmember {
   width: 100%;
 }
 
-div#main-right div.blockmember a.Email {
-  background: url("../images/mail-icon.png");
+div#main-right div.blockmember a.Email, a.LinkedIn, a.Twitter, a.Web, a.Blog, a.GitHub {
   width: 64px;
   height: 64px;
   display: inline-block;
 }
 
-div#main-right div.blockmember a.LinkedIn {
-	background: url("../images/linkedin-icon.png");
-  width: 64px;
-  height: 64px;
-  display: inline-block;
-}
+div#main-right div.blockmember a.Email { background: url("../images/mail-icon.png"); }
 
-div#main-right div.blockmember a.Twitter {
-  background: url("../images/twitter-icon.png");
-  width: 64px;
-  height: 64px;
-  display: inline-block;
-}
+div#main-right div.blockmember a.LinkedIn {	background: url("../images/linkedin-icon.png"); }
 
-div#main-right div.blockmember a.Web {
-  background: url("../images/web-icon.png");
-  width: 64px;
-  height: 64px;
-  display: inline-block;
-}
+div#main-right div.blockmember a.Twitter { background: url("../images/twitter-icon.png"); }
 
-div#main-right div.blockmember a.Blog {
-  background: url("../images/blog-icon.png");
-  width: 64px;
-  height: 64px;
-  display: inline-block;
-}
+div#main-right div.blockmember a.Web { background: url("../images/web-icon.png"); }
+
+div#main-right div.blockmember a.Blog { background: url("../images/blog-icon.png"); }
+
+div#main-right div.blockmember a.Email:hover { background: url("../images/mail-icon-hover.png"); }
+
+div#main-right div.blockmember a.LinkedIn:hover { background: url("../images/linkedin-icon-hover.png"); }
+
+div#main-right div.blockmember a.Twitter:hover { background: url("../images/twitter-icon-hover.png"); }
+
+div#main-right div.blockmember a.Web:hover { background: url("../images/web-icon-hover.png"); }
+
+div#main-right div.blockmember a.Blog:hover { background: url("../images/blog-icon-hover.png"); }
 
 .blacktext {
   color: black;
