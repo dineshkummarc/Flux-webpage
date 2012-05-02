@@ -46,7 +46,7 @@ Contact:
   githubsanti:
     target: https://github.com/SantiagoRomani
     Member: santiago
-    Enumeration: three
+    Enumeration: six
     Translation:
       en:
         kind: GitHub
@@ -68,7 +68,7 @@ Contact:
   twitterdavid:
     target: https://twitter.com/#!/davidromani
     Member: david
-    Enumeration: two
+    Enumeration: three
     Translation:
       en:
         kind: Twitter
@@ -90,7 +90,7 @@ Contact:
   linkeddavid:
     target: http://es.linkedin.com/in/dromani
     Member: david
-    Enumeration: four
+    Enumeration: two
     Translation:
       en:
         kind: LinkedIn
@@ -101,7 +101,7 @@ Contact:
   githubdavid:
     target: https://github.com/gnomehost
     Member: david
-    Enumeration: five
+    Enumeration: six
     Translation:
       en:
         kind: GitHub
@@ -123,7 +123,7 @@ Contact:
   webjordip:
     target: http://www.jordipuiggene.com
     Member: jordip
-    Enumeration: one
+    Enumeration: four
     Translation:
       en:
         kind: Web
@@ -134,7 +134,7 @@ Contact:
   linkedjordip:
     target: http://es.linkedin.com/in/jordipuiggene
     Member: jordip
-    Enumeration: one
+    Enumeration: two
     Translation:
       en:
         kind: LinkedIn
@@ -145,7 +145,7 @@ Contact:
   twitterjordip:
     target: https://twitter.com/#!/jordipuiggene
     Member: jordip
-    Enumeration: two
+    Enumeration: three
     Translation:
       en:
         kind: Twitter
@@ -156,7 +156,7 @@ Contact:
   githubjordip:
     target: https://github.com/xispa
     Member: jordip
-    Enumeration: three
+    Enumeration: six
     Translation:
       en:
         kind: GitHub
@@ -167,7 +167,7 @@ Contact:
   twitteranna:
     target: https://twitter.com/#!/ultrasonica
     Member: anna
-    Enumeration: one
+    Enumeration: three
     Translation:
       en:
         kind: Twitter
@@ -178,7 +178,7 @@ Contact:
   webanna:
     target: http://www.elgiroscopi.com
     Member: anna
-    Enumeration: two
+    Enumeration: four
     Translation:
       en:
         kind: Web
@@ -189,7 +189,7 @@ Contact:
   bloganna:
     target: http://www.betesiclicks.com
     Member: anna
-    Enumeration: three
+    Enumeration: five
     Translation:
       en:
         kind: Blog
@@ -200,7 +200,7 @@ Contact:
   twitterantonio:
     target: https://twitter.com/#!/antoniopolonio
     Member: antonio
-    Enumeration: one
+    Enumeration: three
     Translation:
       en:
         kind: Twitter
@@ -211,7 +211,7 @@ Contact:
   webantonio:
     target: http://www.enraona.com
     Member: antonio
-    Enumeration: two
+    Enumeration: four
     Translation:
       en:
         kind: Web
@@ -222,7 +222,7 @@ Contact:
   linkedantonio:
     target: http://es.linkedin.com/in/antoniovicienfaure
     Member: antonio
-    Enumeration: three
+    Enumeration: two
     Translation:
       en:
         kind: LinkedIn
@@ -244,7 +244,7 @@ Contact:
   webvalenti:
     target: http://www.vandiss.com
     Member: valenti
-    Enumeration: two
+    Enumeration: four
     Translation:
       en:
         kind: Web
@@ -266,7 +266,7 @@ Contact:
   twittermarcos:
     target: https://twitter.com/#!/marcosjurado83
     Member: marcos
-    Enumeration: one
+    Enumeration: three
     Translation:
       en:
         kind: Twitter

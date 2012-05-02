@@ -29,7 +29,7 @@ a:active, a:hover {
   cursor: pointer;
   color: #D09;
   font-weight: normal; 
-  text-decoration: none;
+  text-decoration: underline;
 }
   
 div {
@@ -141,6 +141,9 @@ div {
 	display: block;
 	padding: 10px;
 }
+
+#main-left li a:hover { text-decoration: none; }
+
 
 #main-left li:hover {
   background: #D09;

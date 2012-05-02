@@ -65,6 +65,17 @@ MemberProject:
         task:
       ca:
         task:
+  valentiamep:
+    Project: amep
+    Member: valenti
+    Enumeration: one
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
   davidaepla:
     Project: aepla
     Member: david
@@ -87,3 +98,48 @@ MemberProject:
         task:
       ca:
         task:
+  deltacactusdavid:
+    Project: deltacactus
+    Member: david
+    Enumeration: four
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  deltacactusmarcos:
+    Project: deltacactus
+    Member: marcos
+    Enumeration: one
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  viucardavid:
+    Project: viucar
+    Member: david
+    Enumeration: five
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+  viucarmarcos:
+    Project: viucar
+    Member: marcos
+    Enumeration: two
+    Translation:
+      en:
+        task:
+      es:
+        task:
+      ca:
+        task:
+        
