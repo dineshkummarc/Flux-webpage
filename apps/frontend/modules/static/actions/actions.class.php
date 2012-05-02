@@ -47,14 +47,14 @@ class staticActions extends sfActions
       ->leftJoin('a.Enumeration e')
       ->where('a.is_partner = 0')
       ->andWhere('e.is_active = 1')
-      ->orderBy('e.position')
+      ->orderBy('e.position ASC')
       ->execute();
   	$this->partnerMembers = Doctrine_Core::getTable('Member')
   		->createQuery('a')
   		->leftJoin('a.Enumeration e')
   		->where('a.is_partner = 1')
   		->andWhere('e.is_active = 1')
-  		->orderBy('e.position')
+  		->orderBy('e.position ASC')
   		->execute();
   }
   
