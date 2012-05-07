@@ -387,3 +387,35 @@ Unit:
           <li><span class='blacktext'>Gestor de continguts per actualitzar la página web fàcilment mitjançant un <em>backend</em></span></li>
           <li><span class='blacktext'>Google Calendar API per a rebre avisos de recordatori mitjançant SMS</span></li>
           <li><span class='blacktext'>Formulari de contacte amb registre d'usuaris per a rebre notificacions d'avís per email</span></li></ul>
+  somenergia:
+    name: Plataforma SomEnergia
+    url: www.somenergia.coop/plataforma
+    image:
+    Translation:
+      en:
+        title: Open Source Social Network
+        subtitle:
+        summary: <p>The open platform of the green cooperative.
+        description: |
+          <p>SomEnergia, the first Spanish renewable energy cooperative, use the Elgg open source platform to manage all the information generated from the debates and discussions between working groups and members. It seeks to adapt the basic functions of Elgg to the real needs of the cooperative. Works:</p>
+          <ul><li><span class='blacktext'>Initializing a public Git repository for collaborative development</span></li>
+          <li><span class='blacktext'>Graphic design retouching on the initial template to better match corporate color green</span></li>
+          <li><span class='blacktext'>Platform translation into Catalan</span></li></ul>
+      es:
+        title: Red social de código libre
+        subtitle:
+        summary: <p>La plataforma abierta de la cooperativa verde.
+        description: |
+          <p>SomEnergia, la primera cooperativa de energía renovable española, utiliza la plataforma de código abierto Elgg para gestionar toda la información generada a partir de los debates y conversaciones entre sus grupos de trabajo y miembros. Se busca adaptar las funciones básicas de Elgg a las necesidades reales de la cooperativa. Trabajos realizados:</p>
+          <ul><li><span class='blacktext'>Inicialización de un repositorio Git público para el desarrollo colaborativo</span></li>
+          <li><span class='blacktext'>Retoque del diseño gráfico sobre la plantilla inicial para adaptarse mejor al color corporativo verde</span></li>
+          <li><span class='blacktext'>Traducción de la plataforma al catalán</span></li></ul>
+      ca:
+        title: Xarxa social de codi lliure
+        subtitle:
+        summary: <p>La plataforma oberta de la coopertativa verda.
+        description: |
+          <p>SomEnergia, la primera cooperativa d'energia renovable espanyola, utilitza la plataforma de codi obert Elgg per gestionar tota la informació generada a partir dels debats i converses entre els seus grups de treball i membres. Es busca adaptar les funcions bàsiques d'Elgg a les necessitats reals de la cooperativa. Treballs realitzats:</p>
+          <ul><li><span class='blacktext'>Inicialització d'un repositori Git públic per al desenvolupament col·laboratiu</span></li>
+          <li><span class='blacktext'>Retoc del disseny gràfic sobre la plantilla inicial per adaptar-se millor al color corporatiu verd</span></li>
+          <li><span class='blacktext'>Traducció de la plataforma al català</span></li></ul>

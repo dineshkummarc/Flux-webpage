@@ -79,3 +79,19 @@ Project:
         technology: PHP Symfony Framework, JavaScript y MySQL
       ca:
         technology: PHP Symfony Framework, JavaScript i MySQL
+  plataformasomenergia:
+    name: somenergia
+    logo: /images/somenergia-logo-color.png
+    logo_bw: /images/somenergia-logo.png
+    alt_image: /images/somenergia-screenshot.png
+    begin_date: '2012-04-01'
+    end_date: '2012-05-01'
+    Unit: somenergia
+    Enumeration: six
+    Translation:
+      en:
+        technology: Elgg, PHP, MySQL & Git
+      es:
+        technology: Elgg, PHP, MySQL y Git
+      ca:
+        technology: Elgg, PHP, MySQL i Git
