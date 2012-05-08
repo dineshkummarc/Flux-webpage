@@ -185,6 +185,9 @@ div {
 #main-right ul {
   color: #D09;
   font-size: 1.1em;
+  list-style-type: none;
+  margin: 30px 0;
+  padding: 0;
 }
 
 #main-right li {
@@ -228,6 +231,11 @@ div {
 
 #main-right img.logo { margin: 0 20px 0 0; }
 
+#main-right img.contact-icon {
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
 div#main-right div.blockmember {
 	float: left;
   width: 100%;
@@ -248,7 +256,7 @@ div#main-right div.blockmember a.Twitter { background: url("../images/twitter.pn
 
 div#main-right div.blockmember a.Web { background: url("../images/web.png") 0 0 no-repeat; }
 
-div#main-right div.blockmember a.Blog { background: url("../images/blog.png" 0 0 no-repeat); }
+div#main-right div.blockmember a.Blog { background: url("../images/blog.png") 0 0 no-repeat; }
 
 div#main-right div.blockmember a.GitHub { background: url("../images/github.png") 0 0 no-repeat; }
 

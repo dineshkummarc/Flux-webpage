@@ -72,33 +72,33 @@ Unit:
         subtitle:
         summary:
         description: |
-          <p>Provide specialized advise on technical projects, social networks and actions that maximize the visibility of your business in the net</p>
-          <ul><li><span class='blacktext'>Phone:</span> (+34) 636 963 301 <span class='blacktext'>(David)</span></li>
-          <li><span class='blacktext'>Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
-          <li><span class='blacktext'>Twitter:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
-          <li><span class='blacktext'>Or simply by typing a short text on the form and we will contact you as soon as possible</span></li></ul>
+          <p>If you wish to contact us to hire us, request a quote or more information expand on what we can do to improve the productivity of your business can find us at</p>
+          <ul><li><img class="contact-icon" src="/images/phone-mini.png"/>(+34) 636 963 301 <span class='blacktext'>(David)</span></li>
+          <li><img class="contact-icon" src="/images/skype-mini.png"/><a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
+          <li><img class="contact-icon" src="/images/twitter-mini.png"/><a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
+          <li><img class="contact-icon" src="/images/mail-mini.png"/><span class='blacktext'>Typing a short text on the form and we will contact you as soon as possible</span></li></ul>
       es:
         title: contacto
         subtitle:
         summary:
         description: |
           <p>Si deseas contactar con nosotros para contratarnos, pedir un presupuesto o ampliar más información sobre lo que podemos hacer para mejorar la productividad de su negocio 
-          puede encontrarnos</p>
-          <ul><li><span class='blacktext'>llamando al teléfono móvil:</span> (+34) 636 963 301 <span class='blacktext'>(David)</span></li>
-          <li><span class='blacktext'>llamando a través de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
-          <li><span class='blacktext'>por Twitter en:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
-          <li><span class='blacktext'>o simplemente escribiendo un texto breve en el formulario y contactaremos con usted en la mayor brevedad posible</span></li></ul>
+          puede encontrarnos en</p>
+          <ul><li><img class="contact-icon" src="/images/phone-mini.png"/><span class='blacktext'></span> (+34) 636 963 301 <span class='blacktext'>(David)</span></li>
+          <li><img class="contact-icon" src="/images/skype-mini.png"/><span class='blacktext'></span> <a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
+          <li><img class="contact-icon" src="/images/twitter-mini.png"/><span class='blacktext'></span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
+          <li><img class="contact-icon" src="/images/mail-mini.png"/><span class='blacktext'>Escribiendo un texto breve en el formulario siguiente</span></li></ul>
       ca:
         title: contacte
         subtitle:
         summary:
         description: |
           <p>Si desitja contactar amb nosaltres per a contractar-nos, demanar un pressupost o ampliar més informació sobre que podem fer per a millorar la productivitat del seu negoci 
-          pot localitzar-nos</p>
-          <ul><li><span class='blacktext'>trucant al telèfon mòbil:</span> (+34) 636 963 301 <span class='blacktext'>(David)</span></li>
-          <li><span class='blacktext'>trucant a travès de Skype:</span> <a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
-          <li><span class='blacktext'>per Twitter a:</span> <a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
-          <li><span class='blacktext'>o simplement escrivint un text breu al formulari i contactarem amb vostè el més aviat possible</span></li></ul>
+          pot localitzar-nos a</p>
+          <ul><li><img class="contact-icon" src="/images/phone-mini.png"/>(+34) 636 963 301 <span class='blacktext'>(David)</span></li>
+          <li><img class="contact-icon" src="/images/skype-mini.png"/><a href='skype:gnomehost?call'>gnomehost</a> <span class='blacktext'>(David)</span></li>
+          <li><img class="contact-icon" src="/images/twitter-mini.png"/><a href="https://twitter.com/#!/davidromani">@davidromani</a></li>
+          <li><img class="contact-icon" src="/images/mail-mini.png"/><span class='blacktext'>Escrivint un text breu al formulari i contactarem amb vostè el més aviat possible</span></li></ul>
   privacy:
     name: Privacy
     url:
