@@ -184,15 +184,15 @@ div {
 
 #main-right ul {
   color: #D09;
-  font-size: 1.1em;
+  font-size: 1.25em;
   list-style-type: none;
-  margin: 30px 0;
+  margin: 40px 0;
   padding: 0;
 }
 
 #main-right li {
   padding: 5px 0;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 #main-right h1 {
@@ -239,6 +239,13 @@ div {
 #main-right img.home-icon {
   margin-right: 20px;
   vertical-align: middle;
+}
+
+#main-right img.service-icon {
+  margin-right: 20px;
+  vertical-align: middle;
+  float: left;
+  margin-bottom: 18px;
 }
 
 div#main-right div.blockmember {
@@ -349,6 +356,10 @@ form.contactForm input.customSubmit {
   font-weight: bold;
   width: 20%;
   box-shadow: 1px 1px 3px #888;
+}
+
+form.contactForm input.customSubmit[type="submit"] {
+	cursor: pointer;
 }
 
 #footer-left {
