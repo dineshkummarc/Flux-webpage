@@ -234,30 +234,35 @@ div#main-right div.blockmember {
 }
 
 div#main-right div.blockmember a.Email, a.LinkedIn, a.Twitter, a.Web, a.Blog, a.GitHub {
-  width: 64px;
-  height: 64px;
+  width: 44px;
+  height: 44px;
+  margin-right: 20px;
   display: inline-block;
 }
 
-div#main-right div.blockmember a.Email { background: url("../images/mail-icon.png"); }
+div#main-right div.blockmember a.Email { background: url("../images/mail.png") 0 0 no-repeat; }
 
-div#main-right div.blockmember a.LinkedIn {	background: url("../images/linkedin-icon.png"); }
+div#main-right div.blockmember a.LinkedIn {	background: url("../images/linkedin.png") 0 0 no-repeat; }
 
-div#main-right div.blockmember a.Twitter { background: url("../images/twitter-icon.png"); }
+div#main-right div.blockmember a.Twitter { background: url("../images/twitter.png") 0 0 no-repeat; }
 
-div#main-right div.blockmember a.Web { background: url("../images/web-icon.png"); }
+div#main-right div.blockmember a.Web { background: url("../images/web.png") 0 0 no-repeat; }
 
-div#main-right div.blockmember a.Blog { background: url("../images/blog-icon.png"); }
+div#main-right div.blockmember a.Blog { background: url("../images/blog.png" 0 0 no-repeat); }
 
-div#main-right div.blockmember a.Email:hover { background: url("../images/mail-icon-hover.png"); }
+div#main-right div.blockmember a.GitHub { background: url("../images/github.png") 0 0 no-repeat; }
 
-div#main-right div.blockmember a.LinkedIn:hover { background: url("../images/linkedin-icon-hover.png"); }
+div#main-right div.blockmember a.Email:hover { background: url("../images/mail.png") 0 -44px no-repeat; }
 
-div#main-right div.blockmember a.Twitter:hover { background: url("../images/twitter-icon-hover.png"); }
+div#main-right div.blockmember a.LinkedIn:hover { background: url("../images/linkedin.png") 0 -44px no-repeat; }
 
-div#main-right div.blockmember a.Web:hover { background: url("../images/web-icon-hover.png"); }
+div#main-right div.blockmember a.Twitter:hover { background: url("../images/twitter.png") 0 -44px no-repeat; }
 
-div#main-right div.blockmember a.Blog:hover { background: url("../images/blog-icon-hover.png"); }
+div#main-right div.blockmember a.Web:hover { background: url("../images/web.png") 0 -44px no-repeat; }
+
+div#main-right div.blockmember a.Blog:hover { background: url("../images/blog.png") 0 -44px no-repeat; }
+
+div#main-right div.blockmember a.GitHub:hover { background: url("../images/github.png") 0 -44px no-repeat; }
 
 .blacktext {
   color: black;
