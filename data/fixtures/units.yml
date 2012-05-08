@@ -203,7 +203,7 @@ Unit:
         summary: <p>Sk&aelig;da is a personal manager of favorit webpage links in the cloud.
         description: |
           <p>Sk&aelig;da is a personal manager of favorit webpage links in the cloud with the following features:</p>
-          <ul><li><span class='blacktext'>can organize your bookmarks through groups, smart groups and tags</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>can organize your bookmarks through groups, smart groups and tags</span></li>
           <li><span class='blacktext'>webpage preview with small screenshots</span></li>
           <li><span class='blacktext'>can share easily on social networks</span></li>
           <li><span class='blacktext'>true fast-running web application based on HTML5 [<a href="http://en.wikipedia.org/wiki/WebSocket">Websocket</a>]</span></li>
@@ -215,7 +215,7 @@ Unit:
         summary: <p>Sk&aelig;da es un gestor personal de enlaces a páginas web favoritas en la nube.
         description: |
           <p>Sk&aelig;da es un gestor personal de enlaces a páginas web favoritas en la nube con las siguientes características:</p>
-          <ul><li><span class='blacktext'>organización de bookmarks por grupos, grupos inteligentes y etiquetas</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>organización de bookmarks por grupos, grupos inteligentes y etiquetas</span></li>
           <li><span class='blacktext'>previsualitzación de bookmarks en miniatura</span></li>
           <li><span class='blacktext'>permite compartir fácilmente en redes sociales</span></li>
           <li><span class='blacktext'>aplicación web en tiempo real verdadero basada en la tecnologia HTML5 [<a href="http://es.wikipedia.org/wiki/WebSocket">Websocket</a>]</span></li>
@@ -227,7 +227,7 @@ Unit:
         summary: <p>Sk&aelig;da és un gestor personal d'enllaços a pàgines web favorites al núvol.
         description: |
           <p>Sk&aelig;da és un gestor personal d'enllaços a pàgines web favorites al núvol amb les característiques següents:</p>
-          <ul><li><span class='blacktext'>organització de bookmarks per grups, grups intel·ligents i etiquetes</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>organització de bookmarks per grups, grups intel·ligents i etiquetes</span></li>
           <li><span class='blacktext'>previsualització de bookmarks amb miniatura</span></li>
           <li><span class='blacktext'>permet compartir fàcilment amb xarxes socials</span></li>
           <li><span class='blacktext'>aplicació web en temps real verdader basada amb la tecnologia HTML5 [<a href="http://ca.wikipedia.org/wiki/WebSocket">Websocket</a>]</span></li>
@@ -244,7 +244,7 @@ Unit:
         summary: <p>Automecánica Eduardo Porres web application appointment booking online.
         description: |
           <p>This application integrates the following features:</p>
-          <ul><li><span class='blacktext'>Online calendar for the user to manage a visit to the workshop by appointment</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Online calendar for the user to manage a visit to the workshop by appointment</span></li>
           <li><span class='blacktext'>Online promotion management</span></li>
           <li><span class='blacktext'>Content management for the customer to update the web page content easily through <em>backend</em></span></li>
           <li><span class='blacktext'>Google Calendar APIs to receive reminder alerts via SMS</span></li>
@@ -255,7 +255,7 @@ Unit:
         summary: <p>Aplicación web Automecánica Eduardo Porres para reservar cita previa online.
         description: |
           <p>Esta aplicación integra las siguientes funcionalidades:</p>
-          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
           <li><span class='blacktext'>Gestión de promociones online</span></li>
           <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
           <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
@@ -266,7 +266,7 @@ Unit:
         summary: <p>Aplicació web Automecànica Eduardo Porres per a reservar cita prèvia online.
         description: |
           <p>Aquesta aplicació integra les següents funcionalitats:</p>
-          <ul><li><span class='blacktext'>Calendari online per a que l'usuari pugui sol·licitar una visita al taller mitjançant cita prèvia</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Calendari online per a que l'usuari pugui sol·licitar una visita al taller mitjançant cita prèvia</span></li>
           <li><span class='blacktext'>Gestió de promocions online</span></li>
           <li><span class='blacktext'>Gestor de continguts per actualitzar la página web fàcilment mitjançant un <em>backend</em></span></li>
           <li><span class='blacktext'>Google Calendar API per a rebre avisos de recordatori mitjançant SMS</span></li>
@@ -283,7 +283,7 @@ Unit:
         description: |
           <p>Collaboration in developing AeplaStats, a web application for statistical processing of sales data in the field of plant protection products. 
           The application includes the audit and consolidation of sales data, and reporting of different typologies:</p>
-          <ul><li><span class='blacktext'>Comparative company-market</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Comparative company-market</span></li>
           <li><span class='blacktext'>Consolidated sales data market</span></li>
           <li><span class='blacktext'>Sales toxicities</span></li>
           <li><span class='blacktext'>Sales by product groups</span></li>
@@ -295,7 +295,7 @@ Unit:
         description: |
           <p>Colaboración en el desarrollo de AeplaStats, una aplicación web para el tratamiento estadístico de datos de ventas en el sector de productos fitosanitarios. 
           La aplicación incluye la auditoría y consolidación de datos de ventas, así como la generación de informes de distintas tipologías:</p>
-          <ul><li><span class='blacktext'>Comparativos empresa-mercado</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Comparativos empresa-mercado</span></li>
           <li><span class='blacktext'>Datos de ventas consolidados de mercado</span></li>
           <li><span class='blacktext'>Ventas por toxicidades</span></li>
           <li><span class='blacktext'>Ventas por agrupaciones de productos</span></li>
@@ -307,7 +307,7 @@ Unit:
         description: |
           <p>Colaboració amb el desenvolupament d'AeplaStats, una aplicació web per al tractament estadístic de dades de venda del sector de productes fitosanitaris. 
           L'aplicació inclou l'auditoria i consolidació de dades de venda, així com la generació d'informes de diferents tipologies:</p>
-          <ul><li><span class='blacktext'>Comparatius empresa-mercat</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Comparatius empresa-mercat</span></li>
           <li><span class='blacktext'>Dades de venda consolidades de mercat</span></li>
           <li><span class='blacktext'>Venda per toxicitat</span></li>
           <li><span class='blacktext'>Venda per agrupacions de productes</span></li>
@@ -323,7 +323,7 @@ Unit:
         description: |
           <p>Company dedicated to the production and wholesale of cactus and succulents grown a variety of species needs to have an online catalog. 
           We develop a bespoke system to manage comfortably asociacones between trays, diameters and their corresponding plants. It also integrates order management, delivery notes, invoices and stock that share the same database but in a private front.</p>
-          <ul><li><span class='blacktext'>Content management for the customer to update the web page content easily through <em>backend</em></span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Content management for the customer to update the web page content easily through <em>backend</em></span></li>
           <li><span class='blacktext'>Contact form with user registration to be notified by email alert</span></li>
           <li><span class='blacktext'>Shipping offers, delivery notes and invoices by email in PDF format</span></li>
           <li><span class='blacktext'><em>Live</em> stock management (plants change as they grow category)</span></li></ul>
@@ -334,7 +334,7 @@ Unit:
         description: |
           <p>Empresa dedicada a la producción y venta al por mayor de cactus y suculentas cultiva una gran variedad de especies necesita disponer de un catálogo online. 
           Se desarrolla un sistema hecho a medida para poder gestionar cómodamente las asociacones entre bandejas, diámetros y sus plantas correspondientes. Además se integra la gestión de pedidos, albaranes, facturas y stock que compartiendo la misma base de datos però dentro de un frontal privado.</p>
-          <ul><li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
           <li><span class='blacktext'>Formulario de contacto con registro de usuarios para recibir notificaciones de aviso por email</span></li>
           <li><span class='blacktext'>Envio de ofertas, albaranes y facturas por email en formato PDF</span></li>
           <li><span class='blacktext'>Gestión de stock <em>vivo</em> (las plantas cambian de categoria según van creciendo)</span></li></ul>
@@ -345,7 +345,7 @@ Unit:
         description: |
           <p>Empresa dedicada a la producció i venda al major de cactus i suculentes cultiva un gran varietat d'espècies necessita disposar d'un catàleg online. 
           Es desenvolupa un sistema fet a mida per a poder gestionar comodament les associacions entre safates, diàmetres i les plantes corresponents. A més s'integra la gestió de comandes, albarans, factures i stock que comparteix la mateixa base de dades però dins d'un frontal privat.</p>
-          <ul><li><span class='blacktext'>Gestor de continguts per actualitzar la página web fàcilment mitjançant un <em>backend</em></span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Gestor de continguts per actualitzar la página web fàcilment mitjançant un <em>backend</em></span></li>
           <li><span class='blacktext'>Formulari de contacte amb registre d'usuaris per a rebre notificacions d'avís per email</span></li>
           <li><span class='blacktext'>Enviament d'ofertes, albarans i factures per email en format PDF</span></li>
           <li><span class='blacktext'>Gestió de stock <em>viu</em> (les plantes canvien de categoria segons van creixent)</span></li></ul>
@@ -360,7 +360,7 @@ Unit:
         summary: <p>Viucar web application appointment booking online.
         description: |
           <p>This application integrates the following features:</p>
-          <ul><li><span class='blacktext'>Online calendar for the user to manage a visit to the workshop by appointment</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Online calendar for the user to manage a visit to the workshop by appointment</span></li>
           <li><span class='blacktext'>Online promotion management</span></li>
           <li><span class='blacktext'>Content management for the customer to update the web page content easily through <em>backend</em></span></li>
           <li><span class='blacktext'>Google Calendar APIs to receive reminder alerts via SMS</span></li>
@@ -371,7 +371,7 @@ Unit:
         summary: <p>Aplicación web Viucar para reservar cita previa online.
         description: |
           <p>Esta aplicación integra las siguientes funcionalidades:</p>
-          <ul><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Calendario online para que el usuario pueda gestionar una visita al taller mediante cita previa</span></li>
           <li><span class='blacktext'>Gestión de promociones online</span></li>
           <li><span class='blacktext'>Gestor de contenidos para que el cliente pueda actualizar el contenido de la página web cómodamente mediante <em>backend</em></span></li>
           <li><span class='blacktext'>Google Calendar API para recibir avisos de recordatorio mediante SMS</span></li>
@@ -382,7 +382,7 @@ Unit:
         summary: <p>Aplicació web Viucar per a reservar cita prèvia online.
         description: |
           <p>Aquesta aplicació integra les següents funcionalitats:</p>
-          <ul><li><span class='blacktext'>Calendari online per a que l'usuari pugui sol·licitar una visita al taller mitjançant cita prèvia</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Calendari online per a que l'usuari pugui sol·licitar una visita al taller mitjançant cita prèvia</span></li>
           <li><span class='blacktext'>Gestió de promocions online</span></li>
           <li><span class='blacktext'>Gestor de continguts per actualitzar la página web fàcilment mitjançant un <em>backend</em></span></li>
           <li><span class='blacktext'>Google Calendar API per a rebre avisos de recordatori mitjançant SMS</span></li>
@@ -398,7 +398,7 @@ Unit:
         summary: <p>The open platform of the green cooperative.
         description: |
           <p>SomEnergia, the first Spanish renewable energy cooperative, use the Elgg open source platform to manage all the information generated from the debates and discussions between working groups and members. It seeks to adapt the basic functions of Elgg to the real needs of the cooperative. Works:</p>
-          <ul><li><span class='blacktext'>Initializing a public Git repository for collaborative development</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Initializing a public Git repository for collaborative development</span></li>
           <li><span class='blacktext'>Graphic design retouching on the initial template to better match corporate color green</span></li>
           <li><span class='blacktext'>Platform translation into Catalan</span></li></ul>
       es:
@@ -407,7 +407,7 @@ Unit:
         summary: <p>La plataforma abierta de la cooperativa verde.
         description: |
           <p>SomEnergia, la primera cooperativa de energía renovable española, utiliza la plataforma de código abierto Elgg para gestionar toda la información generada a partir de los debates y conversaciones entre sus grupos de trabajo y miembros. Se busca adaptar las funciones básicas de Elgg a las necesidades reales de la cooperativa. Trabajos realizados:</p>
-          <ul><li><span class='blacktext'>Inicialización de un repositorio Git público para el desarrollo colaborativo</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Inicialización de un repositorio Git público para el desarrollo colaborativo</span></li>
           <li><span class='blacktext'>Retoque del diseño gráfico sobre la plantilla inicial para adaptarse mejor al color corporativo verde</span></li>
           <li><span class='blacktext'>Traducción de la plataforma al catalán</span></li></ul>
       ca:
@@ -416,6 +416,6 @@ Unit:
         summary: <p>La plataforma oberta de la coopertativa verda.
         description: |
           <p>SomEnergia, la primera cooperativa d'energia renovable espanyola, utilitza la plataforma de codi obert Elgg per gestionar tota la informació generada a partir dels debats i converses entre els seus grups de treball i membres. Es busca adaptar les funcions bàsiques d'Elgg a les necessitats reals de la cooperativa. Treballs realitzats:</p>
-          <ul><li><span class='blacktext'>Inicialització d'un repositori Git públic per al desenvolupament col·laboratiu</span></li>
+          <ul class="projects-ul"><li><span class='blacktext'>Inicialització d'un repositori Git públic per al desenvolupament col·laboratiu</span></li>
           <li><span class='blacktext'>Retoc del disseny gràfic sobre la plantilla inicial per adaptar-se millor al color corporatiu verd</span></li>
           <li><span class='blacktext'>Traducció de la plataforma al català</span></li></ul>

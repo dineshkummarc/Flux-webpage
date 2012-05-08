@@ -190,9 +190,28 @@ div {
   padding: 0;
 }
 
+#main-right ul.projects-ul {
+	font-size: 1.15em;
+  list-style-type: disc;
+  margin: 40px 0px 40px 20px;
+}
+
+#main-right ul.error_list {
+  margin: 0;
+}
+
 #main-right li {
   padding: 5px 0;
   margin-bottom: 40px;
+}
+
+#main-right ul.projects-ul li {
+  margin-bottom: 15px;
+}
+
+#main-right ul.error_list li {
+  margin: 0;
+  padding: 0;
 }
 
 #main-right h1 {
