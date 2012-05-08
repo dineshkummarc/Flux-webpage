@@ -236,6 +236,11 @@ div {
 	vertical-align: middle;
 }
 
+#main-right img.home-icon {
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
 div#main-right div.blockmember {
 	float: left;
   width: 100%;
