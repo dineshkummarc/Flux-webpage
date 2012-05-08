@@ -11,10 +11,10 @@ Unit:
         description: |
           <p><strong>FL</strong>exible <strong>U</strong>ser e<strong>X</strong>perience (FLUX) is a young company dedicated to software development. 
           Born of effort and enthusiasm to achieve the following objectives:</p>
-          <ul><li><img class="home-icon" src="/images/home1.png"/><span class='blacktext'>Produce and comercialize Software As A Service [<a href="http://en.wikipedia.org/wiki/Software_as_a_service">SAAS</a>]</span></li>
+          <ul><li><img class="home-icon" src="/images/home1.png"/><span class='blacktext'>Produce and comercialize software as a service [<a href="http://en.wikipedia.org/wiki/Software_as_a_service">SAAS</a>]</span></li>
           <li><img class="home-icon" src="/images/home2.png"/><span class='blacktext'>Develop easy and functional applications</span></li>
           <li><img class="home-icon" src="/images/home3.png"/><span class='blacktext'>Create innovative user interfaces</span></li>
-          <li><img class="home-icon" src="/images/home4.png"/><span class='blacktext'>Improve the User eXperience [<a href="http://en.wikipedia.org/wiki/User_experience">UX</a>]</span></li></ul>
+          <li><img class="home-icon" src="/images/home4.png"/><span class='blacktext'>Improve the user experience [<a href="http://en.wikipedia.org/wiki/User_experience">UX</a>]</span></li></ul>
       es:
         title: inicio
         subtitle:
@@ -160,11 +160,11 @@ Unit:
         description: |
           <p>Discover how we can improve the productivity of your business with our specialized services in information and communication technologies. Some of the tasks we perform are:</p>
           <ul style="font-size:1.1em">
-              <li><img class="service-icon" src="/images/service1.png"/><span class='blacktext'>Develop web applications tailored to obtain a final product easy to use and perfectly suited to your needs</span></li>
-              <li><img class="service-icon" src="/images/service2.png"/><span class='blacktext'>Upload the administrative processes of your business (invoices, statements, ...) to the cloud [<a href="http://en.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] so that you will be able to manage them via the Internet from any browser or mobile device (iPhone, iPhone and Android)</span></li>
-              <li><img class="service-icon" src="/images/service3.png"/><span class='blacktext'>Create dynamic web pages in which yourself can organize your content easily. Our mission is to create content management systems [<a href="http://en.wikipedia.org/wiki/Content_management_system">CMS</a>] 100% customized to the nature of your product or service</span></li>
-              <li><img class="service-icon" src="/images/service4.png"/><span class='blacktext'>Integrate secure electronic payment services (PayPal, Visa and Mastercard) in new or existing projects for you to access an international market through e-commerce</span></li>
-              <li><img class="service-icon" src="/images/service5.png"/><span class='blacktext'>Provide specialized advise on technical projects, social networks and actions that maximize the visibility of your business in the Internet</span></li>
+              <li style="min-height:70px"><img class="service-icon" src="/images/service1.png"/><span class='blacktext'>Develop web applications tailored to obtain a final product easy to use and perfectly suited to your needs</span></li>
+              <li style="min-height:70px"><img class="service-icon" src="/images/service2.png"/><span class='blacktext'>Upload the administrative processes of your business (invoices, statements...) to the cloud [<a href="http://en.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] so that you will be able to manage them via the Internet from any browser or mobile device (iPhone, iPhone and Android)</span></li>
+              <li style="min-height:70px"><img class="service-icon" src="/images/service3.png"/><span class='blacktext'>Create dynamic web pages in which yourself can organize your content easily. Our mission is to create content management systems [<a href="http://en.wikipedia.org/wiki/Content_management_system">CMS</a>] 100% customized to the nature of your product or service</span></li>
+              <li style="min-height:70px"><img class="service-icon" src="/images/service4.png"/><span class='blacktext'>Integrate secure electronic payment services (PayPal, Visa and Mastercard) in new or existing projects for you to access an international market through e-commerce</span></li>
+              <li style="min-height:70px"><img class="service-icon" src="/images/service5.png"/><span class='blacktext'>Provide specialized advise on technical projects, social networks and actions that maximize the visibility of your business in the Internet</span></li>
           </ul>
       es:
         title: servicios
@@ -173,11 +173,11 @@ Unit:
         description: |
           <p>Descubra como podemos mejorar la productividad de su negocio con nuestros servicios especializados en tecnologías de la información y comunicación. Algunas de las tareas que realizamos son:</p>
           <ul style="font-size:1.1em">
-            <li><img class="service-icon" src="/images/service1.png"/><span class='blacktext'>Desarrollar aplicaciones web hechas a medida para obtener un producto final fácil de utilizar y perfectamente adaptado a sus necesidades</span></li>
-            <li><img class="service-icon" src="/images/service2.png"/><span class='blacktext'>Subir los procesos de gestión administrativa (albaranes, partes, facturas...) de su negocio a la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] para que pueda gestionarlos a través de Internet desde cualquier navegador o dispositivo móvil (iPhone, iPad y Android)</span></li>
-            <li><img class="service-icon" src="/images/service3.png"/><span class='blacktext'>Crear páginas web dinámicas en las que usted mismo pueda administrar cómodamente su contenido. Nuestra misión es crear gestores de contenidos [<a href="http://es.wikipedia.org/wiki/Cms">CMS</a>] 100% personalizados a las características de su producto o servicio</span></li>
-            <li><img class="service-icon" src="/images/service4.png"/><span class='blacktext'>Integrar servicios de pago electrónico seguro (PayPal, Visa y Mastercard) en proyectos nuevos o existentes para que usted pueda acceder a un mercado internacional a través del comercio electrónico</span></li>
-            <li><img class="service-icon" src="/images/service5.png"/><span class='blacktext'>Asesorar sobre proyectes técnicos, redes sociales y acciones que maximicen la visibilidad de su negocio en Internet</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service1.png"/><span class='blacktext'>Desarrollar aplicaciones web hechas a medida para obtener un producto final fácil de utilizar y perfectamente adaptado a sus necesidades</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service2.png"/><span class='blacktext'>Subir los procesos de gestión administrativa (albaranes, partes, facturas...) de su negocio a la nube [<a href="http://es.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] para que pueda gestionarlos a través de Internet desde cualquier navegador o dispositivo móvil (iPhone, iPad y Android)</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service3.png"/><span class='blacktext'>Crear páginas web dinámicas en las que usted mismo pueda administrar cómodamente su contenido. Nuestra misión es crear gestores de contenidos [<a href="http://es.wikipedia.org/wiki/Cms">CMS</a>] 100% personalizados a las características de su producto o servicio</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service4.png"/><span class='blacktext'>Integrar servicios de pago electrónico seguro (PayPal, Visa y Mastercard) en proyectos nuevos o existentes para que usted pueda acceder a un mercado internacional a través del comercio electrónico</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service5.png"/><span class='blacktext'>Asesorar sobre proyectes técnicos, redes sociales y acciones que maximicen la visibilidad de su negocio en Internet</span></li>
           </ul>
       ca:
         title: serveis
@@ -186,11 +186,11 @@ Unit:
         description: |
           <p>Descobreixi com podem millorar la productivitat del seu negoci amb els nostres serveis especialitzats en tecnologies de la informació i comunicació. Algunes de les tasques que realitzem són:</p>
           <ul style="font-size:1.1em">
-            <li><img class="service-icon" src="/images/service1.png"/><span class='blacktext'>Desenvolupar aplicacions web a mida per a obtenir un producte final fàcil d'utilitzar i perfectament adaptat a les seves necessitats</span></li>
-            <li><img class="service-icon" src="/images/service2.png"/><span class='blacktext'>Pujar els processos de gestió administrativa (albarans, partes, factures...) del seu negoci al núvol [<a href="http://ca.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] per a que pugui gestionar-los a través d'Internet des de qualsevol navegador o dispositiu mòbil (iPhone, iPad i Android)</span></li>
-            <li><img class="service-icon" src="/images/service3.png"/><span class='blacktext'>Crear pàgines web dinàmiques en les quals vostè mateix pugui administrar fàcilment el seu contingut. La nostra missió és crear gestors de continguts [<a href="http://ca.wikipedia.org/wiki/Sistema_de_gesti%C3%B3_de_continguts">CMS</a>] 100% personalitzats a les característiques del seu producte o servei</span></li>
-            <li><img class="service-icon" src="/images/service4.png"/><span class='blacktext'>Integrar serveis de pagament electrònic segur (PayPal, Visa i Mastercard) a projectes nous o existents per a que vostè pugui accedir a un mercat internacional a través del comerç electrònic</span></li>
-            <li><img class="service-icon" src="/images/service5.png"/><span class='blacktext'>Assessorar sobre projectes tècnics, xarxes socials i accions que maximitzin la visibilitat del seu negoci a Internet</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service1.png"/><span class='blacktext'>Desenvolupar aplicacions web a mida per a obtenir un producte final fàcil d'utilitzar i perfectament adaptat a les seves necessitats</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service2.png"/><span class='blacktext'>Pujar els processos de gestió administrativa (albarans, partes, factures...) del seu negoci al núvol [<a href="http://ca.wikipedia.org/wiki/Cloud_Computing">cloud computing</a>] per a que pugui gestionar-los a través d'Internet des de qualsevol navegador o dispositiu mòbil (iPhone, iPad i Android)</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service3.png"/><span class='blacktext'>Crear pàgines web dinàmiques en les quals vostè mateix pugui administrar fàcilment el seu contingut. La nostra missió és crear gestors de continguts [<a href="http://ca.wikipedia.org/wiki/Sistema_de_gesti%C3%B3_de_continguts">CMS</a>] 100% personalitzats a les característiques del seu producte o servei</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service4.png"/><span class='blacktext'>Integrar serveis de pagament electrònic segur (PayPal, Visa i Mastercard) a projectes nous o existents per a que vostè pugui accedir a un mercat internacional a través del comerç electrònic</span></li>
+            <li style="min-height:70px"><img class="service-icon" src="/images/service5.png"/><span class='blacktext'>Assessorar sobre projectes tècnics, xarxes socials i accions que maximitzin la visibilitat del seu negoci a Internet</span></li>
           </ul>
   skaeda:
     name: Skaeda
