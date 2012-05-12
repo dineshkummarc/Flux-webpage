@@ -43,17 +43,6 @@ Contact:
         kind: LinkedIn
       ca:
         kind: LinkedIn
-  githubsanti:
-    target: https://github.com/SantiagoRomani
-    Member: santiago
-    Enumeration: six
-    Translation:
-      en:
-        kind: GitHub
-      es:
-        kind: GitHub
-      ca:
-        kind: GitHub
   emaildavid:
     target: mailto:david@flux.cat
     Member: david
